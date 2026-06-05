@@ -20,6 +20,7 @@
   - [1. EthioSDI — Ethiopian Spatial Data Infrastructure](#1-ethiosdi--ethiopian-spatial-data-infrastructure)
   - [2. Fayda — National ID registration centers](#2-fayda--national-id-registration-centers)
   - [3. CBE — Commercial Bank of Ethiopia ATMs](#3-cbe--commercial-bank-of-ethiopia-atms)
+  - [4. EDAS — GeoServer vector layers](#4-edas--geoserver-vector-layers)
 - [The BedRock pipeline](#the-bedrock-pipeline)
 - [Coordinate reference systems](#coordinate-reference-systems)
 - [Licensing & attribution](#licensing--attribution)
@@ -92,14 +93,24 @@ bedrock/
 │   ├── verification.csv       ← integrity check (geometry, counts, CRS, in-bbox)
 │   ├── download_locations.py  ← fetch script (re-runnable)
 │   └── verify_locations.py    ← verification script (ogr-based)
-└── cbebank/                   ← Data source #3: Commercial Bank of Ethiopia ATMs
+├── cbebank/                   ← Data source #3: Commercial Bank of Ethiopia ATMs
+│   ├── README.md              ← source-specific documentation
+│   ├── geojson/atm.geojson    ← EPSG:4326 GeoJSON of ATM points (2,884)
+│   ├── atm_locations_raw.json ← immutable raw API records (provenance)
+│   ├── manifest.json / .csv   ← index: layer, file, feature count, bbox, SHA-256
+│   ├── verification.csv       ← integrity check (geometry, counts, CRS, in-bbox)
+│   ├── download_locations.py  ← fetch script (paginated, re-runnable)
+│   └── verify_locations.py    ← verification script (ogr-based)
+└── edas/                      ← Data source #4: EDAS GeoServer vector harvest (curated)
     ├── README.md              ← source-specific documentation
-    ├── geojson/atm.geojson    ← EPSG:4326 GeoJSON of ATM points (2,884)
-    ├── atm_locations_raw.json ← immutable raw API records (provenance)
-    ├── manifest.json / .csv   ← index: layer, file, feature count, bbox, SHA-256
-    ├── verification.csv       ← integrity check (geometry, counts, CRS, in-bbox)
-    ├── download_locations.py  ← fetch script (paginated, re-runnable)
-    └── verify_locations.py    ← verification script (ogr-based)
+    ├── shapefiles/            ← 23 zipped shapefiles (.shp/.shx/.dbf/.prj), ~420 MB
+    ├── metadata/              ← per-layer WFS-capabilities metadata (JSON)
+    ├── wfs_capabilities.xml   ← raw WFS GetCapabilities — full 49-layer inventory (provenance)
+    ├── manifest.json / .csv   ← index: name, file, feature count, CRS, SHA-256, status
+    ├── excluded_layers.json   ← the 26 layers deliberately skipped (dups/stubs/broken), with reasons
+    ├── verification.csv       ← post-download integrity check (geometry, counts, EPSG)
+    ├── download_shapefiles.py ← fetch script (re-runnable; curation encoded in EXCLUDE map)
+    └── verify_shapefiles.py   ← verification script (ogr-based)
 ```
 
 Each **data source gets its own top-level subdirectory** with the same internal layout
@@ -198,6 +209,38 @@ faithful to source — the 3 swapped-coordinate ATMs are flagged, not silently f
 > with full provenance preserved. The companion branch list (no geometry) is not included —
 > see [Licensing & attribution](#licensing--attribution) and the source README.
 
+### 4. EDAS — GeoServer vector layers
+
+> **Source:** http://edas.et:8080/geoserver (GeoServer / WFS) · **Harvested:** 2026-06-05 ·
+> **Full docs:** [`edas/README.md`](edas/README.md)
+
+A GeoServer for the **EDAS** digital-addressing / city-mapping platform (Addis Ababa, Adama,
+Bishoftu, Dukem). A **curated** set of vector layers was exported via WFS `SHAPE-ZIP`, mirroring
+the EthioSDI method.
+
+| Metric | Value |
+|---|---|
+| Vector layers kept | **23** (of 49 published) |
+| Total features | **1,603,641** |
+| Geometry mix | 11 polygon · 7 point · 3 line · 2 3D-line |
+| Integrity | 100% — every layer's count matches the server's WFS count; 0 empty/corrupt |
+| CRS | 22 × `EPSG:4326` · 1 × `EPSG:404000` (custom, `dukem_bishoftu_lulc`) |
+| Excluded (documented) | 26 — 13 duplicates · 11 pgRouting stubs · 2 broken server-side |
+
+**Highlights** (most useful for OSM conflation): a 147,717-feature **road network**, 741,888
+**cadastral parcels**, 113,105 **LULC** polygons, 64,123 **building** footprints, plus
+landmarks, city points (with Amharic/Oromo name variants), road signs, and areas of interest.
+
+**Method:** GeoServer OGC **WFS `GetFeature` → `outputFormat=SHAPE-ZIP`** (native CRS, `.prj`
+included), with the layer list and metadata read from WFS `GetCapabilities`.
+
+> ℹ️ **Curated, not a raw mirror.** The server publishes many byte-identical copies
+> (web/mobile/version/language variants — e.g. **7 copies** of the road network), 11 one-feature
+> pgRouting stubs, and 2 layers broken server-side. One canonical layer per dataset is kept;
+> the other 26 are listed with reasons in [`edas/excluded_layers.json`](edas/excluded_layers.json).
+> Two kept zips (`parcel_web_v7`, `lulc_v7`) exceed **GitHub's 100 MB limit** — committed
+> directly here (a GitHub push would need Git LFS). See the source README.
+
 ## The BedRock pipeline
 
 Every source moves through the same four stages:
@@ -267,6 +310,7 @@ websites, in the public interest:
 | EthioSDI | Ethiopian Geospatial Information Institute (EGII) / EthioSDI | `ethionsdi.gov.et` |
 | Fayda | National ID Program | `id.gov.et` |
 | CBE | Commercial Bank of Ethiopia | `combanketh.et` |
+| EDAS | EDAS digital-addressing platform | `edas.et` |
 
 BedRock claims no ownership of the source records themselves — its contribution is the
 database right in their **selection, structuring, normalization, and verification**. Each
@@ -314,6 +358,7 @@ file, so refreshes and diffs are straightforward.
 - [x] **EthioSDI** — 69/85 public vector layers acquired & verified
 - [x] **Fayda** — 2,251 National ID registration-center POIs acquired & verified (EPSG:4326)
 - [x] **CBE** — 2,884 ATM POIs acquired & verified (EPSG:4326)
+- [x] **EDAS** — 23 curated GeoServer vector layers (1,603,641 features) acquired & verified
 - [ ] **CBE branches** — 1,934 branches have no coordinates in the source; geocode or source them separately
 - [ ] **EthioSDI restricted layers** — 20 layers behind authentication (roads, land use,
       health, contours, AA street network, …) — *blocked on credentials*
