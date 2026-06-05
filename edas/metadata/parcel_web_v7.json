@@ -1,0 +1,17 @@
+{
+  "name": "geoserver:parcel_web_v7",
+  "title": "parcel_web_v7",
+  "abstract": "",
+  "srid": "EPSG:4326",
+  "wgs84_bbox": [
+    36.8029670715332,
+    7.630136013031006,
+    42.151702880859375,
+    12.649295806884766
+  ],
+  "keywords": [
+    "features",
+    "parcel_web_v7"
+  ],
+  "source": "http://edas.et:8080/geoserver/wfs?request=GetFeature&typeName=geoserver:parcel_web_v7"
+}

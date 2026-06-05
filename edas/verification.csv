@@ -1,0 +1,24 @@
+file,geometry,features,epsg,wfs_features,flag,note
+adama_lulc_wgs84_v1.zip,Polygon,9242,4326,9242,,ok
+bishoftu_aoi.zip,Polygon,4,4326,4,,ok
+building_web_v7.zip,Polygon,64123,4326,64123,,ok
+cities_Am_web_v7.zip,Point,71,4326,71,,ok
+cities_Or_web_v7.zip,Point,71,4326,71,,ok
+cities_web_v7.zip,Point,71,4326,71,,ok
+das_road_network.zip,Line String,147717,4326,147717,,ok
+driving_direction.zip,3D Line String,139,4326,139,,ok
+dukem_bishoftu_lulc.zip,Polygon,6293,404000,6293,,ok
+eth_aoi.zip,Polygon,1,4326,1,,ok
+landmark_Am_web_v7.zip,Point,10202,4326,10202,,ok
+landmark_web_v7.zip,Point,10202,4326,10202,,ok
+lulc_v7.zip,Polygon,113105,4326,113105,,ok
+nh_aoi_web_v7.zip,Polygon,3780,4326,3780,,ok
+nsl_sub_city_lulc_wgs84_v1.zip,Polygon,4160,4326,4160,,ok
+pa_roads.zip,3D Line String,9,4326,9,,ok
+parcel_mobile_v777.zip,Polygon,404950,4326,404950,,ok
+parcel_web_v7.zip,Polygon,741888,4326,741888,,ok
+road_network.zip,Line String,65973,4326,65973,,ok
+road_network111.zip,Line String,7171,4326,7171,,ok
+road_polygon_web_v7.zip,Polygon,13724,4326,13724,,ok
+road_signs.zip,Point,102,4326,102,,ok
+sign_pole.zip,Point,643,4326,643,,ok

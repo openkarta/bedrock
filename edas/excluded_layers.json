@@ -1,0 +1,188 @@
+{
+  "note": "Layers published by the EDAS GeoServer but deliberately not downloaded (duplicates, 1-feature routing stubs, and layers broken server-side). The full server inventory is in wfs_capabilities.xml.",
+  "count": 26,
+  "layers": [
+    {
+      "name": "geoserver:adama_rd_network_wgs84_v1",
+      "title": "adama_rd_network_wgs84_v1",
+      "srid": "EPSG:4326",
+      "features": null,
+      "reason": "server schema error: WFS GetFeature fails (backing table missing)"
+    },
+    {
+      "name": "geoserver:building_mobile_v7",
+      "title": "building_mobile_v7",
+      "srid": "EPSG:4326",
+      "features": 64123,
+      "reason": "duplicate of building_web_v7 (64,123 features)"
+    },
+    {
+      "name": "geoserver:landmark",
+      "title": "landmark",
+      "srid": "EPSG:4326",
+      "features": 10202,
+      "reason": "duplicate of landmark_web_v7 (10,202 features)"
+    },
+    {
+      "name": "geoserver:landmark__mobile_v7",
+      "title": "landmark__mobile_v7",
+      "srid": "EPSG:4326",
+      "features": 10202,
+      "reason": "duplicate of landmark_web_v7 (10,202 features)"
+    },
+    {
+      "name": "geoserver:lulc_v711",
+      "title": "lulc_v711",
+      "srid": "EPSG:4326",
+      "features": 113105,
+      "reason": "duplicate of lulc_v7 (113,105 features)"
+    },
+    {
+      "name": "geoserver:nh_aoi_v7",
+      "title": "nh_aoi_v7",
+      "srid": "EPSG:4326",
+      "features": 3780,
+      "reason": "duplicate of nh_aoi_web_v7 (3,780 features)"
+    },
+    {
+      "name": "geoserver:parcel_mobile_v7",
+      "title": "parcel_mobile_v7",
+      "srid": "EPSG:4326",
+      "features": 741888,
+      "reason": "duplicate of parcel_web_v7 (741,888 features)"
+    },
+    {
+      "name": "geoserver:pgr_ksp",
+      "title": "pgr_ksp",
+      "srid": "EPSG:4326",
+      "features": 1,
+      "reason": "1-feature pgRouting stub"
+    },
+    {
+      "name": "geoserver:pgr_ksp11",
+      "title": "pgr_ksp11",
+      "srid": "EPSG:4326",
+      "features": 1,
+      "reason": "1-feature pgRouting stub"
+    },
+    {
+      "name": "geoserver:pgr_ksp33",
+      "title": "pgr_ksp33",
+      "srid": "EPSG:4326",
+      "features": 1,
+      "reason": "1-feature pgRouting stub"
+    },
+    {
+      "name": "geoserver:pgr_ksp_adama",
+      "title": "pgr_ksp_adama",
+      "srid": "EPSG:4326",
+      "features": 1,
+      "reason": "1-feature pgRouting stub"
+    },
+    {
+      "name": "geoserver:pgr_ksp_special",
+      "title": "pgr_ksp_special",
+      "srid": "EPSG:4326",
+      "features": 1,
+      "reason": "1-feature pgRouting stub"
+    },
+    {
+      "name": "geoserver:road_close",
+      "title": "road_close",
+      "srid": "EPSG:4326",
+      "features": 65973,
+      "reason": "duplicate of road_network (65,973 features)"
+    },
+    {
+      "name": "geoserver:road_network111111",
+      "title": "road_network1111111",
+      "srid": "EPSG:4326",
+      "features": 65973,
+      "reason": "duplicate of road_network (65,973 features)"
+    },
+    {
+      "name": "geoserver:road_network222",
+      "title": "road_network222",
+      "srid": "EPSG:4326",
+      "features": 65973,
+      "reason": "duplicate of road_network (65,973 features)"
+    },
+    {
+      "name": "geoserver:road_network_adama",
+      "title": "road_network_adama",
+      "srid": "EPSG:4326",
+      "features": 65973,
+      "reason": "duplicate of road_network (65,973 features)"
+    },
+    {
+      "name": "geoserver:road_network_mobile",
+      "title": "road_network_mobile",
+      "srid": "EPSG:4326",
+      "features": 65973,
+      "reason": "duplicate of road_network (65,973 features)"
+    },
+    {
+      "name": "geoserver:road_network_mobile11",
+      "title": "road_network_mobile11",
+      "srid": "EPSG:4326",
+      "features": 65973,
+      "reason": "duplicate of road_network (65,973 features)"
+    },
+    {
+      "name": "geoserver:road_polygon",
+      "title": "road_polygon",
+      "srid": "EPSG:4326",
+      "features": null,
+      "reason": "server schema error: WFS GetFeature fails (backing table missing)"
+    },
+    {
+      "name": "geoserver:road_signs_mobile",
+      "title": "road_signs_mobile",
+      "srid": "EPSG:4326",
+      "features": 102,
+      "reason": "duplicate of road_signs (102 features)"
+    },
+    {
+      "name": "geoserver:route_guidance",
+      "title": "route_guidance",
+      "srid": "EPSG:4326",
+      "features": 1,
+      "reason": "1-feature pgRouting stub"
+    },
+    {
+      "name": "geoserver:route_guidance00",
+      "title": "route_guidance00",
+      "srid": "EPSG:4326",
+      "features": 1,
+      "reason": "1-feature pgRouting stub"
+    },
+    {
+      "name": "geoserver:route_guidance11",
+      "title": "route_guidance11",
+      "srid": "EPSG:4326",
+      "features": 1,
+      "reason": "1-feature pgRouting stub"
+    },
+    {
+      "name": "geoserver:route_guidance33",
+      "title": "route_guidance33",
+      "srid": "EPSG:4326",
+      "features": 1,
+      "reason": "1-feature pgRouting stub"
+    },
+    {
+      "name": "geoserver:routing",
+      "title": "routing",
+      "srid": "EPSG:4326",
+      "features": 1,
+      "reason": "1-feature pgRouting stub"
+    },
+    {
+      "name": "geoserver:routing11",
+      "title": "routing11",
+      "srid": "EPSG:4326",
+      "features": 1,
+      "reason": "1-feature pgRouting stub"
+    }
+  ]
+}

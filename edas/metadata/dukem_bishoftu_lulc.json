@@ -1,0 +1,17 @@
+{
+  "name": "geoserver:dukem&bishoftu_lulc",
+  "title": "dukem&bishoftu_lulc",
+  "abstract": "",
+  "srid": "EPSG:404000",
+  "wgs84_bbox": [
+    38.81190490722656,
+    8.633731842041016,
+    39.135154724121094,
+    8.895952224731445
+  ],
+  "keywords": [
+    "features",
+    "dukem&bishoftu_lulc"
+  ],
+  "source": "http://edas.et:8080/geoserver/wfs?request=GetFeature&typeName=geoserver:dukem&bishoftu_lulc"
+}
