@@ -1,0 +1,8 @@
+file,geometry,features,epsg,raw_features,in_bbox,flag,note
+geojson/bank.geojson,Point,44,4326,44,44,,ok
+geojson/crrsa.geojson,Point,107,4326,107,107,,ok
+geojson/dars.geojson,Point,14,4326,14,14,,ok
+geojson/mor.geojson,Point,134,4326,134,134,,ok
+geojson/palace_parking.geojson,Point,1,4326,1,1,,ok
+geojson/post_office.geojson,Point,91,4326,91,91,,ok
+geojson/tele.geojson,Point,1860,4326,1860,1860,,ok

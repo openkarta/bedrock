@@ -1,0 +1,31 @@
+{
+  "type": "FeatureCollection",
+  "name": "palace parking",
+  "bbox": [
+    38.765,
+    9.021,
+    38.765,
+    9.021
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.765,
+          9.021
+        ]
+      },
+      "properties": {
+        "name": "Grand Palace Parking | የታላቁ ቤተ-መንግስት መኪና ማቆሚያ",
+        "type": "palace parking",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/ZY5ks7q8SHRhG4dY9",
+        "src_id": "69085d11e1d8616b0702b92b",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    }
+  ]
+}

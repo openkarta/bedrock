@@ -1,0 +1,2558 @@
+{
+  "type": "FeatureCollection",
+  "name": "mor",
+  "bbox": [
+    34.543,
+    3.536,
+    44.252,
+    14.277479210946925
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.462126,
+          13.499529
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue Tigray Region - የገቢዎች ሚኒስቴር ትግራይ ክልል",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/nQCCfndDnqdcgMCk6",
+        "src_id": "69085d11e1d8616b0702b8d8",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.98719323349027,
+          13.633037653818652
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue ABI ADI - የገቢዎች ሚኒስቴር ዓብዪ ዓዲ",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/STa8C2YEvWjhgsFC7",
+        "src_id": "69085d11e1d8616b0702b8d9",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.45843971096738,
+          13.51026268231575
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue Ayder/Hawelti - የገቢዎች ሚኒስቴር አይደር/ሀዉልቲ",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/SFxhF6rd7A7GRs1S6",
+        "src_id": "69085d11e1d8616b0702b8da",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.465903,
+          13.480399
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue Hadinet - የገቢዎች ሚኒስቴር ሀዲነት",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/JTBezMdjSXokmCBg6",
+        "src_id": "69085d11e1d8616b0702b8db",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.478888,
+          13.488436
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue Mekele - የገቢዎች ሚኒስቴር መቐለ",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/g28pi6vF8nzRLPcG9",
+        "src_id": "69085d11e1d8616b0702b8dc",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.280609,
+          14.093188
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue shire - የገቢዎች ሚኒስቴር ሽረ",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/gCPp2FWQ6PnFyCGn6",
+        "src_id": "69085d11e1d8616b0702b8dd",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.54232,
+          12.78855
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue maychew - የገቢዎች ሚኒስቴር  ማይጨዉ",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/V4nEZfVYP6vJkhhy5",
+        "src_id": "69085d11e1d8616b0702b8de",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.46098817924013,
+          14.277479210946925
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue Adigrat - የገቢዎች ሚኒስቴር አዲግራት",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/c1qFKF7vwaK9D8Fz6",
+        "src_id": "69085d11e1d8616b0702b8df",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.89215,
+          14.162835
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue Adwa - የገቢዎች ሚኒስቴር አድዋ",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/t9kouULZa7eB7KVz5",
+        "src_id": "69085d11e1d8616b0702b8e0",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.734162273681406,
+          14.122681477935886
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue Aksum - የገቢዎች ሚኒስቴር አክሱም",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/YcrVNku2w9SurPu39",
+        "src_id": "69085d11e1d8616b0702b8e1",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.335,
+          11.168
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Dessie Zuria Fayda Registration Centers",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/sdKLyBzx7i39zM3c9",
+        "src_id": "69085d11e1d8616b0702b8f1",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.733,
+          9.028
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Merkato 2 7ኛ Dere building",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/ujBwHq7fWtKXFNVx8",
+        "src_id": "69085d11e1d8616b0702b8f2",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.732,
+          9.029
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Near Addis Ketema",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/ZjpahraGwFQ9RKGs6",
+        "src_id": "69085d11e1d8616b0702b8f3",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.797,
+          9.018
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Lem Hotel Branch / ለም ሆቴል ቅርንጫፍ",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/1sAVvc6amqiBjzyD7",
+        "src_id": "69085d11e1d8616b0702b8f4",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.718,
+          9.007
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Tor Hayeloch Branch | ጦር ኃይሎች ቅርንጫፍ",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/AegkoRbqdzNmFwV6A",
+        "src_id": "69085d11e1d8616b0702b8f5",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.805,
+          9.004
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Imperial Branch | ኢምፔሪያል ቅርንጫፍ",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/pKAuLrvmWSh75p5N7",
+        "src_id": "69085d11e1d8616b0702b8f6",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.729,
+          8.964
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Germen Round about Branch | ጀርመን አደባባይ ቅርንጫፍ",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/GzBagPJ9LPLvCXcp7",
+        "src_id": "69085d11e1d8616b0702b8f7",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.751,
+          9.012
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Legehar Branch | ለገሀር ቅርንጫፍ",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/o96jubL4KQWEFJHw5",
+        "src_id": "69085d11e1d8616b0702b8f8",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.74,
+          9.048
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Enkulale Fabrika Branch | እንቁላል ፋብሪካ ቅርንጫፍ",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/cGaXvYiai3fcMd368",
+        "src_id": "69085d11e1d8616b0702b8f9",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.724,
+          9.033
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Ehel Berenda Branch | እህል በረንዳ ቅርንጫፍ",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/z5X9wHgYCrp5JoeM6",
+        "src_id": "69085d11e1d8616b0702b8fa",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.773,
+          8.894
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Kality total solomon building branch | ቃሊቲ ቶታል ሰለሞን ህንፃ ቅርንጫፍ",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/bduyhv9avhLaKuxY9",
+        "src_id": "69085d11e1d8616b0702b8fb",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.753,
+          9.032
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Piyassa Branch | ፒያሳ ቅርንጫፍ",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/wLqN8pz5rWjd6GgE9",
+        "src_id": "69085d11e1d8616b0702b8fc",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.752,
+          8.993
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Kirkos Branch | ቂርቆስ ቅርንጫፍ",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/yMwZDX6vXAc1VeX77",
+        "src_id": "69085d11e1d8616b0702b8fd",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.839,
+          9.021
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, CMC Michael Branch | ሲኤምሲ ሚካኤል ቅርንጫፍ",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/3nvFPS1pJgk6UTNe9",
+        "src_id": "69085d11e1d8616b0702b8fe",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.741,
+          9.03
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Merkato no1 chilalo Branch | መርካቶ ቁ1 ጭላሎ ቅርንጫፍ",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/NbruHLkcvsdYPjKb9",
+        "src_id": "69085d11e1d8616b0702b8ff",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.754,
+          9.03
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue Enat Building | Piassa | እናት ህንጻ | ፒያሳ",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/BECcnrXkCbU9r8cZA",
+        "src_id": "69085d11e1d8616b0702b901",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.006,
+          11.797
+        ]
+      },
+      "properties": {
+        "name": "Diredawa 1 Revenue Authority Fayda Registration Centers",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/1aiQWJDeJyuVjxYS8",
+        "src_id": "69085d11e1d8616b0702b908",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.845,
+          9.601
+        ]
+      },
+      "properties": {
+        "name": "Diredawa Main Revenue Authority Fayda Registration Centers",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/Qdy4iEbtiqZkUP516",
+        "src_id": "69085d11e1d8616b0702b909",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.986,
+          5.882
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Adola Wayu City Fayda Registration Centers (coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/JBffso3DuN3xaSsx8",
+        "src_id": "69085d11e1d8616b0702b92d",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.68,
+          11.311
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, South Wollo - Hayik Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/S3jpfCjGiJof9i3XA",
+        "src_id": "69085d11e1d8616b0702b92e",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.636,
+          12.154
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, North Wollo - Kobo Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/ms1qALgce8eZc5GW6",
+        "src_id": "69085d11e1d8616b0702b92f",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.659,
+          11.666
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, North Wollo - Mersa Zone Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/8zp86Y9q8HbNWyco7",
+        "src_id": "69085d11e1d8616b0702b930",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.047,
+          12.031
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, North Wollo - Lalibela Fayda Registration Centers  (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/CfWVEPT2SM97DUwV9",
+        "src_id": "69085d11e1d8616b0702b931",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.734,
+          10.33
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Debre markos City Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/1EQRVBP1BxjA1hbZ7",
+        "src_id": "69085d11e1d8616b0702b932",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.657,
+          10.311
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Mehal Meda  Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/3rFxw8KY3Mob6Qn57",
+        "src_id": "69085d11e1d8616b0702b933",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.425,
+          8.929
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Arerti  Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/rRUzzdRJ7Sds4YCZ8",
+        "src_id": "69085d11e1d8616b0702b934",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.896,
+          9.993
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Shewa Robit Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/XhbKfNzFDqFCJWFV6",
+        "src_id": "69085d11e1d8616b0702b935",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.017,
+          11.195
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Bati City Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/Uw5bk3PbxNEaJY1m6",
+        "src_id": "69085d11e1d8616b0702b936",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.873,
+          10.725
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Kemise Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/YpJFviWbmgwM8UTp7",
+        "src_id": "69085d11e1d8616b0702b937",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.625,
+          12.769
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Amba Giorgis Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/mvsbTvMTtat4RQSp7",
+        "src_id": "69085d11e1d8616b0702b938",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.324,
+          12.423
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Kola Diba Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/r4sxFU5Z555bxXfB9",
+        "src_id": "69085d11e1d8616b0702b939",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.064,
+          12.55
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Aykel Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/RFab9UAAoUU5KY8t6",
+        "src_id": "69085d11e1d8616b0702b93a",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.567,
+          10.44
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Amanuel Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/dxQL2QMZMz9R9qpG9",
+        "src_id": "69085d11e1d8616b0702b93b",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.878,
+          11.079
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Mota City Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/T7peHW78n8mUvJwW6",
+        "src_id": "69085d11e1d8616b0702b93c",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.124,
+          10.177
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Dejen Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/PGq7JvCfMcHaKepw5",
+        "src_id": "69085d11e1d8616b0702b93d",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.203,
+          10.448
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Bichena Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/T3s5vgQ6EbADjnzDA",
+        "src_id": "69085d11e1d8616b0702b93e",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.728,
+          11.086
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Kombolcha Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/HNC3SsrvZtmwUJES8",
+        "src_id": "69085d11e1d8616b0702b93f",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6,
+          11.83
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Woldiya Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/QAJKjPVJaNWnJHbf6",
+        "src_id": "69085d11e1d8616b0702b940",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.762,
+          12.982
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Administration Dabat Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/AEZ8YcvXeh8sSTaJ8",
+        "src_id": "69085d11e1d8616b0702b941",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.77,
+          6.704
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, West Omo Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/XBpptR8Gd4wWuZop9",
+        "src_id": "69085d11e1d8616b0702b942",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.249,
+          7.262
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Kefa Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/aHMBWPFUzYaeAUGP9",
+        "src_id": "69085d11e1d8616b0702b943",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.569,
+          6.964
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, South west region Benchi sheko Zone Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/bbQjt2eL23u59wvf8",
+        "src_id": "69085d11e1d8616b0702b944",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.863,
+          9.501
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Kemashi Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/h8a1ocKp4Bw6TibR9",
+        "src_id": "69085d11e1d8616b0702b945",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.344,
+          11.16
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Gilgel Beles Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/5r3cdJetJDEqt14R8",
+        "src_id": "69085d11e1d8616b0702b946",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.565,
+          5.949
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Gode Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/eYqwD6nzKCMZYm1F7",
+        "src_id": "69085d11e1d8616b0702b947",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.252,
+          6.807
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Korahay Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/UEctH2bds8GwqFqV8",
+        "src_id": "69085d11e1d8616b0702b948",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.048,
+          4.181
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Dollo-Ado Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/eCbfnX3TMKSHY9PD9",
+        "src_id": "69085d11e1d8616b0702b949",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.057,
+          11.615
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, MekaneEyesus Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/iZ73MrvnpJAiTkQ99",
+        "src_id": "69085d11e1d8616b0702b94a",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.699,
+          11.923
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Woreta Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/QAEyhpvfqjugZovj6",
+        "src_id": "69085d11e1d8616b0702b94b",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.469,
+          11.738
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Nifas Mewcha Fayda Registration Centers  (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/Wci1pEpKbrbVowyF7",
+        "src_id": "69085d11e1d8616b0702b94c",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.021,
+          10.851
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Awi Tilili Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/MYheZob2XmFZPb2y6",
+        "src_id": "69085d11e1d8616b0702b94d",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.156,
+          11.413
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Gojam Merawi Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/QDPFm5VpwLeZSW9Z7",
+        "src_id": "69085d11e1d8616b0702b94e",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.957,
+          11.357
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Gojam, Durbete Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/at72j2PGL93oB9ox5",
+        "src_id": "69085d11e1d8616b0702b94f",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.157,
+          12.955
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Metema Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/4MGJVuYzfpA74rk4A",
+        "src_id": "69085d11e1d8616b0702b950",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.015,
+          11.857
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Debretabor Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/dFFPNyXkCprT8uLYA",
+        "src_id": "69085d11e1d8616b0702b951",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.495,
+          10.563
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Denbecha Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/pa45awaipxTDTMaJ6",
+        "src_id": "69085d11e1d8616b0702b952",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.492,
+          11.264
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Adet Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/vsPLt79EVYLtidu88",
+        "src_id": "69085d11e1d8616b0702b953",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.259,
+          10.679
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, FinoteSelam Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/71scLkKKhZXiFEGeA",
+        "src_id": "69085d11e1d8616b0702b954",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.841,
+          11.257
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Dangla Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/yTLkX5sxvPh289rb7",
+        "src_id": "69085d11e1d8616b0702b955",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.503,
+          10.956
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Chagni Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/FKskJXquQDxu46tUA",
+        "src_id": "69085d11e1d8616b0702b956",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.93,
+          10.959
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Enjibara Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/7RNUEVkMY9z8Xtg7A",
+        "src_id": "69085d11e1d8616b0702b957",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.051,
+          3.536
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Moyale City Fayda Registration Centers  (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/P5ySQt96GSGVJqtg7",
+        "src_id": "69085d11e1d8616b0702b958",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.123,
+          8.587
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Mojo Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/E4sxBitJbgCzRwfJ9",
+        "src_id": "69085d11e1d8616b0702b959",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.491,
+          9.063
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Holeta Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/BHGWSWSRPLCgPdbU9",
+        "src_id": "69085d11e1d8616b0702b95a",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.802,
+          8.533
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Dembi Dollo Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/UbhyQ7RtoEvfZe9y7",
+        "src_id": "69085d11e1d8616b0702b95b",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.734,
+          9.791
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Fitche City Fayda Registration Centers  (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/M4EkpcCGbedNALyu7",
+        "src_id": "69085d11e1d8616b0702b95c",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.556,
+          9.09
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Nekemt City Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/KTAneTjpuigQcSB5A",
+        "src_id": "69085d11e1d8616b0702b95d",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.239,
+          5.633
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Bule Hora City Fayda Registration Centers  (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/1swMRKvSutsq5sqU6",
+        "src_id": "69085d11e1d8616b0702b95e",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.1,
+          4.895
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Yabelo City Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/XCPfqLHbwV15kvNc7",
+        "src_id": "69085d11e1d8616b0702b95f",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.242,
+          5.617
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, West Guji City Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/QdjuS2qJJ8n1PdEo7",
+        "src_id": "69085d11e1d8616b0702b960",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.575,
+          5.333
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Negele City Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/AEwgYK3PQ9K8cb6JA",
+        "src_id": "69085d11e1d8616b0702b961",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.329,
+          9.222
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Babile City Fayda Registration Centers  (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/CVTeXHAy3px5oRjx8",
+        "src_id": "69085d11e1d8616b0702b962",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.473,
+          7.057
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Hawassa Branch Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/tMEQnc8xZa1pCyMw6",
+        "src_id": "69085d11e1d8616b0702b963",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.414,
+          6.747
+        ]
+      },
+      "properties": {
+        "name": "Yirgalem Revenue Authority Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/sEM166TFzX99B1Kt9",
+        "src_id": "69085d11e1d8616b0702b964",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.448,
+          6.876
+        ]
+      },
+      "properties": {
+        "name": "Leku Revenue Authority Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/DDYmuJNnmT29n1ow6",
+        "src_id": "69085d11e1d8616b0702b965",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.863,
+          5.488
+        ]
+      },
+      "properties": {
+        "name": "Burji Revenue Authority Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/xjakofXGDjdHWe2R6",
+        "src_id": "69085d11e1d8616b0702b966",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.442,
+          5.34
+        ]
+      },
+      "properties": {
+        "name": "Konso Revenue Authority Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/Js64NiGYJ45LMSZf6",
+        "src_id": "69085d11e1d8616b0702b967",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.448,
+          6.876
+        ]
+      },
+      "properties": {
+        "name": "Sidama Leku  FDRE Ministry of Revenues  Fayda Registration Centers  (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/GjiYyBHXU9JUzcC37",
+        "src_id": "69085d11e1d8616b0702b968",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.335,
+          6.585
+        ]
+      },
+      "properties": {
+        "name": "Sidama Aleta Cheko Town  FDRE Ministry of Revenues  Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/wRvJB3qRajePoqdw8",
+        "src_id": "69085d11e1d8616b0702b969",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.419,
+          6.603
+        ]
+      },
+      "properties": {
+        "name": "Sidama Aleta Wendo Town FDRE Ministry of Revenues  Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/egYgSQVztXz7NTpQ6",
+        "src_id": "69085d11e1d8616b0702b96a",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.411,
+          6.748
+        ]
+      },
+      "properties": {
+        "name": "Sidama Yirgalem FDRE Ministry of Revenues  Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/Cu9tbz9VteycSt1a9",
+        "src_id": "69085d11e1d8616b0702b96b",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.589,
+          9.135
+        ]
+      },
+      "properties": {
+        "name": "Somali Gode FDRE Ministry of Revenues  Fayda Registration Centers  (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/TGnhUNyUNAgAfCRA8",
+        "src_id": "69085d11e1d8616b0702b96c",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.558,
+          8.222
+        ]
+      },
+      "properties": {
+        "name": "Somali Degahbur FDRE Ministry of Revenues  Fayda Registration Centers  (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/uTC6afPnM2T2ZnzB9",
+        "src_id": "69085d11e1d8616b0702b96d",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.298,
+          8.139
+        ]
+      },
+      "properties": {
+        "name": "Somali FIK FDRE Ministry of Revenues  Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/pgXB5BhDuwga7jiy8",
+        "src_id": "69085d11e1d8616b0702b96e",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.589,
+          8.257
+        ]
+      },
+      "properties": {
+        "name": "Gambela Revenue Authority Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/RhgtYMh9Y33K96ms6",
+        "src_id": "69085d11e1d8616b0702b96f",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.531,
+          9.678
+        ]
+      },
+      "properties": {
+        "name": "Amhara Debrebirhan Revenue Authority Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/6hXrJ7qMrb3WKdJ77",
+        "src_id": "69085d11e1d8616b0702b970",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.01,
+          11.858
+        ]
+      },
+      "properties": {
+        "name": "Amhara Debretabor Revenue Authority Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/ckYXHpz7BLMJM8t36",
+        "src_id": "69085d11e1d8616b0702b971",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.931,
+          10.96
+        ]
+      },
+      "properties": {
+        "name": "Amhara Enjibara Revenue Authority Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/yqguwed6edQSfDQU7",
+        "src_id": "69085d11e1d8616b0702b972",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.372,
+          11.586
+        ]
+      },
+      "properties": {
+        "name": "Amhara BahirDar City Revenue Authority Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/gpG3dT6h2kQYzqMe7",
+        "src_id": "69085d11e1d8616b0702b973",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.771,
+          8.988
+        ]
+      },
+      "properties": {
+        "name": "Dashen Bank welosefer Branch",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/CVE8A5W3ZGj7onVd8",
+        "src_id": "69085d11e1d8616b0702b974",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.665,
+          9.069
+        ]
+      },
+      "properties": {
+        "name": "Oromia Burayu Revenue Authority Fayda Registration Centers  (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/9QTLUB57qKMKiTwaA",
+        "src_id": "69085d11e1d8616b0702b975",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.761,
+          10.751
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, South Wollo - Mekaneselam Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/ruGwxaLw93LYty6v7",
+        "src_id": "69085d11e1d8616b0702b976",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.037,
+          12.629
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Sekota Administration Fayda Registration Centers",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/6AutoxLzMgfTdGLs5",
+        "src_id": "69085d11e1d8616b0702b977",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.898,
+          13.151
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Debark Fayda Registration Centers",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/zvV91buZ564ESzZt7",
+        "src_id": "69085d11e1d8616b0702b978",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.974,
+          8.538
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Woliso City Fayda Registration Centers",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/8wvt8E7bj218ziL98",
+        "src_id": "69085d11e1d8616b0702b979",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.782,
+          8.287
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Gurage Zone Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/RX4NfrjSUSKNiCfF9",
+        "src_id": "69085d11e1d8616b0702b97a",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.904,
+          5.828
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Amaro Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/DBTiURKx7Ri3M4a8A",
+        "src_id": "69085d11e1d8616b0702b97b",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.907,
+          9.08
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Lagatafo Fayda Registration Centers",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/DCLgd2Eig4BEUamu7",
+        "src_id": "69085d11e1d8616b0702b97c",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.759,
+          9.186
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Sululta Fayda Registration Centers",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/km2SXWveqWDdcjki7",
+        "src_id": "69085d11e1d8616b0702b97d",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.82,
+          8.829
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Gelan Fayda Registration Centers",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/BfgxeTCEy6Z3SQyE9",
+        "src_id": "69085d11e1d8616b0702b97e",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.627,
+          8.911
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Sebeta Fayda Registration Centers",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/ApKwgsE5xLvyf8Mv6",
+        "src_id": "69085d11e1d8616b0702b97f",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.272,
+          8.546
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Adama-Abba Geda Sub-City Fayda Registration Centers",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/MHXNzcTJ9SPXSmk2A",
+        "src_id": "69085d11e1d8616b0702b980",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.132,
+          7.96
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Asella Zone Fayda Registration Centers",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/rfL3uzQurf3MCrfYA",
+        "src_id": "69085d11e1d8616b0702b981",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.561,
+          6.963
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Mizan Aman City Administration Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/aeqvnBA2TxUBv9Lp7",
+        "src_id": "69085d11e1d8616b0702b982",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.794,
+          9.356
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Jigjiga Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/YbABwdAYox4nMcXc6",
+        "src_id": "69085d11e1d8616b0702b983",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.243,
+          7.27
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Bonga City Administration Fayda Registration Centers  (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/J34ZC9RceUGjgUWH9",
+        "src_id": "69085d11e1d8616b0702b984",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.375,
+          8.117
+        ]
+      },
+      "properties": {
+        "name": "Butajira Town Revenue Authority Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/3F9DK6AqxQsRWqB87",
+        "src_id": "69085d11e1d8616b0702b985",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.862,
+          7.553
+        ]
+      },
+      "properties": {
+        "name": "Hosaena Town Revenue Authority Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/zUkFjHZi9PSbavog9",
+        "src_id": "69085d11e1d8616b0702b986",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.782,
+          8.287
+        ]
+      },
+      "properties": {
+        "name": "Gurage Zone Revenue Authority Fayda Registration Centers  (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/78oytzrjnpd8aDwDA",
+        "src_id": "69085d11e1d8616b0702b987",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.186,
+          7.856
+        ]
+      },
+      "properties": {
+        "name": "Silta Zone  Revenue Authority Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/7T4wkNWid22yngDh8",
+        "src_id": "69085d11e1d8616b0702b988",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.623,
+          6.302
+        ]
+      },
+      "properties": {
+        "name": "Laska Town Revenue Authority Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/rSURkHSobK1A4sVYA",
+        "src_id": "69085d11e1d8616b0702b989",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.904,
+          5.828
+        ]
+      },
+      "properties": {
+        "name": "Amaro Revenue Authority Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/HAR1Yoi1DFJ6MHLw7",
+        "src_id": "69085d11e1d8616b0702b98a",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.76,
+          6.853
+        ]
+      },
+      "properties": {
+        "name": "Wolayita Revenue Authority Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/TDxXq6BLfMgUE7kH6",
+        "src_id": "69085d11e1d8616b0702b98b",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.543,
+          10.065
+        ]
+      },
+      "properties": {
+        "name": "Benishangul Gumuz Asosa town Revenue Authority Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/AYkL3NPTt9oHzEmB7",
+        "src_id": "69085d11e1d8616b0702b98c",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.819,
+          9.35
+        ]
+      },
+      "properties": {
+        "name": "Somali Jigjiga Revenue  FDRE Ministry of Revenues  Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/45imx9vTkZPL7Ld17",
+        "src_id": "69085d11e1d8616b0702b98d",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.96,
+          8.75
+        ]
+      },
+      "properties": {
+        "name": "Oromia Bishooftu Revenue Authority Fayda Registration Centers  (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/xZeDGejeiyjEKMys6",
+        "src_id": "69085d11e1d8616b0702b98e",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.608,
+          7.208
+        ]
+      },
+      "properties": {
+        "name": "Oromia Shahemene Revenue Authority Fayda Registration Centers (Coming Soon)",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/sNGkmo65zLbb83dF8",
+        "src_id": "69085d11e1d8616b0702b98f",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.96,
+          8.75
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Bishooftu Fayda Registration Centers",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/3z9hA4SB2S9ftXbz8",
+        "src_id": "69085d11e1d8616b0702b990",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.712,
+          7.139
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Ginir City Fayda Registration Centers",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/Z28Wv8Hgp6ierw5n9",
+        "src_id": "69085d11e1d8616b0702b991",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.834,
+          7.676
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Jimma City Fayda Registration Centers",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/rYu2rRPraYDQa4GW7",
+        "src_id": "69085d11e1d8616b0702b992",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.007,
+          7.12
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Robe City Fayda Registration Centers",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/QGES33BnYwGHSz819",
+        "src_id": "69085d11e1d8616b0702b993",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.181,
+          6.979
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Dodola City Fayda Registration Centers",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/2wc4yREikVwoBKhZ8",
+        "src_id": "69085d11e1d8616b0702b994",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.294,
+          9.331
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Sheno City Fayda Registration Centers",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/RViDnhXBkaoytb4f8",
+        "src_id": "69085d11e1d8616b0702b995",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.607,
+          7.201
+        ]
+      },
+      "properties": {
+        "name": "Ministry of Revenue, Shashemene Fayda Registration Centers",
+        "type": "mor",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/VyttBY7TeWpq2GxWA",
+        "src_id": "69085d11e1d8616b0702b996",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    }
+  ]
+}

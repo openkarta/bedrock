@@ -1,0 +1,848 @@
+{
+  "type": "FeatureCollection",
+  "name": "bank",
+  "bbox": [
+    35,
+    5,
+    42.126,
+    9.312
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.78814380063051,
+          8.869919890154517
+        ]
+      },
+      "properties": {
+        "name": "Commerical Bank of Ethiopia Akaki Branch/የኢትዮጵያ ንግድ ባንክ አቃቂ ቅርንጫፍ",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/1x61qbY4tyuUZGDf8",
+        "src_id": "69085d11e1d8616b0702b89e",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.774,
+          8.992
+        ]
+      },
+      "properties": {
+        "name": "Commercial Bank of Ethiopia - Bole Welosefer Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/QCjzNv6fbvn8WGxH8",
+        "src_id": "69085d11e1d8616b0702b8f0",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.761,
+          9.034
+        ]
+      },
+      "properties": {
+        "name": "NIB Intenational Bank Main Branch | ንብ ኢንተርናሽናል ባንክ ዋና ቅርንጫፍ",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/rqTAdbXhivLC7HsA8",
+        "src_id": "69085d11e1d8616b0702b900",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.697,
+          8.984
+        ]
+      },
+      "properties": {
+        "name": "Bank of Abisiniya Catherin Hamlin/Ayertena Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/pCg6KvaF7npbHvCJ8",
+        "src_id": "69085d11e1d8616b0702b902",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.77,
+          9.002
+        ]
+      },
+      "properties": {
+        "name": "Bank of Abisiniya Africa Avenue Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/q23Xwtiz4qgEZTpX8",
+        "src_id": "69085d11e1d8616b0702b903",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.74,
+          9.032
+        ]
+      },
+      "properties": {
+        "name": "Bank of Abisiniya Raguael Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/YQ7D4TzugwYwjWLP9",
+        "src_id": "69085d11e1d8616b0702b904",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.747,
+          9.008
+        ]
+      },
+      "properties": {
+        "name": "Bank of Abisiniya Genet Branch / Mexico KKare Building",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/vxbp4rbz7V1UG6q59",
+        "src_id": "69085d11e1d8616b0702b905",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.753,
+          9.032
+        ]
+      },
+      "properties": {
+        "name": "Bank of Abisiniya Arada Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/BPFT4xC9wRYw9xZj6",
+        "src_id": "69085d11e1d8616b0702b906",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.126,
+          9.312
+        ]
+      },
+      "properties": {
+        "name": "Hareri Revenue  FDRE Ministry of Revenues  Fayda Registration Centers",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/tiaKBWGB7ashme2o9",
+        "src_id": "69085d11e1d8616b0702b907",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.751,
+          9.015
+        ]
+      },
+      "properties": {
+        "name": "Awash bank Head Quarter | Mexico",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/W1mQcQ3KLo54cQPm7",
+        "src_id": "69085d11e1d8616b0702b90a",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.782,
+          8.992
+        ]
+      },
+      "properties": {
+        "name": "Awash International Bank - Head Office | Bole Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/yecAzERn8RpRqPak7",
+        "src_id": "69085d11e1d8616b0702b90b",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.82,
+          9.007
+        ]
+      },
+      "properties": {
+        "name": "Awash Bank Jackros Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/B9eTH2g59yehKHut5",
+        "src_id": "69085d11e1d8616b0702b90c",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.831,
+          9.037
+        ]
+      },
+      "properties": {
+        "name": "Awash Bank - Kotobe Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/qMVcsJavdDzMKQKZ6",
+        "src_id": "69085d11e1d8616b0702b90d",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.796,
+          9.018
+        ]
+      },
+      "properties": {
+        "name": "Awash Bank - Megenagna Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/W77u9QhGazh4fuK38",
+        "src_id": "69085d11e1d8616b0702b90e",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.74,
+          9.032
+        ]
+      },
+      "properties": {
+        "name": "Awash Bank - Merkato Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/urdgwjdygnE5cfJc9",
+        "src_id": "69085d11e1d8616b0702b90f",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.728,
+          9.035
+        ]
+      },
+      "properties": {
+        "name": "Oromia International Bank - Mesalemiya Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/iFBLrWawc3n42z266",
+        "src_id": "69085d11e1d8616b0702b910",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.769,
+          9.003
+        ]
+      },
+      "properties": {
+        "name": "Oromia Bank Africa godana branch | ኦሮሚያ ባንክ አፍሪካ ጐዳና ቅርንጫፍ",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/Gak1ierYMicswac67",
+        "src_id": "69085d11e1d8616b0702b911",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.761,
+          9.034
+        ]
+      },
+      "properties": {
+        "name": "Nib Intenational Bank Arat Killo Premium Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/C56dDFwe4qatjGxj6",
+        "src_id": "69085d11e1d8616b0702b912",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.761,
+          9.034
+        ]
+      },
+      "properties": {
+        "name": "Nib Intenational Bank Bole Medahinialem Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/C56dDFwe4qatjGxj6",
+        "src_id": "69085d11e1d8616b0702b913",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.747,
+          9.003
+        ]
+      },
+      "properties": {
+        "name": "Oromiya Bank - Genet hotel branch | ኦሮምያ ባንክ - ገነት ሆቴል ቅርንጫፍ",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/MJK6DuzjdqadUEEM8",
+        "src_id": "69085d11e1d8616b0702b914",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.765,
+          8.983
+        ]
+      },
+      "properties": {
+        "name": "Nib Intenational Bank Gotera Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/Rxd3sYijD4dXSxT16",
+        "src_id": "69085d11e1d8616b0702b915",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.759,
+          8.993
+        ]
+      },
+      "properties": {
+        "name": "Hibret Bank Beklo Bet Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/QhM6UnmfAreudcX7A",
+        "src_id": "69085d11e1d8616b0702b916",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.787,
+          8.997
+        ]
+      },
+      "properties": {
+        "name": "Commercial Bank Of Ethiopia - Bole Medhanialem Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/tbTJqQkpXpZDdQEP8",
+        "src_id": "69085d11e1d8616b0702b917",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.715,
+          8.961
+        ]
+      },
+      "properties": {
+        "name": "Commercial Bank of Ethiopia - Jemo Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/haoKG6ceswrWFQ8GA",
+        "src_id": "69085d11e1d8616b0702b918",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.765,
+          9.008
+        ]
+      },
+      "properties": {
+        "name": "Cooperative Bank of Oromia Finfine Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/F6K5JfyyQKZZXwqP8",
+        "src_id": "69085d11e1d8616b0702b919",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.725,
+          9.034
+        ]
+      },
+      "properties": {
+        "name": "Commercial Bank Of Ethiopia - Addis Ketema Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/tzSQQR6PUJT2o8BQ6",
+        "src_id": "69085d11e1d8616b0702b91a",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.74,
+          9.034
+        ]
+      },
+      "properties": {
+        "name": "Commercial Bank  of Ethiopia - Abakoran Yirga Haile Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/VPwfcJ8ydQz3hwwJ6",
+        "src_id": "69085d11e1d8616b0702b91b",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.799,
+          9.02
+        ]
+      },
+      "properties": {
+        "name": "Cooperative Bank of Oromia Madaro Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/n1mvtoX4ExtxtYJFA",
+        "src_id": "69085d11e1d8616b0702b91c",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.765,
+          8.933
+        ]
+      },
+      "properties": {
+        "name": "Cooperative Bank of Oromia Haile Gebre Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/V5Bmu7KgmBq7qW4s7",
+        "src_id": "69085d11e1d8616b0702b91d",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.715,
+          8.961
+        ]
+      },
+      "properties": {
+        "name": "Cooperative Bank of Oromia Jamo Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/pCAKG1CSoUJj5Ejf7",
+        "src_id": "69085d11e1d8616b0702b91e",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.739,
+          9.031
+        ]
+      },
+      "properties": {
+        "name": "Dashen Bank Tana Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/zmtkqvZdCGkrNKjWA",
+        "src_id": "69085d11e1d8616b0702b91f",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.735,
+          9.014
+        ]
+      },
+      "properties": {
+        "name": "Dashen Bank Balcha/west Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/SPgWW4ruTuUkSiDG9",
+        "src_id": "69085d11e1d8616b0702b920",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.755,
+          9.031
+        ]
+      },
+      "properties": {
+        "name": "Dashen Bank Piassa Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/aUC7nfpQdZNvRUMZ9",
+        "src_id": "69085d11e1d8616b0702b921",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.755,
+          9.031
+        ]
+      },
+      "properties": {
+        "name": "Dashen Bank Urael Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/aUC7nfpQdZNvRUMZ9",
+        "src_id": "69085d11e1d8616b0702b922",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.761,
+          9.03
+        ]
+      },
+      "properties": {
+        "name": "Dashen Bank Arbegnoch Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/mfLQKLjm2NDVWD8p6",
+        "src_id": "69085d11e1d8616b0702b923",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.801,
+          9.018
+        ]
+      },
+      "properties": {
+        "name": "Commercial Bank of Ethiopia - Tefera Degifie Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/86md32i4cXSzLSRp8",
+        "src_id": "69085d11e1d8616b0702b924",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.796,
+          9.018
+        ]
+      },
+      "properties": {
+        "name": "Commercial Bank of Ethiopia - Megenagna Lem Hotel Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/hHHeRwbHepX2ACQc6",
+        "src_id": "69085d11e1d8616b0702b925",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.735,
+          9.012
+        ]
+      },
+      "properties": {
+        "name": "Commercial Bank of Ethiopia - Gezehagn Yilma Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/SqvaWPe9mz7ReVqNA",
+        "src_id": "69085d11e1d8616b0702b926",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.693,
+          9.065
+        ]
+      },
+      "properties": {
+        "name": "Commercial Bank of Ethiopia - Asko Branch / የኢትዮጵያ ንግድ ባንክ፣ አስኮ ቅርንጫፍ",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/iXAvbWWun8AWNnez6",
+        "src_id": "69085d11e1d8616b0702b927",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.749,
+          8.987
+        ]
+      },
+      "properties": {
+        "name": "Commercial Bank of Ethiopia - Gofa Sefer Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/8xr4Kogh2iVnmqdV6",
+        "src_id": "69085d11e1d8616b0702b928",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.708,
+          9.033
+        ]
+      },
+      "properties": {
+        "name": "Commercial Bank of Ethiopia - 18 Mazoria Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/5dsfndadj2fruAEF6",
+        "src_id": "69085d11e1d8616b0702b929",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.767,
+          8.985
+        ]
+      },
+      "properties": {
+        "name": "Commercial Bank of Ethiopia - Ethio-China Road Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/a4HxHgoVPZtJ9HmL7",
+        "src_id": "69085d11e1d8616b0702b92a",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.752,
+          9.031
+        ]
+      },
+      "properties": {
+        "name": "Commercial Bank of Ethiopia - Tewoderos Adebabay Branch",
+        "type": "bank",
+        "status": "",
+        "gmaps_url": "https://goo.gl/maps/Dh1rnGjJFCYtJfCLA",
+        "src_id": "69085d11e1d8616b0702b92c",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35,
+          5
+        ]
+      },
+      "properties": {
+        "name": "test",
+        "type": "bank",
+        "status": "active",
+        "gmaps_url": "test",
+        "src_id": "69302f0c867552e95a44f3e7",
+        "created": "2025-12-03T12:37:32.277Z",
+        "updated": "2025-12-03T12:37:32.277Z"
+      }
+    }
+  ]
+}

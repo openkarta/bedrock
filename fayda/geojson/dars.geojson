@@ -1,0 +1,278 @@
+{
+  "type": "FeatureCollection",
+  "name": "dars",
+  "bbox": [
+    38.696809,
+    8.919697,
+    38.87814,
+    9.046212
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.85064357786461,
+          9.009975941694574
+        ]
+      },
+      "properties": {
+        "name": "Documents Authentication and Registration Service /ሰነዶች ማረጋገጫና ምዝገባ አገልግሎት - Semmit fiyel Bet",
+        "type": "dars",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/1gxLeVu8MGBR2CXr9",
+        "src_id": "69085d11e1d8616b0702b8e2",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.71560373793264,
+          8.96184327566941
+        ]
+      },
+      "properties": {
+        "name": "Documents Authentication and Registration Service /ሰነዶች ማረጋገጫና ምዝገባ አገልግሎት - Jemo delina mall",
+        "type": "dars",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/GUprKGTryiWtpdMs5",
+        "src_id": "69085d11e1d8616b0702b8e3",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.787800683406445,
+          8.996067765497614
+        ]
+      },
+      "properties": {
+        "name": "Documents Authentication and Registration Service /ሰነዶች ማረጋገጫና ምዝገባ አገልግሎት - Bole Birhane adere mall",
+        "type": "dars",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/rNXjdxXxGya4xgAc7",
+        "src_id": "69085d11e1d8616b0702b8e4",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.87814,
+          9.02572
+        ]
+      },
+      "properties": {
+        "name": "Documents Authentication and Registration Service /ሰነዶች ማረጋገጫና ምዝገባ አገልግሎት - Around Ayat Derartu Square",
+        "type": "dars",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/gK2VGzWPzHVNL2e98",
+        "src_id": "69085d11e1d8616b0702b8e5",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.74094355165898,
+          9.010831708822376
+        ]
+      },
+      "properties": {
+        "name": "Documents Authentication and Registration Service /ሰነዶች ማረጋገጫና ምዝገባ አገልግሎት - Mexico",
+        "type": "dars",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/hoxb8PkNmktm77Fk7",
+        "src_id": "69085d11e1d8616b0702b8e6",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.750863,
+          8.986841
+        ]
+      },
+      "properties": {
+        "name": "Documents Authentication and Registration Service /ሰነዶች ማረጋገጫና ምዝገባ አገልግሎት - Kera near to Ditamo building oromia bank",
+        "type": "dars",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/jB4aKNMwgLu93ngg7",
+        "src_id": "69085d11e1d8616b0702b8e7",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.76965,
+          9.011095
+        ]
+      },
+      "properties": {
+        "name": "Documents Authentication and Registration Service /ሰነዶች ማረጋገጫና ምዝገባ አገልግሎት - kazanchis Enat bank building",
+        "type": "dars",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/c17qgxHw4dyJEyyF7",
+        "src_id": "69085d11e1d8616b0702b8e8",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.76312,
+          8.919697
+        ]
+      },
+      "properties": {
+        "name": "Documents Authentication and Registration Service /ሰነዶች ማረጋገጫና ምዝገባ አገልግሎት - Kality Sheger building",
+        "type": "dars",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/EXrRcRWPh8hLEjfBA",
+        "src_id": "69085d11e1d8616b0702b8e9",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.696809,
+          8.98541
+        ]
+      },
+      "properties": {
+        "name": "Documents Authentication and Registration Service /ሰነዶች ማረጋገጫና ምዝገባ አገልግሎት - Ayertena select college building",
+        "type": "dars",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/Md9EW4tCSR2j4ek78",
+        "src_id": "69085d11e1d8616b0702b8ea",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.747211,
+          9.046212
+        ]
+      },
+      "properties": {
+        "name": "Documents Authentication and Registration Service /ሰነዶች ማረጋገጫና ምዝገባ አገልግሎት - Semen hotel Darule Building",
+        "type": "dars",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/t9GQPPtdHrLhUDuK8",
+        "src_id": "69085d11e1d8616b0702b8eb",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.763333,
+          9.044933
+        ]
+      },
+      "properties": {
+        "name": "Document autentication and registration | ውል እና ማስረጃ ቅርንጫፍ 4 - 6kilo Leadership Building",
+        "type": "dars",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/zXK7BBp4bmmfdVL78",
+        "src_id": "69085d11e1d8616b0702b8ec",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.79963,
+          9.01876
+        ]
+      },
+      "properties": {
+        "name": "Documents Authentication and Registration Service /ሰነዶች ማረጋገጫና ምዝገባ አገልግሎት -  Megenegna Derartu BLDG",
+        "type": "dars",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/uGTir4H16A2zfKcB9",
+        "src_id": "69085d11e1d8616b0702b8ed",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.72380659537051,
+          9.032379805171148
+        ]
+      },
+      "properties": {
+        "name": "Documents Authentication and Registration Service /ሰነዶች ማረጋገጫና ምዝገባ አገልግሎት- Mesalemiya ehl berenda(esat adega)",
+        "type": "dars",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/F3HwbE3sUY4HAh5E6",
+        "src_id": "69085d11e1d8616b0702b8ee",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.7598241086326,
+          8.993490091301368
+        ]
+      },
+      "properties": {
+        "name": "Documents Authentication and Registration service - Global hotel Branch | የሰነዶች ማረጋገጫና ምዝገባ አገልግሎት - ግሎባል ሆቴል ቅርንጫፍ",
+        "type": "dars",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/TSPzzCK3wZj7tBZv8",
+        "src_id": "69085d11e1d8616b0702b8ef",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    }
+  ]
+}

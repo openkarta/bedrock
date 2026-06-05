@@ -1,0 +1,2045 @@
+{
+  "type": "FeatureCollection",
+  "name": "crrsa",
+  "bbox": [
+    38.67450936702182,
+    8.86584752325263,
+    38.887270880506776,
+    9.08741829242212
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.82172419170435,
+          8.86832931541673
+        ]
+      },
+      "properties": {
+        "name": "Akaki Kaliti Woreda 13  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/gwxDyXy3uf1HGzWR7",
+        "src_id": "69085d11e1d8616b0702b833",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.81919076205045,
+          8.93086450219265
+        ]
+      },
+      "properties": {
+        "name": "Akaki Kaliti Woreda 11  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/Suf7UPwGUrSKwUJF6",
+        "src_id": "69085d11e1d8616b0702b834",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.773532797616625,
+          8.895604395999646
+        ]
+      },
+      "properties": {
+        "name": "Akaki Kaliti Woreda 8  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/ZohJpeZB6soapMNF8",
+        "src_id": "69085d11e1d8616b0702b835",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.764548548820386,
+          8.954220509431616
+        ]
+      },
+      "properties": {
+        "name": "Akaki Kaliti Woreda 6 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/dDLTFg4mGByKum3a7",
+        "src_id": "69085d11e1d8616b0702b836",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.7683612169209,
+          8.928442690935075
+        ]
+      },
+      "properties": {
+        "name": "Akaki Kaliti Woreda 5  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/Czym4VerykCGyvRa9",
+        "src_id": "69085d11e1d8616b0702b837",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.773505226289195,
+          8.880013066171907
+        ]
+      },
+      "properties": {
+        "name": "Akaki Kaliti Woreda 4  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/kEsMMioUQJ4vPxJU8",
+        "src_id": "69085d11e1d8616b0702b838",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.78741147916492,
+          8.86584752325263
+        ]
+      },
+      "properties": {
+        "name": "Akaki Kaliti Woreda  3 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/AL5L2z57pGg4CasV7",
+        "src_id": "69085d11e1d8616b0702b839",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.7940841520167,
+          8.87420053856517
+        ]
+      },
+      "properties": {
+        "name": "Akaki Kaliti Woreda 1  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/EKmdSayy8aXWefPv9",
+        "src_id": "69085d11e1d8616b0702b83a",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.754571809492795,
+          9.006747964412815
+        ]
+      },
+      "properties": {
+        "name": "Kirkos Subcity Woreda 11  | Mexico Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/Z4wLbHvDidiRkK5x6",
+        "src_id": "69085d11e1d8616b0702b83b",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.75799476133798,
+          9.00353012682631
+        ]
+      },
+      "properties": {
+        "name": "Kirkos Subcity Woreda 10  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/Yu6zDUX5g4nwDpyE9",
+        "src_id": "69085d11e1d8616b0702b83c",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.76654896887452,
+          9.002675896414571
+        ]
+      },
+      "properties": {
+        "name": "Kirkos Subcity Woreda 9  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/cMEZybizmaNg3xxM6",
+        "src_id": "69085d11e1d8616b0702b83d",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.77077862250668,
+          9.015539874166084
+        ]
+      },
+      "properties": {
+        "name": "Kirkos Subcity Woreda 8  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/REuVi6ncwhrjAkoC6",
+        "src_id": "69085d11e1d8616b0702b83e",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.751743037495025,
+          9.013890496964187
+        ]
+      },
+      "properties": {
+        "name": "Kirkos Subcity Woreda 7  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/xb3CvyCWuaKzW9bq6",
+        "src_id": "69085d11e1d8616b0702b83f",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.74743857639953,
+          8.997295909881993
+        ]
+      },
+      "properties": {
+        "name": "Kirkos Subcity Woreda 6  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/5tUqSDkJMBSLP7yy9",
+        "src_id": "69085d11e1d8616b0702b840",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.74775697439484,
+          8.99215955948995
+        ]
+      },
+      "properties": {
+        "name": "Kirkos Subcity Woreda 5 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/GphNEyP2cTkcz5MYA",
+        "src_id": "69085d11e1d8616b0702b841",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.75768496002368,
+          8.990385167999566
+        ]
+      },
+      "properties": {
+        "name": "Kirkos Subcity Woreda 4  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/iF5MX6ZmQrGXQ7eX7",
+        "src_id": "69085d11e1d8616b0702b842",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.76506520268988,
+          8.996724486009299
+        ]
+      },
+      "properties": {
+        "name": "Kirkos Subcity Woreda 2  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/hDzVnz3GFzjWe5dE6",
+        "src_id": "69085d11e1d8616b0702b843",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.76965512613498,
+          9.003113824389946
+        ]
+      },
+      "properties": {
+        "name": "Kirkos Subcity Woreda 1  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/gGvaC3fdFUFinwL46",
+        "src_id": "69085d11e1d8616b0702b844",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.734623163194314,
+          9.0430392843942
+        ]
+      },
+      "properties": {
+        "name": "Addis Ketema Subcity Woreda 14  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/3Po4mJkdgRoQbZiBA",
+        "src_id": "69085d11e1d8616b0702b845",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.71245059433686,
+          9.047534091853672
+        ]
+      },
+      "properties": {
+        "name": "Addis Ketema Subcity Woreda 13  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/dUcZrNB5dRXy4KHD9",
+        "src_id": "69085d11e1d8616b0702b846",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.710575125641654,
+          9.03921553463217
+        ]
+      },
+      "properties": {
+        "name": "Addis Ketema Subcity Woreda 12  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/vXqUZd463DqKnDQr8",
+        "src_id": "69085d11e1d8616b0702b847",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.71211523313442,
+          9.043987608805466
+        ]
+      },
+      "properties": {
+        "name": "Addis Ketema Subcity Woreda 10  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/STVXV9URnmY3V23R8",
+        "src_id": "69085d11e1d8616b0702b848",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.726469017842795,
+          9.036410533537413
+        ]
+      },
+      "properties": {
+        "name": "Addis Ketema Subcity Woreda 9  | Kuas Meda Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/Dv76rCRxCAgryWYj7",
+        "src_id": "69085d11e1d8616b0702b849",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.73485333280137,
+          9.043151048777904
+        ]
+      },
+      "properties": {
+        "name": "Addis Ketema Subcity Woreda 6  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/XmeNrgD2TJ5MZWMK9",
+        "src_id": "69085d11e1d8616b0702b84a",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.725503290998404,
+          9.048220362226154
+        ]
+      },
+      "properties": {
+        "name": "Addis Ketema Subcity Woreda 5 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/fZxVcSKY3nCJXQbk8",
+        "src_id": "69085d11e1d8616b0702b84b",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.7481144761866,
+          9.04887840798999
+        ]
+      },
+      "properties": {
+        "name": "Addis Ketema Subcity Woreda 4  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/1q7raS59XwRH5SSj7",
+        "src_id": "69085d11e1d8616b0702b84c",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.7252026454992,
+          9.027058393971014
+        ]
+      },
+      "properties": {
+        "name": "Addis Ketema Subcity Woreda 3  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/WhtrqVqVH9zsjy8B9",
+        "src_id": "69085d11e1d8616b0702b84d",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.7332720687807,
+          9.025398032318844
+        ]
+      },
+      "properties": {
+        "name": "Addis Ketema Subcity Woreda 2  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/yDGmqFUfrpzJYS6g9",
+        "src_id": "69085d11e1d8616b0702b84e",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.741395476186604,
+          9.02731062591709
+        ]
+      },
+      "properties": {
+        "name": "Addis Ketema Subcity Woreda 1  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/5PR73289rbLHNMoo9",
+        "src_id": "69085d11e1d8616b0702b84f",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.73076719248468,
+          9.053218543935584
+        ]
+      },
+      "properties": {
+        "name": "Gulele Subcity Woreda 9 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/E2bYULvhqTx9xHus6",
+        "src_id": "69085d11e1d8616b0702b850",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.79219312144147,
+          9.08741829242212
+        ]
+      },
+      "properties": {
+        "name": "Gulele Subcity Woreda 8 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/p9432deyoeMDgw4B6",
+        "src_id": "69085d11e1d8616b0702b851",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.7402338875852,
+          9.061038661109476
+        ]
+      },
+      "properties": {
+        "name": "Gulele Subcity Woreda 7 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/8eqPmiVwzyiReeX28",
+        "src_id": "69085d11e1d8616b0702b852",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.751491999523545,
+          9.050241478761016
+        ]
+      },
+      "properties": {
+        "name": "Gulele Subcity Woreda 6 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/7PXargUSnVUYePpz8",
+        "src_id": "69085d11e1d8616b0702b853",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.75198399702121,
+          9.062076339056732
+        ]
+      },
+      "properties": {
+        "name": "Gulele Subcity Woreda 5 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/DgVB6xvKMDUZ1SvZ7",
+        "src_id": "69085d11e1d8616b0702b854",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.75818694996514,
+          9.056418628225062
+        ]
+      },
+      "properties": {
+        "name": "Gulele Subcity Woreda 3 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/zhEo7U3FCQRDrjHS7",
+        "src_id": "69085d11e1d8616b0702b855",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.76385369325761,
+          9.053689578023008
+        ]
+      },
+      "properties": {
+        "name": "Gulele Subcity Woreda 2 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/cwGoN2qqDvssgWjr8",
+        "src_id": "69085d11e1d8616b0702b856",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.85037637018506,
+          9.026137613997776
+        ]
+      },
+      "properties": {
+        "name": "Lemi Kura Subcity Woreda 13 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/gE26ZLWgjyvNVbpT9",
+        "src_id": "69085d11e1d8616b0702b857",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.861818087358785,
+          9.018903547216583
+        ]
+      },
+      "properties": {
+        "name": "Lemi Kura Subcity Woreda 10 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/bPC5dyGmAm9hEKf27",
+        "src_id": "69085d11e1d8616b0702b858",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.83406590277771,
+          8.999819428535822
+        ]
+      },
+      "properties": {
+        "name": "Lemi Kura Subcity Woreda 9 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/aMwswbc8zxJ9jM8T9",
+        "src_id": "69085d11e1d8616b0702b859",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.843314839224306,
+          9.011285148626804
+        ]
+      },
+      "properties": {
+        "name": "Lemi Kura Subcity Woreda 8 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/o4MLLz2SytTWmm47A",
+        "src_id": "69085d11e1d8616b0702b85a",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.887270880506776,
+          8.974569951938225
+        ]
+      },
+      "properties": {
+        "name": "Lemi Kura Subcity Woreda 6 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/os23YWZDLt3FbxvV6",
+        "src_id": "69085d11e1d8616b0702b85b",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.85668445991588,
+          9.001137929288683
+        ]
+      },
+      "properties": {
+        "name": "Lemi Kura Subcity Woreda 5 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/eaeSghb8dsfzS2cU7",
+        "src_id": "69085d11e1d8616b0702b85c",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.884451000720794,
+          8.987813667666495
+        ]
+      },
+      "properties": {
+        "name": "Lemi Kura Subcity Woreda 4 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/to5e7w9Gm3WeF9Gw7",
+        "src_id": "69085d11e1d8616b0702b85d",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.87891129991819,
+          9.031086004145209
+        ]
+      },
+      "properties": {
+        "name": "Lemi Kura Subcity Woreda 2 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/1KBdoTfV9ahsNbdv9",
+        "src_id": "69085d11e1d8616b0702b85e",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.72303805614769,
+          8.944245354253509
+        ]
+      },
+      "properties": {
+        "name": "Nifas Silk Lafto Subcity Woreda 15 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/6YrpfiVpDaJHLwGM8",
+        "src_id": "69085d11e1d8616b0702b85f",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.73768339148957,
+          8.932967877510412
+        ]
+      },
+      "properties": {
+        "name": "Nifas Silk Lafto Subcity Woreda 14 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/vKCXiRePWfFXG5nV6",
+        "src_id": "69085d11e1d8616b0702b860",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.74643094900657,
+          8.946168632523898
+        ]
+      },
+      "properties": {
+        "name": "Nifas Silk Lafto Subcity Woreda 12 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/73f5EssKpAPkGQsq7",
+        "src_id": "69085d11e1d8616b0702b861",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.7458025946611,
+          8.936229172890261
+        ]
+      },
+      "properties": {
+        "name": "Nifas Silk Lafto Subcity Woreda 11 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/XqTN37eS79Fup1B59",
+        "src_id": "69085d11e1d8616b0702b862",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.76277984919788,
+          8.95447542778505
+        ]
+      },
+      "properties": {
+        "name": "Nifas Silk Lafto Subcity Woreda 10 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/hAobeRxDX3hH5Tt56",
+        "src_id": "69085d11e1d8616b0702b863",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.76870699856562,
+          8.98834936887199
+        ]
+      },
+      "properties": {
+        "name": "Nifas Silk Lafto Subcity Woreda 9 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/gxt8dsJ4C5zYFJFi6",
+        "src_id": "69085d11e1d8616b0702b864",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.76291505322355,
+          8.973988076486942
+        ]
+      },
+      "properties": {
+        "name": "Nifas Silk Lafto Subcity Woreda 8 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/a4EXAHifeyZY9PoJ8",
+        "src_id": "69085d11e1d8616b0702b865",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.751805497846355,
+          8.978006681964452
+        ]
+      },
+      "properties": {
+        "name": "Nifas Silk Lafto Subcity Woreda 6 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/WkSnCC2vPycvWLR69",
+        "src_id": "69085d11e1d8616b0702b866",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.74416866795531,
+          8.979306536571233
+        ]
+      },
+      "properties": {
+        "name": "Nifas Silk Lafto Subcity Woreda 5 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/3QLfXH3bWFoW7Hxn7",
+        "src_id": "69085d11e1d8616b0702b867",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.72873248412439,
+          8.975680273321023
+        ]
+      },
+      "properties": {
+        "name": "Nifas Silk Lafto Subcity Woreda 2 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/mesPMf9GNrmDbvkg6",
+        "src_id": "69085d11e1d8616b0702b868",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.722818288287144,
+          8.94611858627804
+        ]
+      },
+      "properties": {
+        "name": "Nifas Silk Lafto Subcity Woreda 1 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/kb6gGXTXZ7v3tdAAA",
+        "src_id": "69085d11e1d8616b0702b869",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.79593620827302,
+          9.02739369742508
+        ]
+      },
+      "properties": {
+        "name": "Yeka Sub City Woreda 13 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/g54ELpNef4N23h4v6",
+        "src_id": "69085d11e1d8616b0702b86a",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.85740142324077,
+          9.041184597247316
+        ]
+      },
+      "properties": {
+        "name": "Yeka Sub City Woreda 12 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/QdKmg1cFtJcnyQUN6",
+        "src_id": "69085d11e1d8616b0702b86b",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.834402070464506,
+          9.03732599436226
+        ]
+      },
+      "properties": {
+        "name": "Yeka Sub City Woreda 11 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/QZUPLqdfvoxgakqs9",
+        "src_id": "69085d11e1d8616b0702b86c",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.831585714239175,
+          9.052873056763978
+        ]
+      },
+      "properties": {
+        "name": "Yeka Sub City Woreda 10 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/EQ7vuEPEeoid455z5",
+        "src_id": "69085d11e1d8616b0702b86d",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.82695563059828,
+          9.034602022864526
+        ]
+      },
+      "properties": {
+        "name": "Yeka Sub City Woreda 9 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/hLgGKPzCuYcEDC9T8",
+        "src_id": "69085d11e1d8616b0702b86e",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.78954420197343,
+          9.019662601677625
+        ]
+      },
+      "properties": {
+        "name": "Yeka Sub City Woreda 8 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/ChnSAtQbDeAYaMbH9",
+        "src_id": "69085d11e1d8616b0702b86f",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.78459184815897,
+          9.022795338465095
+        ]
+      },
+      "properties": {
+        "name": "Yeka Sub City Woreda 7 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/9HhQwVaCKGAyBzdTA",
+        "src_id": "69085d11e1d8616b0702b870",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.77709518309793,
+          9.021656276390528
+        ]
+      },
+      "properties": {
+        "name": "Yeka Sub City Woreda 6 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/Wz3yuAKujZk1j2ag9",
+        "src_id": "69085d11e1d8616b0702b871",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.81138240736517,
+          9.024743747639045
+        ]
+      },
+      "properties": {
+        "name": "Yeka Sub City Woreda 5 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/dF53L38txtWW2FEXA",
+        "src_id": "69085d11e1d8616b0702b872",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.800045070114614,
+          9.022555047113734
+        ]
+      },
+      "properties": {
+        "name": "Yeka Sub City Woreda 4 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/WkyY1VYnngcWBkoy7",
+        "src_id": "69085d11e1d8616b0702b873",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.78369913591196,
+          9.045244598314326
+        ]
+      },
+      "properties": {
+        "name": "Yeka Sub City Woreda 3 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/GQsSoED46uGZbcRN9",
+        "src_id": "69085d11e1d8616b0702b874",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.777516500000004,
+          9.056514304225772
+        ]
+      },
+      "properties": {
+        "name": "Yeka Sub City Woreda 2 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/nHb5ZEbLBj1yHAoTA",
+        "src_id": "69085d11e1d8616b0702b875",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.7536793539538,
+          9.04146467058592
+        ]
+      },
+      "properties": {
+        "name": "Arada Sub City Woreda 10 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/44auXNJcx1ZU9ZDi9",
+        "src_id": "69085d11e1d8616b0702b876",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.78004439672715,
+          9.045158215383205
+        ]
+      },
+      "properties": {
+        "name": "Arada Sub City Woreda 9  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/bAunqPtZfDtRemrN6",
+        "src_id": "69085d11e1d8616b0702b877",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.76775012210528,
+          9.024289125854636
+        ]
+      },
+      "properties": {
+        "name": "Arada Sub City Woreda 8 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/xHHUTtPTfau7PC4M8",
+        "src_id": "69085d11e1d8616b0702b878",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.77298880009132,
+          9.035965992590974
+        ]
+      },
+      "properties": {
+        "name": "Arada Sub City Woreda 7 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/JEdJZdqqdh55P3bd9",
+        "src_id": "69085d11e1d8616b0702b879",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.75959593768522,
+          9.040959697292989
+        ]
+      },
+      "properties": {
+        "name": "Arada Sub City Woreda 6 |6kilo Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/RYWjtJQ45eKcjuJf6",
+        "src_id": "69085d11e1d8616b0702b87a",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.7520979047464,
+          9.049337866130262
+        ]
+      },
+      "properties": {
+        "name": "Arada Sub City Woreda 5 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/TJ7BheWKM8nDMrSp6",
+        "src_id": "69085d11e1d8616b0702b87b",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.760044941735174,
+          9.05810680497455
+        ]
+      },
+      "properties": {
+        "name": "Arada Sub City Woreda 4 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/H2LPDxkkUiWo1Aso9",
+        "src_id": "69085d11e1d8616b0702b87c",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.759467782979165,
+          9.052128581567619
+        ]
+      },
+      "properties": {
+        "name": "Arada Sub City Woreda 3 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/yN22VbQHx4B5qLJL7",
+        "src_id": "69085d11e1d8616b0702b87d",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.75258182458769,
+          9.039939094561921
+        ]
+      },
+      "properties": {
+        "name": "Arada Sub City Woreda 2 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/A5ZNWeeteGJvL5Ue8",
+        "src_id": "69085d11e1d8616b0702b87e",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.75647310114669,
+          9.031011355505063
+        ]
+      },
+      "properties": {
+        "name": "Arada Sub City Woreda 1  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/NRvSMb15BiWd4b2u8",
+        "src_id": "69085d11e1d8616b0702b87f",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.743581,
+          9.015759447906877
+        ]
+      },
+      "properties": {
+        "name": "Lideta Sub City Woreda 9  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/WpRRu78YiDptYKvP6",
+        "src_id": "69085d11e1d8616b0702b880",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.749027137561406,
+          9.022954207942362
+        ]
+      },
+      "properties": {
+        "name": "Lideta Sub City Woreda 7 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/nwtwFPRRppPB4uhS8",
+        "src_id": "69085d11e1d8616b0702b881",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.73175980537616,
+          9.01930657947124
+        ]
+      },
+      "properties": {
+        "name": "Lideta Sub City Woreda 3 |Abinet Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/sNbEAi7xFJbW6LXD9",
+        "src_id": "69085d11e1d8616b0702b882",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.71901866997239,
+          9.01670440042338
+        ]
+      },
+      "properties": {
+        "name": "Lideta Sub City Woreda 2  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/Nf2oZVFSH13jJPvAA",
+        "src_id": "69085d11e1d8616b0702b883",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.73293563873177,
+          9.009865219171845
+        ]
+      },
+      "properties": {
+        "name": "Lideta Sub City Woreda 1  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/u97wvKqARoF1bNat7",
+        "src_id": "69085d11e1d8616b0702b884",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.807857178153014,
+          8.997059132282793
+        ]
+      },
+      "properties": {
+        "name": "Bole Woreda 14  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/dGRNWJvEMDTEHV7C6",
+        "src_id": "69085d11e1d8616b0702b885",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.80983602127581,
+          8.997876560440908
+        ]
+      },
+      "properties": {
+        "name": "Bole Woreda 13  | Gerji Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/T29JLYqvinHHwJSz5",
+        "src_id": "69085d11e1d8616b0702b886",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.78789975858516,
+          8.9586298043964
+        ]
+      },
+      "properties": {
+        "name": "Bole Woreda 12  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/qQahvwj9qSTVigax6",
+        "src_id": "69085d11e1d8616b0702b887",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.854311983396755,
+          8.982342076850088
+        ]
+      },
+      "properties": {
+        "name": "Bole Woreda 11  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/46a1qCr2mAQ39P2v7",
+        "src_id": "69085d11e1d8616b0702b888",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.861731549335424,
+          9.018853585466944
+        ]
+      },
+      "properties": {
+        "name": "Bole Woreda 10  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/27gxhqY1SZNmYZvQ8",
+        "src_id": "69085d11e1d8616b0702b889",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.82606128835925,
+          9.020258250164304
+        ]
+      },
+      "properties": {
+        "name": "Bole Woreda 7 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/4K2ZWCRNQoNFhJAP7",
+        "src_id": "69085d11e1d8616b0702b88a",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.80680962713506,
+          9.019720230306927
+        ]
+      },
+      "properties": {
+        "name": "Bole Woreda 6 |Megenagna Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/HPsHcNtg7D1XLy979",
+        "src_id": "69085d11e1d8616b0702b88b",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.79781630307514,
+          9.0109496180663
+        ]
+      },
+      "properties": {
+        "name": "Bole Woreda 5  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/2Dmv6v4uD2JTx4hm6",
+        "src_id": "69085d11e1d8616b0702b88c",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.77875791251073,
+          9.01101078983858
+        ]
+      },
+      "properties": {
+        "name": "Bole Woreda 4  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/ULxByPVWw2sT8QJZA",
+        "src_id": "69085d11e1d8616b0702b88d",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.78375263864496,
+          9.003444810597227
+        ]
+      },
+      "properties": {
+        "name": "Bole Woreda 3  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/5Q2m72kZFL2hf8bY9",
+        "src_id": "69085d11e1d8616b0702b88e",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.78092379372975,
+          8.988013085049463
+        ]
+      },
+      "properties": {
+        "name": "Bole Woreda 2  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/aTp5tLKiU3VDTbds9",
+        "src_id": "69085d11e1d8616b0702b88f",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.77683387449261,
+          8.980257039888189
+        ]
+      },
+      "properties": {
+        "name": "Bole Woreda 1  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/HwMJCeRdchernqYr5",
+        "src_id": "69085d11e1d8616b0702b890",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.71232457700654,
+          9.047862180367948
+        ]
+      },
+      "properties": {
+        "name": "Kolfe Keraniyo Woreda 13 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/jAdqE2JDiZ8y8XiN6",
+        "src_id": "69085d11e1d8616b0702b891",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.712824392316065,
+          9.040934988871676
+        ]
+      },
+      "properties": {
+        "name": "Kolfe Keraniyo Woreda 12 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/e392zXRjVngrAwVk8",
+        "src_id": "69085d11e1d8616b0702b892",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.705312011656716,
+          9.042205893260768
+        ]
+      },
+      "properties": {
+        "name": "Kolfe Keraniyo Woreda 11  | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/cjMj4MBGauSVS48x8",
+        "src_id": "69085d11e1d8616b0702b893",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.71370879377856,
+          9.030654123565277
+        ]
+      },
+      "properties": {
+        "name": "Kolfe Keraniyo Woreda 10 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/aMRuKz2Ddem9vwUt9",
+        "src_id": "69085d11e1d8616b0702b894",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.71865423545685,
+          9.010294089817915
+        ]
+      },
+      "properties": {
+        "name": "Kolfe Keraniyo Woreda 9 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/1WyS6HdjnPT2zWxEA",
+        "src_id": "69085d11e1d8616b0702b895",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.694653162973886,
+          9.019834802169862
+        ]
+      },
+      "properties": {
+        "name": "Kolfe Keraniyo Woreda 8 |Youth center Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/G8gqoxVe43HpTRZu8",
+        "src_id": "69085d11e1d8616b0702b896",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.68176618488349,
+          9.00594823560443
+        ]
+      },
+      "properties": {
+        "name": "Kolfe Keraniyo Woreda 7 | Bethel Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/qVB2je4fFJyaA1r16",
+        "src_id": "69085d11e1d8616b0702b897",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.69684967127015,
+          9.004337597700179
+        ]
+      },
+      "properties": {
+        "name": "Kolfe Keraniyo Woreda 6 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/sNsBcgDRqM2bZSd7A",
+        "src_id": "69085d11e1d8616b0702b898",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.70848263593659,
+          8.988817383756636
+        ]
+      },
+      "properties": {
+        "name": "Kolfe Keraniyo Woreda 5 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/ZTfJ8P6Gyf1a5HBU8",
+        "src_id": "69085d11e1d8616b0702b899",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.68213215489471,
+          8.9983574602826
+        ]
+      },
+      "properties": {
+        "name": "Kolfe Keraniyo Woreda 4  | Jemo school Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/XUqgvdKgM67s3oop7",
+        "src_id": "69085d11e1d8616b0702b89a",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.67450936702182,
+          8.984503387108422
+        ]
+      },
+      "properties": {
+        "name": "Kolfe Keraniyo Woreda 3 | Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/74ZtgyEDoB4Q9dhu5",
+        "src_id": "69085d11e1d8616b0702b89b",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.679577221585845,
+          8.97609867153199
+        ]
+      },
+      "properties": {
+        "name": "Kolfe Keraniyo Woreda 2 |Messalemia Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/q2T9SPx5GM9715Ux5",
+        "src_id": "69085d11e1d8616b0702b89c",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.70358238128528,
+          8.98490543633636
+        ]
+      },
+      "properties": {
+        "name": "Kolfe Keraniyo Woreda 1 |Torhailoch Fayda Registration Center",
+        "type": "crrsa",
+        "status": "",
+        "gmaps_url": "https://maps.app.goo.gl/xN5ECqpVMwpsgMqD9",
+        "src_id": "69085d11e1d8616b0702b89d",
+        "created": "2025-11-03T07:43:13.819Z",
+        "updated": "2025-11-03T07:43:13.819Z"
+      }
+    }
+  ]
+}

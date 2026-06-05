@@ -1,0 +1,1741 @@
+{
+  "type": "FeatureCollection",
+  "name": "post office",
+  "bbox": [
+    36.49449918889432,
+    5.9173542375971895,
+    42.80422294322157,
+    14.278263046334859
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.71215743410557,
+          8.960706089550701
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Addis Ababa City Jemo Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;hLHsw9kKXUatoK5v8",
+        "src_id": "6943a4d26a99bdb596c426c4",
+        "created": "2025-12-18T06:53:06.122Z",
+        "updated": "2025-12-18T06:53:06.122Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.7393125331051,
+          9.016660907277723
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Addis Ababa City Lideta Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;f95RPQSrnEgu32UQ6",
+        "src_id": "6943a53b6a99bdb596c426c8",
+        "created": "2025-12-18T06:54:51.302Z",
+        "updated": "2025-12-18T06:54:51.302Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.70126540878388,
+          9.005078442568843
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Addis Ababa City Bethel Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;cdryEo3khmDXY4Df8",
+        "src_id": "6943a59a6a99bdb596c426cc",
+        "created": "2025-12-18T06:56:26.703Z",
+        "updated": "2025-12-18T06:56:26.703Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.73987951915397,
+          9.030999118029092
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Addis Ababa City Mesob Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;J3SqaTVxMPEwkJcz6",
+        "src_id": "6943be0d6a99bdb596c426d4",
+        "created": "2025-12-18T08:40:45.071Z",
+        "updated": "2025-12-18T08:40:45.071Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.788814886465694,
+          9.05831820193002
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Addis Ababa City Ferensay Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;BtUV7EpX4XRftNz26",
+        "src_id": "6943beb26a99bdb596c426d8",
+        "created": "2025-12-18T08:43:30.269Z",
+        "updated": "2025-12-18T08:43:30.269Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.76798140734663,
+          9.003708073506415
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Addis Ababa City dembel Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;gxb5Gt4WQ2xGS3by5",
+        "src_id": "6943bef56a99bdb596c426dc",
+        "created": "2025-12-18T08:44:37.432Z",
+        "updated": "2025-12-18T08:44:37.432Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.75314743687451,
+          9.019396454715343
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Addis Ababa City GPO Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;1cG9HwUwyBdWPqby6",
+        "src_id": "6943bf916a99bdb596c426e0",
+        "created": "2025-12-18T08:47:13.764Z",
+        "updated": "2025-12-18T08:47:13.764Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.75118483999138,
+          9.034089557462991
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Addis Ababa City Arada Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;vH4frKBTbhmBoWD69",
+        "src_id": "6943bffd6a99bdb596c426e4",
+        "created": "2025-12-18T08:49:01.306Z",
+        "updated": "2025-12-18T08:49:01.306Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.76315593661353,
+          9.032992418777996
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Addis Ababa City 4kilo Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;HcsiEcVjfu266s2k8",
+        "src_id": "6943c04d6a99bdb596c426e8",
+        "created": "2025-12-18T08:50:21.487Z",
+        "updated": "2025-12-18T08:50:21.487Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.76318360329604,
+          8.908823048289046
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Addis Ababa City Kaliti Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;uxDjpyhe5ugPzUF67",
+        "src_id": "6943c08e6a99bdb596c426ec",
+        "created": "2025-12-18T08:51:26.596Z",
+        "updated": "2025-12-18T08:51:26.596Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.77275672541448,
+          8.98277296974795
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Addis Ababa City Bole Mikael Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;ovaofQcukZd83jj76",
+        "src_id": "6943c1376a99bdb596c426f0",
+        "created": "2025-12-18T08:54:15.363Z",
+        "updated": "2025-12-18T08:54:15.363Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.64653287620775,
+          11.118847861124689
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Amhara Region Dessie Station 1 Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;47rpvveWtyqMprFb6",
+        "src_id": "6943c1a76a99bdb596c426f4",
+        "created": "2025-12-18T08:56:07.747Z",
+        "updated": "2025-12-18T08:56:07.747Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.770949727549336,
+          11.091635664028738
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Amhara Region Dessie Station 2 Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;K7JtRLof1uazTx92A",
+        "src_id": "6943c1df6a99bdb596c426f8",
+        "created": "2025-12-18T08:57:03.422Z",
+        "updated": "2025-12-18T08:57:03.422Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.393723825897,
+          11.594732014509438
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Amhara Region Bahirdar City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;NTH4SVx94aP2tFHW6",
+        "src_id": "6943c2266a99bdb596c426fc",
+        "created": "2025-12-18T08:58:14.169Z",
+        "updated": "2025-12-18T08:58:14.169Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.474176711041686,
+          12.613559756746888
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Amhara Region Gondar City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;NX2vGUXFhHDDbBWy6",
+        "src_id": "6943c2556a99bdb596c42700",
+        "created": "2025-12-18T08:59:01.817Z",
+        "updated": "2025-12-18T08:59:01.817Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.72131317835717,
+          12.017830334634795
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Amhara Region Debre Tabour City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;EXPJ5i9hzKnhsj5x6",
+        "src_id": "6943c2996a99bdb596c42704",
+        "created": "2025-12-18T09:00:09.064Z",
+        "updated": "2025-12-18T09:00:09.064Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.868486411756415,
+          9.694073629315586
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom DireDawa City Station 13 Shinilie Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&amp;#x2F;&amp;#x2F;maps.app.goo.gl&amp;#x2F;uVwyfvGCN8k2dsm16",
+        "src_id": "6943c4446a99bdb596c4270b",
+        "created": "2025-12-18T09:07:16.435Z",
+        "updated": "2025-12-18T09:07:16.435Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.78351813610819,
+          9.613717270916636
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom DireDawa City Station 17 Melkagebdu Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&amp;#x2F;&amp;#x2F;maps.app.goo.gl&amp;#x2F;4SahDT7KzBQS5ypCA",
+        "src_id": "6943c4a56a99bdb596c4270f",
+        "created": "2025-12-18T09:08:53.942Z",
+        "updated": "2025-12-18T09:08:53.942Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.86542872020491,
+          9.594783568242857
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom DireDawa City Station 20 Doba Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;6vuC46qGPmXKDCER7",
+        "src_id": "6943c51e6a99bdb596c42713",
+        "created": "2025-12-18T09:10:54.995Z",
+        "updated": "2025-12-18T09:10:54.995Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.12767704016467,
+          9.31142922606073
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Harar Region Station 1 Genela woreda Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&amp;#x2F;&amp;#x2F;maps.app.goo.gl&amp;#x2F;nE1uGw3WMdqytMN97",
+        "src_id": "6943c6736a99bdb596c4271f",
+        "created": "2025-12-18T09:16:35.924Z",
+        "updated": "2025-12-18T09:16:35.924Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.126820935819914,
+          9.306925826412158
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Harar Region Station 2 Harar Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&amp;#x2F;&amp;#x2F;maps.app.goo.gl&amp;#x2F;8PhJdhfDwirWQ8x77",
+        "src_id": "6943c7156a99bdb596c42723",
+        "created": "2025-12-18T09:19:17.669Z",
+        "updated": "2025-12-18T09:19:17.669Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.12208567109821,
+          9.312531917530105
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Harar Region Station 3 Soffi Woreda Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&amp;#x2F;&amp;#x2F;maps.app.goo.gl&amp;#x2F;ApHu4wQif23uJnof6",
+        "src_id": "6943c7716a99bdb596c42727",
+        "created": "2025-12-18T09:20:49.074Z",
+        "updated": "2025-12-18T09:20:49.074Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.12494958394517,
+          9.312976589456822
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Harar Region Station 4 Aboker Woreda Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&amp;#x2F;&amp;#x2F;maps.app.goo.gl&amp;#x2F;Up8WKMBq6atmBafr9",
+        "src_id": "6943c7cf6a99bdb596c4272b",
+        "created": "2025-12-18T09:22:23.767Z",
+        "updated": "2025-12-18T09:22:23.767Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.12529834063959,
+          9.313480961055271
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Harar Region Station 7 Aminur Woreda Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&amp;#x2F;&amp;#x2F;maps.app.goo.gl&amp;#x2F;YH1hm5sPPGTBg4Cb8",
+        "src_id": "6943cabd6a99bdb596c4272f",
+        "created": "2025-12-18T09:34:53.449Z",
+        "updated": "2025-12-18T09:34:53.449Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.10689156995034,
+          9.371239837150519
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Harar Region Station 8 Direteyara Woreda Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&amp;#x2F;&amp;#x2F;maps.app.goo.gl&amp;#x2F;dk2amXHXfE1GL5teA",
+        "src_id": "6943cb086a99bdb596c42733",
+        "created": "2025-12-18T09:36:08.770Z",
+        "updated": "2025-12-18T09:36:08.770Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.12892498073947,
+          9.317349368356888
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Harar Region Station 9 Shenkor Woreda Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&amp;#x2F;&amp;#x2F;maps.app.goo.gl&amp;#x2F;LpviiwbRuMxBeP198",
+        "src_id": "6943cb546a99bdb596c42737",
+        "created": "2025-12-18T09:37:24.397Z",
+        "updated": "2025-12-18T09:37:24.397Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.14367177776896,
+          9.300807007193058
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Harar Region Station 10 Abader Woreda Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;o5fsGQFNRXxXXmT98",
+        "src_id": "6943ce576a99bdb596c42740",
+        "created": "2025-12-18T09:50:15.571Z",
+        "updated": "2025-12-18T09:50:15.571Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.528154728190756,
+          8.820609143023605
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Oromia Region Station 11 Gelemso Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;fLvaCUq6dvoMUNXy5",
+        "src_id": "6943cf556a99bdb596c4275f",
+        "created": "2025-12-18T09:54:29.950Z",
+        "updated": "2025-12-18T09:54:29.950Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.3998880374498,
+          9.356922202621734
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Oromia Region Station 12 Guresum Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;yGEjnrZmp5VDMYEW8",
+        "src_id": "6943cfc06a99bdb596c42763",
+        "created": "2025-12-18T09:56:16.787Z",
+        "updated": "2025-12-18T09:56:16.787Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.58996386236828,
+          6.408608383200518
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Oromia Region Station  15 Hirena Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;362Yq8GYioXkKtJ99",
+        "src_id": "6943d05d6a99bdb596c42767",
+        "created": "2025-12-18T09:58:53.511Z",
+        "updated": "2025-12-18T09:58:53.511Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.87948365291228,
+          9.087522973919182
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Oromia Region Station 14 Chiro Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;eCfGupk3x3EA2rRw8",
+        "src_id": "6943d08b6a99bdb596c4276b",
+        "created": "2025-12-18T09:59:39.097Z",
+        "updated": "2025-12-18T09:59:39.097Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.986442804969265,
+          7.711780014623804
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Oromia Region Station 16 Kersa Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;Nn6WyziQRL7kS1N96",
+        "src_id": "6943d1066a99bdb596c4276f",
+        "created": "2025-12-18T10:01:42.588Z",
+        "updated": "2025-12-18T10:01:42.588Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.44081086753452,
+          9.31387651908912
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Oromia Region Station 18 Deder Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;Y2kHi9jv5CwPtesj9",
+        "src_id": "6943d1696a99bdb596c42773",
+        "created": "2025-12-18T10:03:21.622Z",
+        "updated": "2025-12-18T10:03:21.622Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.47698212526574,
+          13.49672447323441
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Tigray Region Mekele Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;sd9iGQ9t1pa18PcH9",
+        "src_id": "6943d1a96a99bdb596c42777",
+        "created": "2025-12-18T10:04:25.824Z",
+        "updated": "2025-12-18T10:04:25.824Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.73577464184377,
+          14.125576976570207
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Tigray Region Axum City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;NCG3uxhsoAd6JbgN9",
+        "src_id": "6943d2036a99bdb596c4277b",
+        "created": "2025-12-18T10:05:55.097Z",
+        "updated": "2025-12-18T10:05:55.097Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.45666789062872,
+          14.278263046334859
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Tigray Region Adigrat City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;4DM2neTf7m9sYVnS9",
+        "src_id": "6943d2326a99bdb596c4277f",
+        "created": "2025-12-18T10:06:42.155Z",
+        "updated": "2025-12-18T10:06:42.155Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.281925502098304,
+          14.100823094548181
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Tigray Region Shire City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;Wbcnj5cTtSJ2i7GL8",
+        "src_id": "6943d2676a99bdb596c42783",
+        "created": "2025-12-18T10:07:35.144Z",
+        "updated": "2025-12-18T10:07:35.144Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.25951073497672,
+          8.526902205115197
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Oromia Region Adama City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;n7QZqLHzJMksYAfy9",
+        "src_id": "6943d2b56a99bdb596c42787",
+        "created": "2025-12-18T10:08:53.537Z",
+        "updated": "2025-12-18T10:08:53.537Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.499251928385114,
+          8.128045919671477
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region East Gurage Zone Misirak Meskan Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;jh1jYbFKDBUmyZxK6",
+        "src_id": "6943d44b6a99bdb596c4278b",
+        "created": "2025-12-18T10:15:39.080Z",
+        "updated": "2025-12-18T10:15:39.080Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.54921176803891,
+          8.317650226115262
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region East Gurage Zone Sodo Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;q6xQNgYGnRjTC1ht5",
+        "src_id": "6943d49d6a99bdb596c4278f",
+        "created": "2025-12-18T10:17:01.732Z",
+        "updated": "2025-12-18T10:17:01.732Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.3759047384963,
+          8.124191488602367
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region East Gurage Zone Butajra Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;gcnVFJS6zzs1Fpon9",
+        "src_id": "6943d4e26a99bdb596c42793",
+        "created": "2025-12-18T10:18:10.009Z",
+        "updated": "2025-12-18T10:18:10.009Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.10225325104378,
+          7.3119860349218095
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Halaba Zone Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;NAtLPmAb797P4XAx7",
+        "src_id": "6943d5256a99bdb596c42797",
+        "created": "2025-12-18T10:19:17.744Z",
+        "updated": "2025-12-18T10:19:17.744Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.11159173909527,
+          7.309444913953895
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Halaba Zone Atote and Kulito Halaba Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;BDWP78vTtvrwF2xq9",
+        "src_id": "6943d58c6a99bdb596c4279b",
+        "created": "2025-12-18T10:21:00.331Z",
+        "updated": "2025-12-18T10:21:00.331Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.088711797902135,
+          7.313348156076902
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Halaba Zone Wera and Halaba Halaba Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;Fxk7GcWftEQU6eqn6",
+        "src_id": "6943d5bd6a99bdb596c4279f",
+        "created": "2025-12-18T10:21:49.835Z",
+        "updated": "2025-12-18T10:21:49.835Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.08865103495177,
+          7.313382268033833
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Halaba Zone Wera Zuriya Halaba Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;YR4WLUZL2aeK5wP69",
+        "src_id": "6943d6846a99bdb596c427a3",
+        "created": "2025-12-18T10:25:08.056Z",
+        "updated": "2025-12-18T10:25:08.056Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.230388697211254,
+          7.471156609383041
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Halaba Zone Kobo and Besheno Halaba Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;S5tExvFRGXgyQHQT9",
+        "src_id": "6943d6e46a99bdb596c427a7",
+        "created": "2025-12-18T10:26:44.688Z",
+        "updated": "2025-12-18T10:26:44.688Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.1759983631494,
+          7.839044082962486
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Silte Zone Werabe City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;LAzeNpCDcBfnRxEN7",
+        "src_id": "6943d74d6a99bdb596c427ab",
+        "created": "2025-12-18T10:28:29.715Z",
+        "updated": "2025-12-18T10:28:29.715Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.32804555752307,
+          8.02830525933211
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Silte Zone Kibet Town Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;mPBCbWUZJd57cHuD6",
+        "src_id": "6943d79f6a99bdb596c427af",
+        "created": "2025-12-18T10:29:51.391Z",
+        "updated": "2025-12-18T10:29:51.391Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.2448328516451,
+          7.783651748998652
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Silte Zone Dalocha Town Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;wrtKiqUdAenzXx4N8",
+        "src_id": "6943d7e46a99bdb596c427b3",
+        "created": "2025-12-18T10:31:00.380Z",
+        "updated": "2025-12-18T10:31:00.380Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.21642574175971,
+          8.009979264956277
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Silte Zone Alicho Weriro Woreda Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;uqTHnDUbsENhbs6Q8",
+        "src_id": "6943d8f96a99bdb596c427b7",
+        "created": "2025-12-18T10:35:37.787Z",
+        "updated": "2025-12-18T10:35:37.787Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.92431994530185,
+          7.293715573824836
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Kambata Zone Keidida Gamela Woreda Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;MpW33DkCS7u8SYU56",
+        "src_id": "6943d96a6a99bdb596c427bb",
+        "created": "2025-12-18T10:37:30.313Z",
+        "updated": "2025-12-18T10:37:30.313Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.899173759580535,
+          7.244542232011187
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Kambata Zone Durame City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;pB3yTLSadqZCSp2R9",
+        "src_id": "6943d9ea6a99bdb596c427bf",
+        "created": "2025-12-18T10:39:38.723Z",
+        "updated": "2025-12-18T10:39:38.723Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.86129932515533,
+          7.349403584158414
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Kambata Zone Angacha City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;HRYtHnuavnBVCK9J9",
+        "src_id": "6943da256a99bdb596c427c3",
+        "created": "2025-12-18T10:40:37.596Z",
+        "updated": "2025-12-18T10:40:37.596Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.98269532779848,
+          7.209005255347913
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Kambata Zone Adilo City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;mwLMq8jNGM95d46U9",
+        "src_id": "6943da7c6a99bdb596c427c7",
+        "created": "2025-12-18T10:42:04.752Z",
+        "updated": "2025-12-18T10:42:04.752Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.77399883856182,
+          7.20175315994696
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Kambata Zone Shinshicho City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;dJGbd3d2WXbJnE5j6",
+        "src_id": "6943dab86a99bdb596c427cb",
+        "created": "2025-12-18T10:43:04.892Z",
+        "updated": "2025-12-18T10:43:04.892Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.671833196943695,
+          7.192235177081853
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Kambata Zone Hadero City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;2Tq8BhAhmitrzjw99",
+        "src_id": "6943db1e6a99bdb596c427cf",
+        "created": "2025-12-18T10:44:46.042Z",
+        "updated": "2025-12-18T10:44:46.042Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.78605838883508,
+          7.355352452583141
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Kambata Zone Doyogena City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;2BgJSuYSNwsUb9Dg9",
+        "src_id": "6943db4e6a99bdb596c427d3",
+        "created": "2025-12-18T10:45:34.890Z",
+        "updated": "2025-12-18T10:45:34.890Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.54689604576983,
+          7.286828716129437
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Tembaro Zone Mudula City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;nwoc1aFxqyWB19Bs5",
+        "src_id": "6943dbeb6a99bdb596c427df",
+        "created": "2025-12-18T10:48:11.230Z",
+        "updated": "2025-12-18T10:48:11.230Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.52811428557238,
+          8.014654848434224
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Mareko Spacial Woreda Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;7XmJrrx4ZPrtc8Et9",
+        "src_id": "6943dc2e6a99bdb596c427e3",
+        "created": "2025-12-18T10:49:18.773Z",
+        "updated": "2025-12-18T10:49:18.773Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.953564654893796,
+          7.138912175316396
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Hadiya Zone Shone City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;PKpAS4as8B4L1yaWA",
+        "src_id": "6943dcd06a99bdb596c427ec",
+        "created": "2025-12-18T10:52:00.686Z",
+        "updated": "2025-12-18T10:52:00.686Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.62930960259267,
+          7.448937229115457
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Hadiya Zone Soro City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;rBEaE14i4A3pobzE8",
+        "src_id": "6943dd116a99bdb596c427f0",
+        "created": "2025-12-18T10:53:05.821Z",
+        "updated": "2025-12-18T10:53:05.821Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.71234854222158,
+          7.69448695098671
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Hadiya Zone Soda and Moristo City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;kfdd6pVSvH4dBxKS7",
+        "src_id": "6943dde86a99bdb596c427f4",
+        "created": "2025-12-18T10:56:40.001Z",
+        "updated": "2025-12-18T10:56:40.001Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.85835012471299,
+          7.552654436346136
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Hadiya Zone Hossana City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;KRgm2xzjv44s1LuZA",
+        "src_id": "6943de136a99bdb596c427f8",
+        "created": "2025-12-18T10:57:23.053Z",
+        "updated": "2025-12-18T10:57:23.053Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.798016482402126,
+          7.7999258477912345
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Hadiya Zone Ameka Woreda Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;fpBGfymAZ3FTYWsQA",
+        "src_id": "6943de646a99bdb596c427fc",
+        "created": "2025-12-18T10:58:44.037Z",
+        "updated": "2025-12-18T10:58:44.037Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.96705483814886,
+          7.648344283663265
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Hadiya Zone Fonko City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;k83mpkdJL53WQfDb8",
+        "src_id": "6943dec56a99bdb596c42800",
+        "created": "2025-12-18T11:00:21.055Z",
+        "updated": "2025-12-18T11:00:21.055Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.85040416349264,
+          7.551539641820215
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Hadiya Zone Gonbora Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;GMQdzc5jiVC4r9PD7",
+        "src_id": "6943df266a99bdb596c42804",
+        "created": "2025-12-18T11:01:58.097Z",
+        "updated": "2025-12-18T11:01:58.097Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.81280023339264,
+          7.689693234320611
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Hadiya Zone Misha City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;QMJJYxPhFmhYcJom6",
+        "src_id": "6943df9a6a99bdb596c42808",
+        "created": "2025-12-18T11:03:54.499Z",
+        "updated": "2025-12-18T11:03:54.499Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.92814747154794,
+          7.732589942425207
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Hadiya Zone Duna City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;zQcAkNcZJaG7GviD9",
+        "src_id": "6943dfea6a99bdb596c4280c",
+        "created": "2025-12-18T11:05:14.131Z",
+        "updated": "2025-12-18T11:05:14.131Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.949158770604726,
+          7.139135241133858
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Hadiya Zone Mierab Badewocho Woreda Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;UTu2JXSzr9ag4UWSA",
+        "src_id": "6943e0426a99bdb596c42813",
+        "created": "2025-12-18T11:06:42.841Z",
+        "updated": "2025-12-18T11:06:42.841Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.77814709681805,
+          8.291204018911001
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Gurage Zone Wolkita City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;dWc5P33FN7RP21638",
+        "src_id": "6943e11a6a99bdb596c42817",
+        "created": "2025-12-18T11:10:18.932Z",
+        "updated": "2025-12-18T11:10:18.932Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.06718717430213,
+          7.93859872864862
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Gurage Zone Arekit City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;kcjXhoFHosRLShxTA",
+        "src_id": "6943e15d6a99bdb596c4281b",
+        "created": "2025-12-18T11:11:25.783Z",
+        "updated": "2025-12-18T11:11:25.783Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.93006150799232,
+          8.120843280720544
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Gurage Zone Endibir City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;p3W5nwiKvbapCkZP9",
+        "src_id": "6943e1976a99bdb596c4281f",
+        "created": "2025-12-18T11:12:23.298Z",
+        "updated": "2025-12-18T11:12:23.298Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.763903846217204,
+          8.078660382306872
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Gurage Zone Gunchire Town Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;sH34VeUBFsHKcJxs9",
+        "src_id": "6943e1d06a99bdb596c42823",
+        "created": "2025-12-18T11:13:20.637Z",
+        "updated": "2025-12-18T11:13:20.637Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.006753616597216,
+          8.13713605526509
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Gurage Zone Agena Town Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;u7BkQP9crMF33MzF7",
+        "src_id": "6943e2426a99bdb596c42827",
+        "created": "2025-12-18T11:15:14.787Z",
+        "updated": "2025-12-18T11:15:14.787Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.95437109487734,
+          8.315963700185367
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Kebena Zone Kebena Town Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;vSfVF8GyDaer2qBC6",
+        "src_id": "6943e2c76a99bdb596c4282b",
+        "created": "2025-12-18T11:17:27.406Z",
+        "updated": "2025-12-18T11:17:27.406Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.44125259289673,
+          7.967869930694111
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Yeme Zone Saja Town Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;rQKpjAyARhrC6Y4Y8",
+        "src_id": "6943e3106a99bdb596c4282f",
+        "created": "2025-12-18T11:18:40.910Z",
+        "updated": "2025-12-18T11:18:40.910Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.49449918889432,
+          7.9998652890367605
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Yeme Zone Saja and Toba Town Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;oqVeqtwJgzCvNe1o9",
+        "src_id": "6943e3476a99bdb596c42833",
+        "created": "2025-12-18T11:19:35.118Z",
+        "updated": "2025-12-18T11:19:35.118Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.52157978810564,
+          7.851477485000057
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Yeme Zone Saja and Foja Town Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;mjVfePnjomuuFwpm8",
+        "src_id": "6943e3bf6a99bdb596c42837",
+        "created": "2025-12-18T11:21:35.349Z",
+        "updated": "2025-12-18T11:21:35.349Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.51848054598685,
+          7.937328136416849
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Central Region Yeme Zone Saja and Deri Town Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;p3AxHJQCxfm1or6P7",
+        "src_id": "6943e3f46a99bdb596c4283b",
+        "created": "2025-12-18T11:22:28.956Z",
+        "updated": "2025-12-18T11:22:28.956Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.75841950024298,
+          6.867439750551727
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom South Ethiopia Region Sodo City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;vMw2a8MT737cEAET9",
+        "src_id": "6943e6116a99bdb596c42848",
+        "created": "2025-12-18T11:31:29.995Z",
+        "updated": "2025-12-18T11:31:29.995Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.709792805265145,
+          7.064694267408269
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom South Ethiopia Region Areka City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;yTKunU1sYGhkL4DN9",
+        "src_id": "6943e6536a99bdb596c42851",
+        "created": "2025-12-18T11:32:35.639Z",
+        "updated": "2025-12-18T11:32:35.639Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.857181365369065,
+          6.955417698953438
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom South Ethiopia Region Bodit City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;tmdF1pRJ4e8zPnkb8",
+        "src_id": "6943e69b6a99bdb596c42857",
+        "created": "2025-12-18T11:33:47.552Z",
+        "updated": "2025-12-18T11:33:47.552Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.24896333513509,
+          5.9173542375971895
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom South Ethiopia Region Gedeb City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;n6wo8Nfa14inL4TK6",
+        "src_id": "6943e6ee6a99bdb596c4285b",
+        "created": "2025-12-18T11:35:10.525Z",
+        "updated": "2025-12-18T11:35:10.525Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.212274372256985,
+          6.163190267138061
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom South Ethiopia Region Yirgachefe City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;ZSYuMWZEG2DCn1Jk6",
+        "src_id": "6943e7386a99bdb596c4285f",
+        "created": "2025-12-18T11:36:24.001Z",
+        "updated": "2025-12-18T11:36:24.001Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.33773189846325,
+          6.4167140487188385
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom South Ethiopia Region Dila City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;sbMdDbStSLJKV6wm9",
+        "src_id": "6943e76f6a99bdb596c42863",
+        "created": "2025-12-18T11:37:19.057Z",
+        "updated": "2025-12-18T11:37:19.057Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.31542738187982,
+          6.4125812179457515
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom South Ethiopia Region Dila Dembesco City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;p1oNWidL3EzSVp5z7",
+        "src_id": "6943e7b96a99bdb596c42867",
+        "created": "2025-12-18T11:38:33.088Z",
+        "updated": "2025-12-18T11:38:33.088Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.30573637955936,
+          6.370155090915902
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom South Ethiopia Region Dila Zuria City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;4j6R1PPWwBMpCAUm7",
+        "src_id": "6943e7ed6a99bdb596c4286b",
+        "created": "2025-12-18T11:39:25.555Z",
+        "updated": "2025-12-18T11:39:25.555Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.30893993135101,
+          6.409386693509767
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom South Ethiopia Region Dila Health Center Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;pwjiZimecFjamngt6",
+        "src_id": "6943e8436a99bdb596c4286f",
+        "created": "2025-12-18T11:40:51.906Z",
+        "updated": "2025-12-18T11:40:51.906Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.254808018867315,
+          6.317059232776032
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom South Ethiopia Region Wenago Town Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;2Nx2uNvVndhY5tc87",
+        "src_id": "6943e89a6a99bdb596c42873",
+        "created": "2025-12-18T11:42:18.224Z",
+        "updated": "2025-12-18T11:42:18.224Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.56011025170013,
+          6.037357180340465
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom South Ethiopia Region Ariba Minch City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;byDNvMJbekqikQUr9",
+        "src_id": "6943e8e96a99bdb596c42877",
+        "created": "2025-12-18T11:43:37.290Z",
+        "updated": "2025-12-18T11:43:37.290Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.80422294322157,
+          9.355595342540818
+        ]
+      },
+      "properties": {
+        "name": "Ethiotelecom Somali Region Station 19 Jijiga City Fayda Registration Center",
+        "type": "post office",
+        "status": "active",
+        "gmaps_url": "https:&#x2F;&#x2F;maps.app.goo.gl&#x2F;8hryWQ12Nj547qHU8",
+        "src_id": "6943e9556a99bdb596c4287b",
+        "created": "2025-12-18T11:45:25.203Z",
+        "updated": "2025-12-18T11:45:25.203Z"
+      }
+    }
+  ]
+}

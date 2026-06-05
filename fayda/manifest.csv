@@ -1,0 +1,8 @@
+location_type,file,features,active,minlon,minlat,maxlon,maxlat,bytes,sha256,source_url,harvested,status
+tele,geojson/tele.geojson,1860,1786,33.682118,3.546141,47.017034,14.687447,1082017,5283fcb6415a7439a982200cefb9574dafd2f8d0f3920bcaa0cfd64473d5e173,https://id.gov.et/api/proxy/get/locations,2026-06-05,ok
+mor,geojson/mor.geojson,134,0,34.543,3.536,44.252,14.277479,71251,51a7095df6c568eea76e7e60716195df37c85dbed4adcf6ea725ec7bc7645f24,https://id.gov.et/api/proxy/get/locations,2026-06-05,ok
+crrsa,geojson/crrsa.geojson,107,0,38.674509,8.865848,38.887271,9.087418,57844,0fd510992546ce8bf5ac6113d13d8edf1a526d23f91c3a4d629174478b512dc4,https://id.gov.et/api/proxy/get/locations,2026-06-05,ok
+post office,geojson/post_office.geojson,91,91,36.494499,5.917354,42.804223,14.278263,53696,cf4ea33d49b295daf5fc41cd1e240d18cffde3b22b3aeadc05c117a461499b7e,https://id.gov.et/api/proxy/get/locations,2026-06-05,ok
+bank,geojson/bank.geojson,44,1,35,5,42.126,9.312,22344,07c208a5b6b29dd5210cde4696bd1b20b114075f0350f4b19974b5bb6d67c9e3,https://id.gov.et/api/proxy/get/locations,2026-06-05,ok
+dars,geojson/dars.geojson,14,0,38.696809,8.919697,38.87814,9.046212,8781,59f4b1023930d3f137bd0aee70d47117efeff158d9b37ce6a0cd685dc42489ce,https://id.gov.et/api/proxy/get/locations,2026-06-05,ok
+palace parking,geojson/palace_parking.geojson,1,0,38.765,9.021,38.765,9.021,692,5f4a7b4a048e75a5e6e8ef90dd15d8af70c7b490b9cbdb1789b7a496e6c8bd29,https://id.gov.et/api/proxy/get/locations,2026-06-05,ok
