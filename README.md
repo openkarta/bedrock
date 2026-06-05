@@ -19,6 +19,7 @@
 - [Data sources](#data-sources)
   - [1. EthioSDI — Ethiopian Spatial Data Infrastructure](#1-ethiosdi--ethiopian-spatial-data-infrastructure)
   - [2. Fayda — National ID registration centers](#2-fayda--national-id-registration-centers)
+  - [3. CBE — Commercial Bank of Ethiopia ATMs](#3-cbe--commercial-bank-of-ethiopia-atms)
 - [The BedRock pipeline](#the-bedrock-pipeline)
 - [Coordinate reference systems](#coordinate-reference-systems)
 - [Licensing & attribution](#licensing--attribution)
@@ -83,13 +84,21 @@ bedrock/
 │   ├── wfs_downloadable_layers.txt  ← authoritative list of publicly served layers
 │   ├── download_shapefiles.py ← fetch script (re-runnable, resumable)
 │   └── verify_shapefiles.py   ← verification script (ogr-based)
-└── fayda/                     ← Data source #2: Fayda National ID registration centers
+├── fayda/                     ← Data source #2: Fayda National ID registration centers
+│   ├── README.md              ← source-specific documentation
+│   ├── geojson/               ← one EPSG:4326 GeoJSON per location_type (2,251 POIs)
+│   ├── locations_raw.json     ← immutable raw API response (provenance)
+│   ├── manifest.json / .csv   ← index: type, file, feature count, bbox, SHA-256
+│   ├── verification.csv       ← integrity check (geometry, counts, CRS, in-bbox)
+│   ├── download_locations.py  ← fetch script (re-runnable)
+│   └── verify_locations.py    ← verification script (ogr-based)
+└── cbebank/                   ← Data source #3: Commercial Bank of Ethiopia ATMs
     ├── README.md              ← source-specific documentation
-    ├── geojson/               ← one EPSG:4326 GeoJSON per location_type (2,251 POIs)
-    ├── locations_raw.json     ← immutable raw API response (provenance)
-    ├── manifest.json / .csv   ← index: type, file, feature count, bbox, SHA-256
+    ├── geojson/atm.geojson    ← EPSG:4326 GeoJSON of ATM points (2,884)
+    ├── atm_locations_raw.json ← immutable raw API records (provenance)
+    ├── manifest.json / .csv   ← index: layer, file, feature count, bbox, SHA-256
     ├── verification.csv       ← integrity check (geometry, counts, CRS, in-bbox)
-    ├── download_locations.py  ← fetch script (re-runnable)
+    ├── download_locations.py  ← fetch script (paginated, re-runnable)
     └── verify_locations.py    ← verification script (ogr-based)
 ```
 
@@ -159,6 +168,34 @@ not a postal address (kept as `gmaps_url`); the authoritative location is the po
 
 > 🛑 **Open item:** this is National ID Program data with **no stated open license** — license
 > compatibility must be cleared (or permission obtained) before any OSM import. See the source README.
+
+### 3. CBE — Commercial Bank of Ethiopia ATMs
+
+> **Source:** https://combanketh.et/ways-of-banking/atm-branch-locator (Strapi CMS) · **Harvested:** 2026-06-05 ·
+> **Full docs:** [`cbebank/README.md`](cbebank/README.md)
+
+The bank's **ATM & Branch Locator**, backed by a Strapi REST API. The locator exposes two
+separate collections — **ATMs** (`/api/atm-locations`, geolocated) and **branches**
+(`/api/branches`, **no coordinates**). Only the geolocated ATM layer is captured as points.
+
+| Metric | Value |
+|---|---|
+| ATM points downloaded | **2,884** |
+| Geometry | 100% point · all `EPSG:4326` (no datum shift) |
+| Integrity | count matches the raw source; 2,881/2,884 inside Ethiopia's bbox (3 source lat/lon swaps) |
+| Branches | 1,934 — **excluded**: the source provides no branch coordinates |
+| Attributes | name, terminal id, branch, district, venue type, city, telephone |
+
+**Highlights** (most useful for OSM conflation): a national set of **CBE ATMs**, each with a
+unique **terminal ID** and parent **branch**. ⚠️ Coordinates are low-precision (rounded to
+~1 km; many ATMs share an identical point), so they locate the *area*, not the exact machine.
+
+**Method:** paginated **JSON API** (`pageSize=200`, 15 pages; `curl --globoff` for the Strapi
+`pagination[...]` params), converted to one EPSG:4326 GeoJSON. Acquire/verify keep the data
+faithful to source — the 3 swapped-coordinate ATMs are flagged, not silently fixed.
+
+> 🛑 **Open item:** CBE data with **no stated open license** — clear license/permission before
+> any OSM import. The companion branch list (no geometry) is not included; see the source README.
 
 ## The BedRock pipeline
 
@@ -260,9 +297,11 @@ file, so refreshes and diffs are straightforward.
 
 - [x] **EthioSDI** — 69/85 public vector layers acquired & verified
 - [x] **Fayda** — 2,251 National ID registration-center POIs acquired & verified (EPSG:4326)
+- [x] **CBE** — 2,884 ATM POIs acquired & verified (EPSG:4326)
+- [ ] **CBE branches** — 1,934 branches have no coordinates in the source; geocode or source them separately
 - [ ] **EthioSDI restricted layers** — 20 layers behind authentication (roads, land use,
       health, contours, AA street network, …) — *blocked on credentials*
-- [ ] **Clear Fayda / EthioSDI licensing** for OSM import (no open license stated)
+- [ ] **Clear Fayda / CBE / EthioSDI licensing** for OSM import (no open license stated)
 - [ ] **Normalize EthioSDI to WGS84** and clean attribute schemas for conflation
 - [ ] **OSM conflation** — dedupe/merge against existing OSM data *(downstream)*
 - [ ] **Additional sources** — add further authoritative datasets as sibling folders
