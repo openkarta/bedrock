@@ -21,5 +21,8 @@ Thumbs.db
 *.tmp
 .env
 
+# Tooling artifacts (browser automation snapshots/screenshots during data investigation)
+.playwright-mcp/
+
 # Normalized/derived outputs are regenerated from source via scripts; keep them out of source control
 /wgs84/
