@@ -1,0 +1,2 @@
+layer,file,features,skipped_no_coords,minlon,minlat,maxlon,maxlat,bytes,sha256,source_url,harvested,status
+atm,geojson/atm.geojson,2884,0,8.66,3.53,44.28,39.43,1442634,3f1acffd5e3f953ecf595951f88ca2e6ed63e754a35b3b4e650e11dcba3d5221,https://combanketh.et/api/atm-locations?populate=*,2026-06-05,ok

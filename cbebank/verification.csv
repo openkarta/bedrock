@@ -1,0 +1,2 @@
+file,geometry,features,epsg,raw_features,in_bbox,out_bbox,flag,note
+geojson/atm.geojson,Point,2884,4326,2884,2881,3,,3 pt(s) outside ETH bbox
