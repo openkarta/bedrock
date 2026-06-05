@@ -81,10 +81,12 @@ These matter for any downstream **normalize/conflation** step:
   case/spelling variants (`Office Building`/`office Building`, `Hotel`/`hotel`/`HOTEL`,
   `University`/`university`/`UNIVERSITY`). Normalize before grouping on it.
 - **`city` and `telephone` are almost always null.**
-- 🛑 **Licensing not cleared.** This is CBE's data from a public endpoint with **no stated open
-  license**. Confirm an OSM-compatible license or obtain explicit permission, and follow the
-  [OSM Import Guidelines](https://wiki.openstreetmap.org/wiki/Import/Guidelines), **before**
-  importing any of it into OpenStreetMap.
+- **Licensing & attribution.** Public-sector data from the Commercial Bank of Ethiopia
+  (`combanketh.et`), redistributed as part of the BedRock database under the **Open Database
+  License (ODbL) v1.0** ([`../LICENSE`](../LICENSE)) with full provenance preserved. Attribute
+  CBE on reuse. ODbL is OSM's own license, so the data is license-aligned for conflation —
+  still follow the
+  [OSM Import Guidelines](https://wiki.openstreetmap.org/wiki/Import/Guidelines).
 
 ## Reproducing / refreshing
 

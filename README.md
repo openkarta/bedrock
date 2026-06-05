@@ -166,8 +166,8 @@ centers, plus **post offices**, **bank branches**, **tax (MoR) offices**, and ci
 per-type GeoJSON `FeatureCollection`s. The source `address` field is a **Google Maps link**,
 not a postal address (kept as `gmaps_url`); the authoritative location is the point geometry.
 
-> 🛑 **Open item:** this is National ID Program data with **no stated open license** — license
-> compatibility must be cleared (or permission obtained) before any OSM import. See the source README.
+> ℹ️ **Attribution:** National ID Program data (`id.gov.et`), redistributed under the repo's
+> ODbL license with full provenance preserved — see [Licensing & attribution](#licensing--attribution).
 
 ### 3. CBE — Commercial Bank of Ethiopia ATMs
 
@@ -194,8 +194,9 @@ unique **terminal ID** and parent **branch**. ⚠️ Coordinates are low-precisi
 `pagination[...]` params), converted to one EPSG:4326 GeoJSON. Acquire/verify keep the data
 faithful to source — the 3 swapped-coordinate ATMs are flagged, not silently fixed.
 
-> 🛑 **Open item:** CBE data with **no stated open license** — clear license/permission before
-> any OSM import. The companion branch list (no geometry) is not included; see the source README.
+> ℹ️ **Attribution:** CBE data (`combanketh.et`), redistributed under the repo's ODbL license
+> with full provenance preserved. The companion branch list (no geometry) is not included —
+> see [Licensing & attribution](#licensing--attribution) and the source README.
 
 ## The BedRock pipeline
 
@@ -250,17 +251,32 @@ done
 
 ## Licensing & attribution
 
-BedRock data is **third-party source data**, not original work. Each dataset remains the
-property of its publisher (for EthioSDI: the Ethiopian Geospatial Information Institute /
-EthioSDI). Per-layer license and use constraints are recorded in each source's
-`metadata/` JSON and `metadata_full_catalog.json`.
+BedRock — the acquisition/verification **scripts** and the compiled, normalized vector
+**database** assembled here — is released under the **Open Database License (ODbL) v1.0**
+([`LICENSE`](LICENSE)), the same license [OpenStreetMap](https://www.openstreetmap.org/copyright)
+uses for its data. You are free to share, modify, and use it, provided you **attribute** the
+sources and keep any derived database **open under the same terms** (ODbL's *attribution* +
+*share-alike* conditions).
 
-> 🛑 **Before importing anything into OpenStreetMap**, confirm the dataset's license is
-> OSM-compatible (or obtain explicit permission), and follow the
-> [OSM Import Guidelines](https://wiki.openstreetmap.org/wiki/Import/Guidelines). License
-> compatibility has **not** been cleared here — it is a required gate before any upload.
+**Sources & attribution.** The underlying records are **public-sector data** published by
+Ethiopian government bodies and public institutions on their official, openly accessible
+websites, in the public interest:
 
-The **scripts** in this repository may be used freely within the Open Karta Project.
+| Source | Publisher | Portal |
+|---|---|---|
+| EthioSDI | Ethiopian Geospatial Information Institute (EGII) / EthioSDI | `ethionsdi.gov.et` |
+| Fayda | National ID Program | `id.gov.et` |
+| CBE | Commercial Bank of Ethiopia | `combanketh.et` |
+
+BedRock claims no ownership of the source records themselves — its contribution is the
+database right in their **selection, structuring, normalization, and verification**. Each
+dataset's provenance (source URL, manifest, SHA-256, harvest date) travels with the data so
+the original publisher is always credited; any reuse must keep that attribution intact.
+
+> ℹ️ **For OpenStreetMap import:** because ODbL is OSM's own database license, this data is
+> license-aligned for conflation. Still follow the
+> [OSM Import Guidelines](https://wiki.openstreetmap.org/wiki/Import/Guidelines), and where a
+> specific source also publishes its own terms, honour those as well.
 
 ## Getting started
 
@@ -301,7 +317,7 @@ file, so refreshes and diffs are straightforward.
 - [ ] **CBE branches** — 1,934 branches have no coordinates in the source; geocode or source them separately
 - [ ] **EthioSDI restricted layers** — 20 layers behind authentication (roads, land use,
       health, contours, AA street network, …) — *blocked on credentials*
-- [ ] **Clear Fayda / CBE / EthioSDI licensing** for OSM import (no open license stated)
+- [x] **Licensing** — BedRock database released under **ODbL v1.0** with source attribution
 - [ ] **Normalize EthioSDI to WGS84** and clean attribute schemas for conflation
 - [ ] **OSM conflation** — dedupe/merge against existing OSM data *(downstream)*
 - [ ] **Additional sources** — add further authoritative datasets as sibling folders

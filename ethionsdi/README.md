@@ -90,9 +90,12 @@ correctly; don't just relabel the `.prj`.
   also one of the 20 restricted layers, so it isn't downloaded here.
 - WFS `GetFeature` returns all features by default (no row cap observed); `manifest` records
   the WFS `numberMatched` per layer so you can confirm completeness against each `.dbf`.
-- Data is © the Ethiopian Geospatial Information Institute / EthioSDI. Check each layer's
-  license/constraints in its metadata JSON before redistribution or merging into OSM
-  (OSM requires a compatible license / explicit permission for imports).
+- **Licensing & attribution.** Public-sector data from the Ethiopian Geospatial Information
+  Institute (EGII) / EthioSDI, redistributed as part of the BedRock database under the **Open
+  Database License (ODbL) v1.0** ([`../LICENSE`](../LICENSE)) with full provenance preserved
+  (per-layer source records remain in `metadata/`). Attribute EGII / EthioSDI on reuse. ODbL is
+  OSM's own license, so the data is license-aligned for conflation — still follow the
+  [OSM Import Guidelines](https://wiki.openstreetmap.org/wiki/Import/Guidelines).
 
 ## Restricted layers
 

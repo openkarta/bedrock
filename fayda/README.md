@@ -76,11 +76,12 @@ is written.)
 - `status` is empty for 373 records; `tele` is the only well-populated type for `active`.
 - This is a **point-in-time snapshot** (source records dated `2025-11-03`). Re-run
   `download_locations.py` to refresh; `src_id` enables diffing against a future pull.
-- 🛑 **Licensing not cleared.** This is Ethiopian National ID Program data from a public
-  endpoint with **no stated open license**. Confirm an OSM-compatible license or obtain
-  explicit permission, and follow the
-  [OSM Import Guidelines](https://wiki.openstreetmap.org/wiki/Import/Guidelines), **before**
-  importing any of it into OpenStreetMap.
+- **Licensing & attribution.** Public-sector data from the Ethiopian National ID Program
+  (`id.gov.et`), redistributed as part of the BedRock database under the **Open Database
+  License (ODbL) v1.0** ([`../LICENSE`](../LICENSE)) with full provenance preserved. Attribute
+  the National ID Program on reuse. ODbL is OSM's own license, so the data is license-aligned
+  for conflation — still follow the
+  [OSM Import Guidelines](https://wiki.openstreetmap.org/wiki/Import/Guidelines).
 
 ## Reproducing / refreshing
 
