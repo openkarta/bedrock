@@ -1,0 +1,25 @@
+# Python (scripts are stdlib-only; these are runtime artifacts, not source)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local scratch / logs (never commit derived working files — see README "Conventions")
+*.log
+*.tmp
+.env
+
+# Normalized/derived outputs are regenerated from source via scripts; keep them out of source control
+/wgs84/

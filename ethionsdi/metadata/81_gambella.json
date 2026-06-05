@@ -1,0 +1,381 @@
+{
+  "doi": null,
+  "publisher": [],
+  "share_count": "0",
+  "has_elevation": false,
+  "alternate": "geonode:gambella",
+  "raw_constraints_other": "None",
+  "srid": "EPSG:4326",
+  "featured": false,
+  "download_url": null,
+  "metadata_only": false,
+  "title": "gambella",
+  "thumbnail_url": "https://ethionsdi.gov.et/uploaded/thumbs/dataset-05ba82ae-796c-4466-aa96-5120baf0c095-thumb-685a8ec7-2225-4559-9683-5faceb3ec86b.jpg",
+  "is_mosaic": false,
+  "has_time": false,
+  "processor": [],
+  "resource_type": "dataset",
+  "maintenance_frequency": null,
+  "supplemental_information": "No information provided",
+  "detail_url": "https://ethionsdi.gov.et/catalogue/#/dataset/81",
+  "time_regex": null,
+  "advertised": true,
+  "owner": {
+    "pk": 1005,
+    "username": "NSDI",
+    "first_name": "",
+    "last_name": "",
+    "avatar": "https://ethionsdi.gov.et/uploaded/avatars/1005/resized/240/240/ssgi.png",
+    "is_superuser": false,
+    "is_staff": true,
+    "email": "zergawefrem@gmail.com",
+    "link": "https://ethionsdi.gov.et/api/v2/users/1005"
+  },
+  "raw_purpose": "None",
+  "bbox_polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          33.494208,
+          6.390424
+        ],
+        [
+          33.494208,
+          8.451314
+        ],
+        [
+          35.186903,
+          8.451314
+        ],
+        [
+          35.186903,
+          6.390424
+        ],
+        [
+          33.494208,
+          6.390424
+        ]
+      ]
+    ]
+  },
+  "group": null,
+  "poc": [
+    {
+      "pk": 1005,
+      "username": "NSDI",
+      "first_name": "",
+      "last_name": "",
+      "avatar": "https://ethionsdi.gov.et/uploaded/avatars/1005/resized/240/240/ssgi.png",
+      "is_superuser": false,
+      "is_staff": true,
+      "email": "zergawefrem@gmail.com",
+      "link": "https://ethionsdi.gov.et/api/v2/users/1005"
+    }
+  ],
+  "last_updated": "2026-04-02T10:32:21.439341Z",
+  "featureinfo_custom_template": "<div style=\"overflow-x:hidden\"><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">fid:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['fid']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">x:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['x']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">y:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['y']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">seme:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['seme']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">zone1:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['zone1']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">waradaa2:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['waradaa2']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">qabalee3:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['qabalee3']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">yasuqe:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['yasuqe']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">yamagaa:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['yamagaa']}</div></div></div>",
+  "restriction_code_type": null,
+  "spatial_representation_type": null,
+  "extent": {
+    "coords": [
+      33.494208,
+      6.390424,
+      35.186903,
+      8.451314
+    ],
+    "srid": "EPSG:4326"
+  },
+  "resource_provider": [],
+  "category": null,
+  "constraints_other": null,
+  "raw_data_quality_statement": "None",
+  "default_style": {
+    "pk": 75,
+    "name": "gambella",
+    "workspace": "geonode",
+    "sld_title": "Red Square Point",
+    "sld_url": "https://ethionsdi.gov.et/geoserver/rest/workspaces/geonode/styles/gambella.sld"
+  },
+  "styles": [
+    {
+      "pk": 75,
+      "name": "gambella",
+      "workspace": "geonode",
+      "sld_title": "Red Square Point",
+      "sld_url": "https://ethionsdi.gov.et/geoserver/rest/workspaces/geonode/styles/gambella.sld"
+    }
+  ],
+  "temporal_extent_start": null,
+  "custodian": [],
+  "ptype": "gxp_wmscsource",
+  "data_quality_statement": null,
+  "workspace": "geonode",
+  "created": "2026-04-02T10:31:04.733539Z",
+  "edition": null,
+  "state": "PROCESSED",
+  "raw_supplemental_information": "No information provided",
+  "metadata_author": [
+    {
+      "pk": 1005,
+      "username": "NSDI",
+      "first_name": "",
+      "last_name": "",
+      "avatar": "https://ethionsdi.gov.et/uploaded/avatars/1005/resized/240/240/ssgi.png",
+      "is_superuser": false,
+      "is_staff": true,
+      "email": "zergawefrem@gmail.com",
+      "link": "https://ethionsdi.gov.et/api/v2/users/1005"
+    }
+  ],
+  "tkeywords": [],
+  "subtype": "vector",
+  "elevation_regex": null,
+  "date": "2026-04-02T10:31:04.677624Z",
+  "uuid": "05ba82ae-796c-4466-aa96-5120baf0c095",
+  "originator": [],
+  "name": "gambella",
+  "rating": "0",
+  "links": [
+    {
+      "extension": "zip",
+      "link_type": "data",
+      "name": "Zipped Shapefile",
+      "mime": "SHAPE-ZIP",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Agambella&outputFormat=SHAPE-ZIP&srs=EPSG%3A4326&format_options=charset%3AUTF-8"
+    },
+    {
+      "extension": "gml",
+      "link_type": "data",
+      "name": "GML 2.0",
+      "mime": "gml2",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Agambella&outputFormat=gml2&srs=EPSG%3A4326"
+    },
+    {
+      "extension": "gml",
+      "link_type": "data",
+      "name": "GML 3.1.1",
+      "mime": "text/xml; subtype=gml/3.1.1",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Agambella&outputFormat=text%2Fxml%3B+subtype%3Dgml%2F3.1.1&srs=EPSG%3A4326"
+    },
+    {
+      "extension": "csv",
+      "link_type": "data",
+      "name": "CSV",
+      "mime": "csv",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Agambella&outputFormat=csv&srs=EPSG%3A4326"
+    },
+    {
+      "extension": "excel",
+      "link_type": "data",
+      "name": "Excel",
+      "mime": "excel",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Agambella&outputFormat=excel&srs=EPSG%3A4326"
+    },
+    {
+      "extension": "json",
+      "link_type": "data",
+      "name": "GeoJSON",
+      "mime": "json",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Agambella&outputFormat=json&srs=EPSG%3A4326&srsName=EPSG%3A4326"
+    },
+    {
+      "extension": "png",
+      "link_type": "image",
+      "name": "Legend",
+      "mime": "image/png",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WMS&request=GetLegendGraphic&format=image/png&WIDTH=20&HEIGHT=20&LAYER=geonode:gambella&STYLE=gambella&version=1.3.0&sld_version=1.1.0&legend_options=fontAntiAliasing:true;fontSize:12;forceLabels:on"
+    },
+    {
+      "extension": "png",
+      "link_type": "image",
+      "name": "Thumbnail",
+      "mime": "image/png",
+      "url": "https://ethionsdi.gov.et/uploaded/thumbs/dataset-05ba82ae-796c-4466-aa96-5120baf0c095-thumb-685a8ec7-2225-4559-9683-5faceb3ec86b.jpg"
+    },
+    {
+      "extension": "dbf",
+      "link_type": "data",
+      "name": "Original",
+      "mime": "",
+      "url": "https://ethionsdi.gov.et/api/v2/assets/73/link",
+      "extras": {
+        "type": "asset",
+        "deletable": false,
+        "content": {
+          "title": "Original",
+          "description": "shp",
+          "type": "shp",
+          "download_url": "https://ethionsdi.gov.et/api/v2/assets/73/download"
+        }
+      }
+    },
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "Atom",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/catalogue/csw?request=GetRecordById&service=CSW&version=2.0.2&id=05ba82ae-796c-4466-aa96-5120baf0c095&outputschema=http%3A%2F%2Fwww.w3.org%2F2005%2FAtom&elementsetname=full"
+    },
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "DIF",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/catalogue/csw?request=GetRecordById&service=CSW&version=2.0.2&id=05ba82ae-796c-4466-aa96-5120baf0c095&outputschema=http%3A%2F%2Fgcmd.gsfc.nasa.gov%2FAboutus%2Fxml%2Fdif%2F&elementsetname=full"
+    },
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "Dublin Core",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/catalogue/csw?request=GetRecordById&service=CSW&version=2.0.2&id=05ba82ae-796c-4466-aa96-5120baf0c095&outputschema=http%3A%2F%2Fwww.opengis.net%2Fcat%2Fcsw%2F2.0.2&elementsetname=full"
+    },
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "ebRIM",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/catalogue/csw?request=GetRecordById&service=CSW&version=2.0.2&id=05ba82ae-796c-4466-aa96-5120baf0c095&outputschema=urn%3Aoasis%3Anames%3Atc%3Aebxml-regrep%3Axsd%3Arim%3A3.0&elementsetname=full"
+    },
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "FGDC",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/catalogue/csw?request=GetRecordById&service=CSW&version=2.0.2&id=05ba82ae-796c-4466-aa96-5120baf0c095&outputschema=http%3A%2F%2Fwww.opengis.net%2Fcat%2Fcsw%2Fcsdgm&elementsetname=full"
+    },
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "ISO",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/catalogue/csw?request=GetRecordById&service=CSW&version=2.0.2&id=05ba82ae-796c-4466-aa96-5120baf0c095&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&elementsetname=full"
+    },
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "ISO with XSL",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/showmetadata/xsl/81"
+    },
+    {
+      "extension": "jpg",
+      "link_type": "image",
+      "name": "JPEG",
+      "mime": "image/jpeg",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WMS&request=GetMap&layers=geonode%3Agambella&format=image%2Fjpeg&height=550&width=550&srs=EPSG%3A4326&bbox=33.4942080%2C6.3904240%2C35.1869030%2C8.4513140"
+    },
+    {
+      "extension": "pdf",
+      "link_type": "image",
+      "name": "PDF",
+      "mime": "application/pdf",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WMS&request=GetMap&layers=geonode%3Agambella&format=application%2Fpdf&height=550&width=550&srs=EPSG%3A4326&bbox=33.4942080%2C6.3904240%2C35.1869030%2C8.4513140"
+    },
+    {
+      "extension": "png",
+      "link_type": "image",
+      "name": "PNG",
+      "mime": "image/png",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WMS&request=GetMap&layers=geonode%3Agambella&format=image%2Fpng&height=550&width=550&srs=EPSG%3A4326&bbox=33.4942080%2C6.3904240%2C35.1869030%2C8.4513140"
+    },
+    {
+      "extension": "html",
+      "link_type": "html",
+      "name": "geonode:gambella",
+      "mime": "text/html",
+      "url": "https://ethionsdi.gov.et/catalogue/#/dataset/81"
+    },
+    {
+      "extension": "html",
+      "link_type": "OGC:WMS",
+      "name": "OGC WMS: geonode Service",
+      "mime": "text/html",
+      "url": "https://ethionsdi.gov.et/geoserver/ows"
+    },
+    {
+      "extension": "html",
+      "link_type": "OGC:WFS",
+      "name": "OGC WFS: geonode Service",
+      "mime": "text/html",
+      "url": "https://ethionsdi.gov.et/geoserver/ows"
+    }
+  ],
+  "distributor": [],
+  "embed_url": "https://ethionsdi.gov.et/datasets/geonode:gambella/embed",
+  "keywords": [
+    {
+      "name": "features",
+      "slug": "features"
+    },
+    {
+      "name": "gambella",
+      "slug": "gambella"
+    }
+  ],
+  "is_copyable": true,
+  "abstract": "No abstract provided",
+  "polymorphic_ctype_id": "55",
+  "is_approved": true,
+  "pk": "81",
+  "processed": true,
+  "link": "https://ethionsdi.gov.et/api/v2/datasets/81",
+  "popular_count": "0",
+  "date_type": "publication",
+  "attribution": null,
+  "ll_bbox_polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          33.494208,
+          6.390424
+        ],
+        [
+          33.494208,
+          8.451314
+        ],
+        [
+          35.186903,
+          8.451314
+        ],
+        [
+          35.186903,
+          6.390424
+        ],
+        [
+          33.494208,
+          6.390424
+        ]
+      ]
+    ]
+  },
+  "perms": [
+    "download_resourcebase",
+    "view_resourcebase"
+  ],
+  "metadata_uploaded_preserve": false,
+  "regions": [],
+  "store": "project_data",
+  "resource_user": [],
+  "favorite": false,
+  "principal_investigator": [],
+  "language": "eng",
+  "raw_abstract": "No abstract provided",
+  "purpose": null,
+  "sourcetype": "LOCAL",
+  "is_published": true,
+  "temporal_extent_end": null,
+  "charset": "UTF-8",
+  "license": {
+    "identifier": "not_specified"
+  },
+  "download_urls": [
+    {
+      "url": "https://ethionsdi.gov.et/api/v2/assets/73/download",
+      "ajax_safe": true,
+      "default": false
+    }
+  ]
+}

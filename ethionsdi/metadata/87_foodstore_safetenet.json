@@ -1,0 +1,381 @@
+{
+  "doi": null,
+  "publisher": [],
+  "share_count": "0",
+  "has_elevation": false,
+  "alternate": "geonode:foodstore_safetenet",
+  "raw_constraints_other": "None",
+  "srid": "EPSG:4326",
+  "featured": false,
+  "download_url": null,
+  "metadata_only": false,
+  "title": "foodstore_safetenet",
+  "thumbnail_url": "https://ethionsdi.gov.et/uploaded/thumbs/dataset-2d810c29-ded2-4924-8ac3-2e002acdfa43-thumb-bbbd86a3-1b01-4852-87b6-b4d7fba2dbbb.jpg",
+  "is_mosaic": false,
+  "has_time": false,
+  "processor": [],
+  "resource_type": "dataset",
+  "maintenance_frequency": null,
+  "supplemental_information": "No information provided",
+  "detail_url": "https://ethionsdi.gov.et/catalogue/#/dataset/87",
+  "time_regex": null,
+  "advertised": true,
+  "owner": {
+    "pk": 1005,
+    "username": "NSDI",
+    "first_name": "",
+    "last_name": "",
+    "avatar": "https://ethionsdi.gov.et/uploaded/avatars/1005/resized/240/240/ssgi.png",
+    "is_superuser": false,
+    "is_staff": true,
+    "email": "zergawefrem@gmail.com",
+    "link": "https://ethionsdi.gov.et/api/v2/users/1005"
+  },
+  "raw_purpose": "None",
+  "bbox_polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          38.66558515300005,
+          8.833217234000074
+        ],
+        [
+          38.66558515300005,
+          9.078990615000066
+        ],
+        [
+          38.896603191000054,
+          9.078990615000066
+        ],
+        [
+          38.896603191000054,
+          8.833217234000074
+        ],
+        [
+          38.66558515300005,
+          8.833217234000074
+        ]
+      ]
+    ]
+  },
+  "group": null,
+  "poc": [
+    {
+      "pk": 1005,
+      "username": "NSDI",
+      "first_name": "",
+      "last_name": "",
+      "avatar": "https://ethionsdi.gov.et/uploaded/avatars/1005/resized/240/240/ssgi.png",
+      "is_superuser": false,
+      "is_staff": true,
+      "email": "zergawefrem@gmail.com",
+      "link": "https://ethionsdi.gov.et/api/v2/users/1005"
+    }
+  ],
+  "last_updated": "2026-04-02T10:33:35.307637Z",
+  "featureinfo_custom_template": "<div style=\"overflow-x:hidden\"><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">fid:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['fid']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">objectid:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['objectid']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">sn:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['sn']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">subcity:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['subcity']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">woreda:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['woreda']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">ketena:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['ketena']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">block:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['block']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">foodstore:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['foodstore']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">no_lowinco:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['no_lowinco']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">uniqe_plac:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['uniqe_plac']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">house_no:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['house_no']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">x:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['x']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">y:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['y']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">no_of_stor:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['no_of_stor']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">remarks:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['remarks']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">type:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['type']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">priority:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['priority']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">area:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['area']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">id:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['id']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">orig_fid:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['orig_fid']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">wereda:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['wereda']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">block_no:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['block_no']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">block_code:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['block_code']}</div></div></div>",
+  "restriction_code_type": null,
+  "spatial_representation_type": null,
+  "extent": {
+    "coords": [
+      38.66558515300005,
+      8.833217234000074,
+      38.896603191000054,
+      9.078990615000066
+    ],
+    "srid": "EPSG:4326"
+  },
+  "resource_provider": [],
+  "category": null,
+  "constraints_other": null,
+  "raw_data_quality_statement": "None",
+  "default_style": {
+    "pk": 80,
+    "name": "foodstore_safetenet",
+    "workspace": "geonode",
+    "sld_title": "Red Square Point",
+    "sld_url": "https://ethionsdi.gov.et/geoserver/rest/workspaces/geonode/styles/foodstore_safetenet.sld"
+  },
+  "styles": [
+    {
+      "pk": 80,
+      "name": "foodstore_safetenet",
+      "workspace": "geonode",
+      "sld_title": "Red Square Point",
+      "sld_url": "https://ethionsdi.gov.et/geoserver/rest/workspaces/geonode/styles/foodstore_safetenet.sld"
+    }
+  ],
+  "temporal_extent_start": null,
+  "custodian": [],
+  "ptype": "gxp_wmscsource",
+  "data_quality_statement": null,
+  "workspace": "geonode",
+  "created": "2026-04-02T10:32:30.193547Z",
+  "edition": null,
+  "state": "PROCESSED",
+  "raw_supplemental_information": "No information provided",
+  "metadata_author": [
+    {
+      "pk": 1005,
+      "username": "NSDI",
+      "first_name": "",
+      "last_name": "",
+      "avatar": "https://ethionsdi.gov.et/uploaded/avatars/1005/resized/240/240/ssgi.png",
+      "is_superuser": false,
+      "is_staff": true,
+      "email": "zergawefrem@gmail.com",
+      "link": "https://ethionsdi.gov.et/api/v2/users/1005"
+    }
+  ],
+  "tkeywords": [],
+  "subtype": "vector",
+  "elevation_regex": null,
+  "date": "2026-04-02T10:32:30.088853Z",
+  "uuid": "2d810c29-ded2-4924-8ac3-2e002acdfa43",
+  "originator": [],
+  "name": "foodstore_safetenet",
+  "rating": "0",
+  "links": [
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "Atom",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/catalogue/csw?request=GetRecordById&service=CSW&version=2.0.2&id=2d810c29-ded2-4924-8ac3-2e002acdfa43&outputschema=http%3A%2F%2Fwww.w3.org%2F2005%2FAtom&elementsetname=full"
+    },
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "DIF",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/catalogue/csw?request=GetRecordById&service=CSW&version=2.0.2&id=2d810c29-ded2-4924-8ac3-2e002acdfa43&outputschema=http%3A%2F%2Fgcmd.gsfc.nasa.gov%2FAboutus%2Fxml%2Fdif%2F&elementsetname=full"
+    },
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "Dublin Core",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/catalogue/csw?request=GetRecordById&service=CSW&version=2.0.2&id=2d810c29-ded2-4924-8ac3-2e002acdfa43&outputschema=http%3A%2F%2Fwww.opengis.net%2Fcat%2Fcsw%2F2.0.2&elementsetname=full"
+    },
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "ebRIM",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/catalogue/csw?request=GetRecordById&service=CSW&version=2.0.2&id=2d810c29-ded2-4924-8ac3-2e002acdfa43&outputschema=urn%3Aoasis%3Anames%3Atc%3Aebxml-regrep%3Axsd%3Arim%3A3.0&elementsetname=full"
+    },
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "FGDC",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/catalogue/csw?request=GetRecordById&service=CSW&version=2.0.2&id=2d810c29-ded2-4924-8ac3-2e002acdfa43&outputschema=http%3A%2F%2Fwww.opengis.net%2Fcat%2Fcsw%2Fcsdgm&elementsetname=full"
+    },
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "ISO",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/catalogue/csw?request=GetRecordById&service=CSW&version=2.0.2&id=2d810c29-ded2-4924-8ac3-2e002acdfa43&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&elementsetname=full"
+    },
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "ISO with XSL",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/showmetadata/xsl/87"
+    },
+    {
+      "extension": "html",
+      "link_type": "OGC:WMS",
+      "name": "OGC WMS: geonode Service",
+      "mime": "text/html",
+      "url": "https://ethionsdi.gov.et/geoserver/ows"
+    },
+    {
+      "extension": "html",
+      "link_type": "OGC:WFS",
+      "name": "OGC WFS: geonode Service",
+      "mime": "text/html",
+      "url": "https://ethionsdi.gov.et/geoserver/ows"
+    },
+    {
+      "extension": "png",
+      "link_type": "image",
+      "name": "Legend",
+      "mime": "image/png",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WMS&request=GetLegendGraphic&format=image/png&WIDTH=20&HEIGHT=20&LAYER=geonode:foodstore_safetenet&STYLE=foodstore_safetenet&version=1.3.0&sld_version=1.1.0&legend_options=fontAntiAliasing:true;fontSize:12;forceLabels:on"
+    },
+    {
+      "extension": "jpg",
+      "link_type": "image",
+      "name": "JPEG",
+      "mime": "image/jpeg",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WMS&request=GetMap&layers=geonode%3Afoodstore_safetenet&format=image%2Fjpeg&height=550&width=550&srs=EPSG%3A4326&bbox=38.6655852%2C8.8332172%2C38.8966032%2C9.0789906"
+    },
+    {
+      "extension": "pdf",
+      "link_type": "image",
+      "name": "PDF",
+      "mime": "application/pdf",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WMS&request=GetMap&layers=geonode%3Afoodstore_safetenet&format=application%2Fpdf&height=550&width=550&srs=EPSG%3A4326&bbox=38.6655852%2C8.8332172%2C38.8966032%2C9.0789906"
+    },
+    {
+      "extension": "png",
+      "link_type": "image",
+      "name": "PNG",
+      "mime": "image/png",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WMS&request=GetMap&layers=geonode%3Afoodstore_safetenet&format=image%2Fpng&height=550&width=550&srs=EPSG%3A4326&bbox=38.6655852%2C8.8332172%2C38.8966032%2C9.0789906"
+    },
+    {
+      "extension": "zip",
+      "link_type": "data",
+      "name": "Zipped Shapefile",
+      "mime": "SHAPE-ZIP",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Afoodstore_safetenet&outputFormat=SHAPE-ZIP&srs=EPSG%3A4326&format_options=charset%3AUTF-8"
+    },
+    {
+      "extension": "gml",
+      "link_type": "data",
+      "name": "GML 2.0",
+      "mime": "gml2",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Afoodstore_safetenet&outputFormat=gml2&srs=EPSG%3A4326"
+    },
+    {
+      "extension": "gml",
+      "link_type": "data",
+      "name": "GML 3.1.1",
+      "mime": "text/xml; subtype=gml/3.1.1",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Afoodstore_safetenet&outputFormat=text%2Fxml%3B+subtype%3Dgml%2F3.1.1&srs=EPSG%3A4326"
+    },
+    {
+      "extension": "csv",
+      "link_type": "data",
+      "name": "CSV",
+      "mime": "csv",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Afoodstore_safetenet&outputFormat=csv&srs=EPSG%3A4326"
+    },
+    {
+      "extension": "excel",
+      "link_type": "data",
+      "name": "Excel",
+      "mime": "excel",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Afoodstore_safetenet&outputFormat=excel&srs=EPSG%3A4326"
+    },
+    {
+      "extension": "json",
+      "link_type": "data",
+      "name": "GeoJSON",
+      "mime": "json",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Afoodstore_safetenet&outputFormat=json&srs=EPSG%3A4326&srsName=EPSG%3A4326"
+    },
+    {
+      "extension": "html",
+      "link_type": "html",
+      "name": "geonode:foodstore_safetenet",
+      "mime": "text/html",
+      "url": "https://ethionsdi.gov.et/catalogue/#/dataset/87"
+    },
+    {
+      "extension": "png",
+      "link_type": "image",
+      "name": "Thumbnail",
+      "mime": "image/png",
+      "url": "https://ethionsdi.gov.et/uploaded/thumbs/dataset-2d810c29-ded2-4924-8ac3-2e002acdfa43-thumb-bbbd86a3-1b01-4852-87b6-b4d7fba2dbbb.jpg"
+    },
+    {
+      "extension": "shp",
+      "link_type": "data",
+      "name": "Original",
+      "mime": "",
+      "url": "https://ethionsdi.gov.et/api/v2/assets/78/link",
+      "extras": {
+        "type": "asset",
+        "deletable": false,
+        "content": {
+          "title": "Original",
+          "description": "shp",
+          "type": "shp",
+          "download_url": "https://ethionsdi.gov.et/api/v2/assets/78/download"
+        }
+      }
+    }
+  ],
+  "distributor": [],
+  "embed_url": "https://ethionsdi.gov.et/datasets/geonode:foodstore_safetenet/embed",
+  "keywords": [
+    {
+      "name": "features",
+      "slug": "features"
+    },
+    {
+      "name": "foodstore_safetenet",
+      "slug": "foodstore_safetenet"
+    }
+  ],
+  "is_copyable": true,
+  "abstract": "No abstract provided",
+  "polymorphic_ctype_id": "55",
+  "is_approved": true,
+  "pk": "87",
+  "processed": true,
+  "link": "https://ethionsdi.gov.et/api/v2/datasets/87",
+  "popular_count": "0",
+  "date_type": "publication",
+  "attribution": null,
+  "ll_bbox_polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          38.66558515300005,
+          8.833217234000074
+        ],
+        [
+          38.66558515300005,
+          9.078990615000066
+        ],
+        [
+          38.896603191000054,
+          9.078990615000066
+        ],
+        [
+          38.896603191000054,
+          8.833217234000074
+        ],
+        [
+          38.66558515300005,
+          8.833217234000074
+        ]
+      ]
+    ]
+  },
+  "perms": [
+    "download_resourcebase",
+    "view_resourcebase"
+  ],
+  "metadata_uploaded_preserve": false,
+  "regions": [],
+  "store": "project_data",
+  "resource_user": [],
+  "favorite": false,
+  "principal_investigator": [],
+  "language": "eng",
+  "raw_abstract": "No abstract provided",
+  "purpose": null,
+  "sourcetype": "LOCAL",
+  "is_published": true,
+  "temporal_extent_end": null,
+  "charset": "UTF-8",
+  "license": {
+    "identifier": "not_specified"
+  },
+  "download_urls": [
+    {
+      "url": "https://ethionsdi.gov.et/api/v2/assets/78/download",
+      "ajax_safe": true,
+      "default": false
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "pk": "12",
+    "title": "aa_hospital",
+    "alternate": "geonode:aa_hospital",
+    "srid": "EPSG:4326",
+    "abstract": "No abstract provided"
+  },
+  {
+    "pk": "13",
+    "title": "aa_subcity_boundary",
+    "alternate": "geonode:aa_subcity_boundary",
+    "srid": "EPSG:4326",
+    "abstract": "No abstract provided"
+  },
+  {
+    "pk": "127",
+    "title": "Addis Ababa Hospital",
+    "alternate": "geonode:aa_hospital_d63d61ebb3dac83de61860510dcd0bdf",
+    "srid": "EPSG:4326",
+    "abstract": "No abstract provided"
+  },
+  {
+    "pk": "128",
+    "title": "Addis Ababa Saftinate",
+    "alternate": "geonode:addis_ababa_saftinate_block_1_5264589c13abcbc71a5be8d438431758",
+    "srid": "EPSG:20137",
+    "abstract": "No abstract provided"
+  },
+  {
+    "pk": "132",
+    "title": "Addis Ababa street",
+    "alternate": "geonode:aa_streetnew_af9dd030509d11e7f1217f121ebc5a3d",
+    "srid": "EPSG:4326",
+    "abstract": "No abstract provided"
+  },
+  {
+    "pk": "131",
+    "title": "Addis Ababa waste Plates",
+    "alternate": "geonode:aa_wasteplates_loc",
+    "srid": "EPSG:4326",
+    "abstract": "No abstract provided"
+  },
+  {
+    "pk": "103",
+    "title": "all_12_18082016",
+    "alternate": "geonode:all_12_18082016",
+    "srid": "EPSG:20137",
+    "abstract": "No abstract provided"
+  },
+  {
+    "pk": "104",
+    "title": "all_health",
+    "alternate": "geonode:all_health",
+    "srid": "EPSG:4326",
+    "abstract": "No abstract provided"
+  },
+  {
+    "pk": "83",
+    "title": "arialphoto_coverag",
+    "alternate": "geonode:arialphoto_coverag",
+    "srid": "EPSG:20137",
+    "abstract": "No abstract provided"
+  },
+  {
+    "pk": "94",
+    "title": "bole_low_income_1",
+    "alternate": "geonode:bole_low_income_1",
+    "srid": "EPSG:20137",
+    "abstract": "No abstract provided"
+  },
+  {
+    "pk": "95",
+    "title": "bus_stop",
+    "alternate": "geonode:bus_stop",
+    "srid": "EPSG:4326",
+    "abstract": "No abstract provided"
+  },
+  {
+    "pk": "96",
+    "title": "contour1",
+    "alternate": "geonode:contour1",
+    "srid": "EPSG:4201",
+    "abstract": "No abstract provided"
+  },
+  {
+    "pk": "92",
+    "title": "ethio_road_era",
+    "alternate": "geonode:ethio_road_era",
+    "srid": "EPSG:4201",
+    "abstract": "No abstract provided"
+  },
+  {
+    "pk": "133",
+    "title": "Green Legacy Site",
+    "alternate": "geonode:ngls",
+    "srid": "EPSG:4326",
+    "abstract": "No abstract provided"
+  },
+  {
+    "pk": "64",
+    "title": "kolefe_merged_blocks",
+    "alternate": "geonode:kolefe_merged_blocks",
+    "srid": "EPSG:20137",
+    "abstract": "No abstract provided"
+  },
+  {
+    "pk": "50",
+    "title": "land_use",
+    "alternate": "geonode:land_use",
+    "srid": "EPSG:20137",
+    "abstract": "No abstract provided"
+  },
+  {
+    "pk": "46",
+    "title": "marketcenter_1",
+    "alternate": "geonode:marketcenter_1",
+    "srid": "EPSG:3857",
+    "abstract": "No abstract provided"
+  },
+  {
+    "pk": "72",
+    "title": "second_order_gcp",
+    "alternate": "geonode:second_order_gcp",
+    "srid": "EPSG:20137",
+    "abstract": "No abstract provided"
+  },
+  {
+    "pk": "38",
+    "title": "stores",
+    "alternate": "geonode:stores",
+    "srid": "EPSG:4326",
+    "abstract": "No abstract provided"
+  },
+  {
+    "pk": "60",
+    "title": "zero_order_gcp",
+    "alternate": "geonode:zero_order_gcp",
+    "srid": "EPSG:32637",
+    "abstract": "No abstract provided"
+  }
+]

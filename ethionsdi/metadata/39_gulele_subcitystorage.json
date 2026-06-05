@@ -1,0 +1,372 @@
+{
+  "doi": null,
+  "publisher": [],
+  "share_count": "0",
+  "has_elevation": false,
+  "alternate": "geonode:gulele_subcitystorage",
+  "raw_constraints_other": "None",
+  "srid": "EPSG:20137",
+  "featured": false,
+  "download_url": null,
+  "metadata_only": false,
+  "title": "gulele_subcitystorage",
+  "thumbnail_url": "https://ethionsdi.gov.et/uploaded/thumbs/dataset-dfb62513-fce2-4539-b232-cbe8a5877d37-thumb-dba1cafa-58a6-49ff-ad78-cb7ab251ae1e.jpg",
+  "is_mosaic": false,
+  "has_time": false,
+  "processor": [],
+  "resource_type": "dataset",
+  "maintenance_frequency": null,
+  "supplemental_information": "No information provided",
+  "detail_url": "https://ethionsdi.gov.et/catalogue/#/dataset/39",
+  "time_regex": null,
+  "advertised": true,
+  "owner": {
+    "pk": 1005,
+    "username": "NSDI",
+    "first_name": "",
+    "last_name": "",
+    "avatar": "https://ethionsdi.gov.et/uploaded/avatars/1005/resized/240/240/ssgi.png",
+    "is_superuser": false,
+    "is_staff": true,
+    "email": "zergawefrem@gmail.com",
+    "link": "https://ethionsdi.gov.et/api/v2/users/1005"
+  },
+  "raw_purpose": "None",
+  "bbox_polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          468364.073,
+          1000787.835
+        ],
+        [
+          468364.073,
+          1002480.0417
+        ],
+        [
+          477019.0,
+          1002480.0417
+        ],
+        [
+          477019.0,
+          1000787.835
+        ],
+        [
+          468364.073,
+          1000787.835
+        ]
+      ]
+    ]
+  },
+  "group": null,
+  "poc": [
+    {
+      "pk": 1005,
+      "username": "NSDI",
+      "first_name": "",
+      "last_name": "",
+      "avatar": "https://ethionsdi.gov.et/uploaded/avatars/1005/resized/240/240/ssgi.png",
+      "is_superuser": false,
+      "is_staff": true,
+      "email": "zergawefrem@gmail.com",
+      "link": "https://ethionsdi.gov.et/api/v2/users/1005"
+    }
+  ],
+  "last_updated": "2026-04-02T10:13:36.647357Z",
+  "featureinfo_custom_template": "<div style=\"overflow-x:hidden\"><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">fid:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['fid']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">id:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['id']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">sn:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['sn']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">subcity:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['subcity']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">woreda:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['woreda']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">block:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['block']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">uniqe_plac:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['uniqe_plac']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">house_no:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['house_no']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">no_of_room:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['no_of_room']}</div></div></div>",
+  "restriction_code_type": null,
+  "spatial_representation_type": null,
+  "extent": {
+    "coords": [
+      38.7129874719176,
+      9.05545156075265,
+      38.79175360591157,
+      9.0708108073932
+    ],
+    "srid": "EPSG:4326"
+  },
+  "resource_provider": [],
+  "category": null,
+  "constraints_other": null,
+  "raw_data_quality_statement": "None",
+  "default_style": {
+    "pk": 32,
+    "name": "gulele_subcitystorage",
+    "workspace": "geonode",
+    "sld_title": "Red Square Point",
+    "sld_url": "https://ethionsdi.gov.et/geoserver/rest/workspaces/geonode/styles/gulele_subcitystorage.sld"
+  },
+  "styles": [
+    {
+      "pk": 32,
+      "name": "gulele_subcitystorage",
+      "workspace": "geonode",
+      "sld_title": "Red Square Point",
+      "sld_url": "https://ethionsdi.gov.et/geoserver/rest/workspaces/geonode/styles/gulele_subcitystorage.sld"
+    }
+  ],
+  "temporal_extent_start": null,
+  "custodian": [],
+  "ptype": "gxp_wmscsource",
+  "data_quality_statement": null,
+  "workspace": "geonode",
+  "created": "2026-04-02T10:12:21.428773Z",
+  "edition": null,
+  "state": "PROCESSED",
+  "raw_supplemental_information": "No information provided",
+  "metadata_author": [
+    {
+      "pk": 1005,
+      "username": "NSDI",
+      "first_name": "",
+      "last_name": "",
+      "avatar": "https://ethionsdi.gov.et/uploaded/avatars/1005/resized/240/240/ssgi.png",
+      "is_superuser": false,
+      "is_staff": true,
+      "email": "zergawefrem@gmail.com",
+      "link": "https://ethionsdi.gov.et/api/v2/users/1005"
+    }
+  ],
+  "tkeywords": [],
+  "subtype": "vector",
+  "elevation_regex": null,
+  "date": "2026-04-02T10:12:21.412088Z",
+  "uuid": "dfb62513-fce2-4539-b232-cbe8a5877d37",
+  "originator": [],
+  "name": "gulele_subcitystorage",
+  "rating": "0",
+  "links": [
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "Atom",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/catalogue/csw?request=GetRecordById&service=CSW&version=2.0.2&id=dfb62513-fce2-4539-b232-cbe8a5877d37&outputschema=http%3A%2F%2Fwww.w3.org%2F2005%2FAtom&elementsetname=full"
+    },
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "DIF",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/catalogue/csw?request=GetRecordById&service=CSW&version=2.0.2&id=dfb62513-fce2-4539-b232-cbe8a5877d37&outputschema=http%3A%2F%2Fgcmd.gsfc.nasa.gov%2FAboutus%2Fxml%2Fdif%2F&elementsetname=full"
+    },
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "Dublin Core",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/catalogue/csw?request=GetRecordById&service=CSW&version=2.0.2&id=dfb62513-fce2-4539-b232-cbe8a5877d37&outputschema=http%3A%2F%2Fwww.opengis.net%2Fcat%2Fcsw%2F2.0.2&elementsetname=full"
+    },
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "ebRIM",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/catalogue/csw?request=GetRecordById&service=CSW&version=2.0.2&id=dfb62513-fce2-4539-b232-cbe8a5877d37&outputschema=urn%3Aoasis%3Anames%3Atc%3Aebxml-regrep%3Axsd%3Arim%3A3.0&elementsetname=full"
+    },
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "FGDC",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/catalogue/csw?request=GetRecordById&service=CSW&version=2.0.2&id=dfb62513-fce2-4539-b232-cbe8a5877d37&outputschema=http%3A%2F%2Fwww.opengis.net%2Fcat%2Fcsw%2Fcsdgm&elementsetname=full"
+    },
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "ISO",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/catalogue/csw?request=GetRecordById&service=CSW&version=2.0.2&id=dfb62513-fce2-4539-b232-cbe8a5877d37&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&elementsetname=full"
+    },
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "ISO with XSL",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/showmetadata/xsl/39"
+    },
+    {
+      "extension": "html",
+      "link_type": "OGC:WMS",
+      "name": "OGC WMS: geonode Service",
+      "mime": "text/html",
+      "url": "https://ethionsdi.gov.et/geoserver/ows"
+    },
+    {
+      "extension": "html",
+      "link_type": "OGC:WFS",
+      "name": "OGC WFS: geonode Service",
+      "mime": "text/html",
+      "url": "https://ethionsdi.gov.et/geoserver/ows"
+    },
+    {
+      "extension": "jpg",
+      "link_type": "image",
+      "name": "JPEG",
+      "mime": "image/jpeg",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WMS&request=GetMap&layers=geonode%3Agulele_subcitystorage&format=image%2Fjpeg&height=550&width=550&srs=EPSG%3A20137&bbox=468364.0730000%2C1000787.8350000%2C477019.0000000%2C1002480.0417000"
+    },
+    {
+      "extension": "pdf",
+      "link_type": "image",
+      "name": "PDF",
+      "mime": "application/pdf",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WMS&request=GetMap&layers=geonode%3Agulele_subcitystorage&format=application%2Fpdf&height=550&width=550&srs=EPSG%3A20137&bbox=468364.0730000%2C1000787.8350000%2C477019.0000000%2C1002480.0417000"
+    },
+    {
+      "extension": "png",
+      "link_type": "image",
+      "name": "PNG",
+      "mime": "image/png",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WMS&request=GetMap&layers=geonode%3Agulele_subcitystorage&format=image%2Fpng&height=550&width=550&srs=EPSG%3A20137&bbox=468364.0730000%2C1000787.8350000%2C477019.0000000%2C1002480.0417000"
+    },
+    {
+      "extension": "zip",
+      "link_type": "data",
+      "name": "Zipped Shapefile",
+      "mime": "SHAPE-ZIP",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Agulele_subcitystorage&outputFormat=SHAPE-ZIP&srs=EPSG%3A20137&format_options=charset%3AUTF-8"
+    },
+    {
+      "extension": "gml",
+      "link_type": "data",
+      "name": "GML 2.0",
+      "mime": "gml2",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Agulele_subcitystorage&outputFormat=gml2&srs=EPSG%3A20137"
+    },
+    {
+      "extension": "gml",
+      "link_type": "data",
+      "name": "GML 3.1.1",
+      "mime": "text/xml; subtype=gml/3.1.1",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Agulele_subcitystorage&outputFormat=text%2Fxml%3B+subtype%3Dgml%2F3.1.1&srs=EPSG%3A20137"
+    },
+    {
+      "extension": "csv",
+      "link_type": "data",
+      "name": "CSV",
+      "mime": "csv",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Agulele_subcitystorage&outputFormat=csv&srs=EPSG%3A20137"
+    },
+    {
+      "extension": "excel",
+      "link_type": "data",
+      "name": "Excel",
+      "mime": "excel",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Agulele_subcitystorage&outputFormat=excel&srs=EPSG%3A20137"
+    },
+    {
+      "extension": "json",
+      "link_type": "data",
+      "name": "GeoJSON",
+      "mime": "json",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Agulele_subcitystorage&outputFormat=json&srs=EPSG%3A20137&srsName=EPSG%3A20137"
+    },
+    {
+      "extension": "html",
+      "link_type": "html",
+      "name": "geonode:gulele_subcitystorage",
+      "mime": "text/html",
+      "url": "https://ethionsdi.gov.et/catalogue/#/dataset/39"
+    },
+    {
+      "extension": "png",
+      "link_type": "image",
+      "name": "Legend",
+      "mime": "image/png",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WMS&request=GetLegendGraphic&format=image/png&WIDTH=20&HEIGHT=20&LAYER=geonode:gulele_subcitystorage&STYLE=gulele_subcitystorage&version=1.3.0&sld_version=1.1.0&legend_options=fontAntiAliasing:true;fontSize:12;forceLabels:on"
+    },
+    {
+      "extension": "png",
+      "link_type": "image",
+      "name": "Thumbnail",
+      "mime": "image/png",
+      "url": "https://ethionsdi.gov.et/uploaded/thumbs/dataset-dfb62513-fce2-4539-b232-cbe8a5877d37-thumb-dba1cafa-58a6-49ff-ad78-cb7ab251ae1e.jpg"
+    },
+    {
+      "extension": "shp",
+      "link_type": "data",
+      "name": "Original",
+      "mime": "",
+      "url": "https://ethionsdi.gov.et/api/v2/assets/31/link",
+      "extras": {
+        "type": "asset",
+        "deletable": false,
+        "content": {
+          "title": "Original",
+          "description": "shp",
+          "type": "shp",
+          "download_url": "https://ethionsdi.gov.et/api/v2/assets/31/download"
+        }
+      }
+    }
+  ],
+  "distributor": [],
+  "embed_url": "https://ethionsdi.gov.et/datasets/geonode:gulele_subcitystorage/embed",
+  "keywords": [],
+  "is_copyable": true,
+  "abstract": "No abstract provided",
+  "polymorphic_ctype_id": "55",
+  "is_approved": true,
+  "pk": "39",
+  "processed": true,
+  "link": "https://ethionsdi.gov.et/api/v2/datasets/39",
+  "popular_count": "0",
+  "date_type": "publication",
+  "attribution": null,
+  "ll_bbox_polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          38.7129874719176,
+          9.05545156075265
+        ],
+        [
+          38.7129874719176,
+          9.0708108073932
+        ],
+        [
+          38.79175360591157,
+          9.0708108073932
+        ],
+        [
+          38.79175360591157,
+          9.05545156075265
+        ],
+        [
+          38.7129874719176,
+          9.05545156075265
+        ]
+      ]
+    ]
+  },
+  "perms": [
+    "download_resourcebase",
+    "view_resourcebase"
+  ],
+  "metadata_uploaded_preserve": false,
+  "regions": [],
+  "store": "project_data",
+  "resource_user": [],
+  "favorite": false,
+  "principal_investigator": [],
+  "language": "eng",
+  "raw_abstract": "No abstract provided",
+  "purpose": null,
+  "sourcetype": "LOCAL",
+  "is_published": true,
+  "temporal_extent_end": null,
+  "charset": "UTF-8",
+  "license": {
+    "identifier": "not_specified"
+  },
+  "download_urls": [
+    {
+      "url": "https://ethionsdi.gov.et/api/v2/assets/31/download",
+      "ajax_safe": true,
+      "default": false
+    }
+  ]
+}

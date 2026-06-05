@@ -1,0 +1,381 @@
+{
+  "doi": null,
+  "publisher": [],
+  "share_count": "0",
+  "has_elevation": false,
+  "alternate": "geonode:eth_adm0",
+  "raw_constraints_other": "None",
+  "srid": "EPSG:4326",
+  "featured": false,
+  "download_url": null,
+  "metadata_only": false,
+  "title": "eth_adm0",
+  "thumbnail_url": "https://ethionsdi.gov.et/uploaded/thumbs/dataset-afd65f05-24e8-4ca7-bdff-ce2e691ec676-thumb-83b5bf2a-ec19-4ed7-9de9-fc8e9f34e5f2.jpg",
+  "is_mosaic": false,
+  "has_time": false,
+  "processor": [],
+  "resource_type": "dataset",
+  "maintenance_frequency": null,
+  "supplemental_information": "No information provided",
+  "detail_url": "https://ethionsdi.gov.et/catalogue/#/dataset/5",
+  "time_regex": null,
+  "advertised": true,
+  "owner": {
+    "pk": 1005,
+    "username": "NSDI",
+    "first_name": "",
+    "last_name": "",
+    "avatar": "https://ethionsdi.gov.et/uploaded/avatars/1005/resized/240/240/ssgi.png",
+    "is_superuser": false,
+    "is_staff": true,
+    "email": "zergawefrem@gmail.com",
+    "link": "https://ethionsdi.gov.et/api/v2/users/1005"
+  },
+  "raw_purpose": "None",
+  "bbox_polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          32.99993896484375,
+          3.322098970413435
+        ],
+        [
+          32.99993896484375,
+          14.899957656860295
+        ],
+        [
+          47.986179351806754,
+          14.899957656860295
+        ],
+        [
+          47.986179351806754,
+          3.322098970413435
+        ],
+        [
+          32.99993896484375,
+          3.322098970413435
+        ]
+      ]
+    ]
+  },
+  "group": null,
+  "poc": [
+    {
+      "pk": 1005,
+      "username": "NSDI",
+      "first_name": "",
+      "last_name": "",
+      "avatar": "https://ethionsdi.gov.et/uploaded/avatars/1005/resized/240/240/ssgi.png",
+      "is_superuser": false,
+      "is_staff": true,
+      "email": "zergawefrem@gmail.com",
+      "link": "https://ethionsdi.gov.et/api/v2/users/1005"
+    }
+  ],
+  "last_updated": "2026-03-31T10:01:16.830344Z",
+  "featureinfo_custom_template": "<div style=\"overflow-x:hidden\"><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">fid:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['fid']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">id_0:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['id_0']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">iso:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['iso']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">name_0:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['name_0']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">objectid_1:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['objectid_1']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">iso3:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['iso3']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">name_engli:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['name_engli']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">name_iso:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['name_iso']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">name_fao:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['name_fao']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">name_local:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['name_local']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">name_obsol:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['name_obsol']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">name_varia:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['name_varia']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">name_nonla:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['name_nonla']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">name_frenc:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['name_frenc']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">name_spani:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['name_spani']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">name_russi:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['name_russi']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">name_arabi:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['name_arabi']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">name_chine:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['name_chine']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">waspartof:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['waspartof']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">contains:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['contains']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">sovereign:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['sovereign']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">iso2:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['iso2']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">www:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['www']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">fips:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['fips']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">ison:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['ison']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">validfr:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['validfr']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">validto:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['validto']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">pop2000:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['pop2000']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">sqkm:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['sqkm']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">popsqkm:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['popsqkm']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">unregion1:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['unregion1']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">unregion2:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['unregion2']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">developing:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['developing']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">cis:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['cis']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">transition:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['transition']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">oecd:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['oecd']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">wbregion:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['wbregion']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">wbincome:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['wbincome']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">wbdebt:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['wbdebt']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">wbother:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['wbother']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">ceeac:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['ceeac']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">cemac:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['cemac']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">ceplg:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['ceplg']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">comesa:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['comesa']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">eac:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['eac']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">ecowas:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['ecowas']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">igad:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['igad']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">ioc:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['ioc']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">mru:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['mru']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">sacu:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['sacu']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">uemoa:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['uemoa']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">uma:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['uma']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">palop:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['palop']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">parta:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['parta']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">cacm:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['cacm']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">eurasec:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['eurasec']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">agadir:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['agadir']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">saarc:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['saarc']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">asean:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['asean']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">nafta:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['nafta']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">gcc:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['gcc']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">csn:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['csn']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">caricom:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['caricom']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">eu:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['eu']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">can:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['can']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">acp:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['acp']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">landlocked:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['landlocked']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">aosis:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['aosis']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">sids:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['sids']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">islands:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['islands']}</div></div><div class=\"row\"><div class=\"col-xs-6\" style=\"font-weight: bold; word-wrap: break-word;\">ldc:</div>                             <div class=\"col-xs-6\" style=\"word-wrap: break-word;\">${properties['ldc']}</div></div></div>",
+  "restriction_code_type": null,
+  "spatial_representation_type": null,
+  "extent": {
+    "coords": [
+      32.99993896484375,
+      3.322098970413435,
+      47.986179351806754,
+      14.899957656860295
+    ],
+    "srid": "EPSG:4326"
+  },
+  "resource_provider": [],
+  "category": null,
+  "constraints_other": null,
+  "raw_data_quality_statement": "None",
+  "default_style": {
+    "pk": 2,
+    "name": "eth_adm0",
+    "workspace": "geonode",
+    "sld_title": "Default Polygon",
+    "sld_url": "https://ethionsdi.gov.et/geoserver/rest/workspaces/geonode/styles/eth_adm0.sld"
+  },
+  "styles": [
+    {
+      "pk": 2,
+      "name": "eth_adm0",
+      "workspace": "geonode",
+      "sld_title": "Default Polygon",
+      "sld_url": "https://ethionsdi.gov.et/geoserver/rest/workspaces/geonode/styles/eth_adm0.sld"
+    }
+  ],
+  "temporal_extent_start": null,
+  "custodian": [],
+  "ptype": "gxp_wmscsource",
+  "data_quality_statement": null,
+  "workspace": "geonode",
+  "created": "2026-03-30T08:03:54.056182Z",
+  "edition": null,
+  "state": "PROCESSED",
+  "raw_supplemental_information": "No information provided",
+  "metadata_author": [
+    {
+      "pk": 1005,
+      "username": "NSDI",
+      "first_name": "",
+      "last_name": "",
+      "avatar": "https://ethionsdi.gov.et/uploaded/avatars/1005/resized/240/240/ssgi.png",
+      "is_superuser": false,
+      "is_staff": true,
+      "email": "zergawefrem@gmail.com",
+      "link": "https://ethionsdi.gov.et/api/v2/users/1005"
+    }
+  ],
+  "tkeywords": [],
+  "subtype": "vector",
+  "elevation_regex": null,
+  "date": "2026-03-30T08:03:54.041167Z",
+  "uuid": "afd65f05-24e8-4ca7-bdff-ce2e691ec676",
+  "originator": [],
+  "name": "eth_adm0",
+  "rating": "0",
+  "links": [
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "Atom",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/catalogue/csw?request=GetRecordById&service=CSW&version=2.0.2&id=afd65f05-24e8-4ca7-bdff-ce2e691ec676&outputschema=http%3A%2F%2Fwww.w3.org%2F2005%2FAtom&elementsetname=full"
+    },
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "DIF",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/catalogue/csw?request=GetRecordById&service=CSW&version=2.0.2&id=afd65f05-24e8-4ca7-bdff-ce2e691ec676&outputschema=http%3A%2F%2Fgcmd.gsfc.nasa.gov%2FAboutus%2Fxml%2Fdif%2F&elementsetname=full"
+    },
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "Dublin Core",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/catalogue/csw?request=GetRecordById&service=CSW&version=2.0.2&id=afd65f05-24e8-4ca7-bdff-ce2e691ec676&outputschema=http%3A%2F%2Fwww.opengis.net%2Fcat%2Fcsw%2F2.0.2&elementsetname=full"
+    },
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "ebRIM",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/catalogue/csw?request=GetRecordById&service=CSW&version=2.0.2&id=afd65f05-24e8-4ca7-bdff-ce2e691ec676&outputschema=urn%3Aoasis%3Anames%3Atc%3Aebxml-regrep%3Axsd%3Arim%3A3.0&elementsetname=full"
+    },
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "FGDC",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/catalogue/csw?request=GetRecordById&service=CSW&version=2.0.2&id=afd65f05-24e8-4ca7-bdff-ce2e691ec676&outputschema=http%3A%2F%2Fwww.opengis.net%2Fcat%2Fcsw%2Fcsdgm&elementsetname=full"
+    },
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "ISO",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/catalogue/csw?request=GetRecordById&service=CSW&version=2.0.2&id=afd65f05-24e8-4ca7-bdff-ce2e691ec676&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&elementsetname=full"
+    },
+    {
+      "extension": "xml",
+      "link_type": "metadata",
+      "name": "ISO with XSL",
+      "mime": "text/xml",
+      "url": "https://ethionsdi.gov.et/showmetadata/xsl/5"
+    },
+    {
+      "extension": "jpg",
+      "link_type": "image",
+      "name": "JPEG",
+      "mime": "image/jpeg",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WMS&request=GetMap&layers=geonode%3Aeth_adm0&format=image%2Fjpeg&height=550&width=550&srs=EPSG%3A4326&bbox=32.9999390%2C3.3220990%2C47.9861794%2C14.8999577"
+    },
+    {
+      "extension": "pdf",
+      "link_type": "image",
+      "name": "PDF",
+      "mime": "application/pdf",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WMS&request=GetMap&layers=geonode%3Aeth_adm0&format=application%2Fpdf&height=550&width=550&srs=EPSG%3A4326&bbox=32.9999390%2C3.3220990%2C47.9861794%2C14.8999577"
+    },
+    {
+      "extension": "html",
+      "link_type": "OGC:WMS",
+      "name": "OGC WMS: geonode Service",
+      "mime": "text/html",
+      "url": "https://ethionsdi.gov.et/geoserver/ows"
+    },
+    {
+      "extension": "html",
+      "link_type": "OGC:WFS",
+      "name": "OGC WFS: geonode Service",
+      "mime": "text/html",
+      "url": "https://ethionsdi.gov.et/geoserver/ows"
+    },
+    {
+      "extension": "shx",
+      "link_type": "data",
+      "name": "Original",
+      "mime": "",
+      "url": "https://ethionsdi.gov.et/api/v2/assets/2/link",
+      "extras": {
+        "type": "asset",
+        "deletable": false,
+        "content": {
+          "title": "Original",
+          "description": "shp",
+          "type": "shp",
+          "download_url": "https://ethionsdi.gov.et/api/v2/assets/2/download"
+        }
+      }
+    },
+    {
+      "extension": "png",
+      "link_type": "image",
+      "name": "PNG",
+      "mime": "image/png",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WMS&request=GetMap&layers=geonode%3Aeth_adm0&format=image%2Fpng&height=550&width=550&srs=EPSG%3A4326&bbox=32.9999390%2C3.3220990%2C47.9861794%2C14.8999577"
+    },
+    {
+      "extension": "zip",
+      "link_type": "data",
+      "name": "Zipped Shapefile",
+      "mime": "SHAPE-ZIP",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Aeth_adm0&outputFormat=SHAPE-ZIP&srs=EPSG%3A4326&format_options=charset%3AUTF-8"
+    },
+    {
+      "extension": "gml",
+      "link_type": "data",
+      "name": "GML 2.0",
+      "mime": "gml2",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Aeth_adm0&outputFormat=gml2&srs=EPSG%3A4326"
+    },
+    {
+      "extension": "html",
+      "link_type": "html",
+      "name": "geonode:eth_adm0",
+      "mime": "text/html",
+      "url": "https://ethionsdi.gov.et/catalogue/#/dataset/5"
+    },
+    {
+      "extension": "gml",
+      "link_type": "data",
+      "name": "GML 3.1.1",
+      "mime": "text/xml; subtype=gml/3.1.1",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Aeth_adm0&outputFormat=text%2Fxml%3B+subtype%3Dgml%2F3.1.1&srs=EPSG%3A4326"
+    },
+    {
+      "extension": "csv",
+      "link_type": "data",
+      "name": "CSV",
+      "mime": "csv",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Aeth_adm0&outputFormat=csv&srs=EPSG%3A4326"
+    },
+    {
+      "extension": "excel",
+      "link_type": "data",
+      "name": "Excel",
+      "mime": "excel",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Aeth_adm0&outputFormat=excel&srs=EPSG%3A4326"
+    },
+    {
+      "extension": "json",
+      "link_type": "data",
+      "name": "GeoJSON",
+      "mime": "json",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typename=geonode%3Aeth_adm0&outputFormat=json&srs=EPSG%3A4326&srsName=EPSG%3A4326"
+    },
+    {
+      "extension": "png",
+      "link_type": "image",
+      "name": "Legend",
+      "mime": "image/png",
+      "url": "https://ethionsdi.gov.et/geoserver/ows?service=WMS&request=GetLegendGraphic&format=image/png&WIDTH=20&HEIGHT=20&LAYER=geonode:eth_adm0&STYLE=eth_adm0&version=1.3.0&sld_version=1.1.0&legend_options=fontAntiAliasing:true;fontSize:12;forceLabels:on"
+    },
+    {
+      "extension": "png",
+      "link_type": "image",
+      "name": "Thumbnail",
+      "mime": "image/png",
+      "url": "https://ethionsdi.gov.et/uploaded/thumbs/dataset-afd65f05-24e8-4ca7-bdff-ce2e691ec676-thumb-83b5bf2a-ec19-4ed7-9de9-fc8e9f34e5f2.jpg"
+    }
+  ],
+  "distributor": [],
+  "embed_url": "https://ethionsdi.gov.et/datasets/geonode:eth_adm0/embed",
+  "keywords": [
+    {
+      "name": "features",
+      "slug": "features"
+    },
+    {
+      "name": "eth_adm0",
+      "slug": "eth_adm0"
+    }
+  ],
+  "is_copyable": true,
+  "abstract": "No abstract provided",
+  "polymorphic_ctype_id": "55",
+  "is_approved": true,
+  "pk": "5",
+  "processed": true,
+  "link": "https://ethionsdi.gov.et/api/v2/datasets/5",
+  "popular_count": "1",
+  "date_type": "publication",
+  "attribution": null,
+  "ll_bbox_polygon": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          32.99993896484375,
+          3.322098970413435
+        ],
+        [
+          32.99993896484375,
+          14.899957656860295
+        ],
+        [
+          47.986179351806754,
+          14.899957656860295
+        ],
+        [
+          47.986179351806754,
+          3.322098970413435
+        ],
+        [
+          32.99993896484375,
+          3.322098970413435
+        ]
+      ]
+    ]
+  },
+  "perms": [
+    "download_resourcebase",
+    "view_resourcebase"
+  ],
+  "metadata_uploaded_preserve": false,
+  "regions": [],
+  "store": "project_data",
+  "resource_user": [],
+  "favorite": false,
+  "principal_investigator": [],
+  "language": "eng",
+  "raw_abstract": "No abstract provided",
+  "purpose": null,
+  "sourcetype": "LOCAL",
+  "is_published": true,
+  "temporal_extent_end": null,
+  "charset": "UTF-8",
+  "license": {
+    "identifier": "not_specified"
+  },
+  "download_urls": [
+    {
+      "url": "https://ethionsdi.gov.et/api/v2/assets/2/download",
+      "ajax_safe": true,
+      "default": false
+    }
+  ]
+}
