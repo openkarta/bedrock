@@ -18,6 +18,7 @@
 - [Repository structure](#repository-structure)
 - [Data sources](#data-sources)
   - [1. EthioSDI — Ethiopian Spatial Data Infrastructure](#1-ethiosdi--ethiopian-spatial-data-infrastructure)
+  - [2. Fayda — National ID registration centers](#2-fayda--national-id-registration-centers)
 - [The BedRock pipeline](#the-bedrock-pipeline)
 - [Coordinate reference systems](#coordinate-reference-systems)
 - [Licensing & attribution](#licensing--attribution)
@@ -71,22 +72,31 @@ dependable foundation for downstream mapping.
 ```
 bedrock/
 ├── README.md                  ← you are here (repo overview)
-└── ethionsdi/                 ← Data source #1: Ethiopian SDI vector harvest
+├── ethionsdi/                 ← Data source #1: Ethiopian SDI vector harvest
+│   ├── README.md              ← source-specific documentation
+│   ├── shapefiles/            ← 69 zipped shapefiles (.shp/.shx/.dbf/.prj), 26 MB
+│   ├── metadata/              ← per-layer GeoNode metadata (JSON)
+│   ├── manifest.json / .csv   ← index: layer, file, feature count, CRS, SHA-256, status
+│   ├── verification.csv       ← post-download integrity check (geometry, counts, EPSG)
+│   ├── metadata_full_catalog.json   ← full source catalog dump (vector + raster)
+│   ├── restricted_layers.json       ← layers that need authentication (see source README)
+│   ├── wfs_downloadable_layers.txt  ← authoritative list of publicly served layers
+│   ├── download_shapefiles.py ← fetch script (re-runnable, resumable)
+│   └── verify_shapefiles.py   ← verification script (ogr-based)
+└── fayda/                     ← Data source #2: Fayda National ID registration centers
     ├── README.md              ← source-specific documentation
-    ├── shapefiles/            ← 69 zipped shapefiles (.shp/.shx/.dbf/.prj), 26 MB
-    ├── metadata/              ← per-layer GeoNode metadata (JSON)
-    ├── manifest.json / .csv   ← index: layer, file, feature count, CRS, SHA-256, status
-    ├── verification.csv       ← post-download integrity check (geometry, counts, EPSG)
-    ├── metadata_full_catalog.json   ← full source catalog dump (vector + raster)
-    ├── restricted_layers.json       ← layers that need authentication (see source README)
-    ├── wfs_downloadable_layers.txt  ← authoritative list of publicly served layers
-    ├── download_shapefiles.py ← fetch script (re-runnable, resumable)
-    └── verify_shapefiles.py   ← verification script (ogr-based)
+    ├── geojson/               ← one EPSG:4326 GeoJSON per location_type (2,251 POIs)
+    ├── locations_raw.json     ← immutable raw API response (provenance)
+    ├── manifest.json / .csv   ← index: type, file, feature count, bbox, SHA-256
+    ├── verification.csv       ← integrity check (geometry, counts, CRS, in-bbox)
+    ├── download_locations.py  ← fetch script (re-runnable)
+    └── verify_locations.py    ← verification script (ogr-based)
 ```
 
-Each **data source gets its own top-level subdirectory** following the same internal layout
-(`shapefiles/`, `metadata/`, `manifest.*`, fetch + verify scripts, a source `README.md`).
-Add new sources as sibling folders to `ethionsdi/`.
+Each **data source gets its own top-level subdirectory** with the same internal layout
+(a vector-data folder, `manifest.*`, fetch + verify scripts, a source `README.md`). The exact
+output format follows the source — zipped `shapefiles/` for EthioSDI, `geojson/` for Fayda.
+Add new sources as sibling folders.
 
 ## Data sources
 
@@ -121,6 +131,34 @@ serializer-crashing record, and the 20 WFS-hidden layers).
 > roads, land use, hospitals, bus stops, contours, the Addis Ababa street network, market
 > centres) — are gated behind an EthioSDI login and could not be fetched anonymously.
 > Obtaining them requires credentials; see the source README.
+
+### 2. Fayda — National ID registration centers
+
+> **Source:** https://id.gov.et/locations ("Fayda Near Me" locator) · **Harvested:** 2026-06-05 ·
+> **Full docs:** [`fayda/README.md`](fayda/README.md)
+
+Every **Fayda Digital ID (National ID) registration/enrolment center** in Ethiopia, harvested
+from the locator's JSON API (`GET /api/proxy/get/locations`) and split into one **EPSG:4326
+GeoJSON** per `location_type`.
+
+| Metric | Value |
+|---|---|
+| POIs downloaded | **2,251** |
+| Geometry | 100% point · all `EPSG:4326` (no datum shift) |
+| Types | tele 1,860 · mor 134 · crrsa 107 · post office 91 · bank 44 · dars 14 · palace parking 1 |
+| Integrity | 100% — every layer's count matches the raw source; all points inside Ethiopia's bbox; 0 flagged |
+| Attributes | name, type, status, `gmaps_url`, source id, created/updated |
+
+**Highlights** (most useful for OSM conflation): a large set of named **Ethio telecom**
+centers, plus **post offices**, **bank branches**, **tax (MoR) offices**, and civil-registration
+(**CRRSA/DARS**) sites — each a named point with WGS84 coordinates.
+
+**Method:** a single anonymous **JSON API** call (no auth, no pagination), converted to
+per-type GeoJSON `FeatureCollection`s. The source `address` field is a **Google Maps link**,
+not a postal address (kept as `gmaps_url`); the authoritative location is the point geometry.
+
+> 🛑 **Open item:** this is National ID Program data with **no stated open license** — license
+> compatibility must be cleared (or permission obtained) before any OSM import. See the source README.
 
 ## The BedRock pipeline
 
@@ -221,8 +259,10 @@ file, so refreshes and diffs are straightforward.
 ## Status & roadmap
 
 - [x] **EthioSDI** — 69/85 public vector layers acquired & verified
+- [x] **Fayda** — 2,251 National ID registration-center POIs acquired & verified (EPSG:4326)
 - [ ] **EthioSDI restricted layers** — 20 layers behind authentication (roads, land use,
       health, contours, AA street network, …) — *blocked on credentials*
+- [ ] **Clear Fayda / EthioSDI licensing** for OSM import (no open license stated)
 - [ ] **Normalize EthioSDI to WGS84** and clean attribute schemas for conflation
 - [ ] **OSM conflation** — dedupe/merge against existing OSM data *(downstream)*
 - [ ] **Additional sources** — add further authoritative datasets as sibling folders
