@@ -75,44 +75,54 @@ dependable foundation for downstream mapping.
 bedrock/
 ├── README.md                      ← you are here (repo overview)
 ├── LICENSE                        ← Open Database License (ODbL) v1.0
-└── sources/                       ← every data source lives here (one folder each)
-    ├── ethionsdi/                 ← Data source #1: Ethiopian SDI vector harvest
-    │   ├── README.md              ← source-specific documentation
-    │   ├── shapefiles/            ← 69 zipped shapefiles (.shp/.shx/.dbf/.prj), 26 MB
-    │   ├── metadata/              ← per-layer GeoNode metadata (JSON)
-    │   ├── manifest.json / .csv   ← index: layer, file, feature count, CRS, SHA-256, status
-    │   ├── verification.csv       ← post-download integrity check (geometry, counts, EPSG)
-    │   ├── metadata_full_catalog.json   ← full source catalog dump (vector + raster)
-    │   ├── restricted_layers.json       ← layers that need authentication (see source README)
-    │   ├── wfs_downloadable_layers.txt  ← authoritative list of publicly served layers
-    │   ├── download_shapefiles.py ← fetch script (re-runnable, resumable)
-    │   └── verify_shapefiles.py   ← verification script (ogr-based)
-    ├── fayda/                     ← Data source #2: Fayda National ID registration centers
-    │   ├── README.md              ← source-specific documentation
-    │   ├── geojson/               ← one EPSG:4326 GeoJSON per location_type (2,251 POIs)
-    │   ├── locations_raw.json     ← immutable raw API response (provenance)
-    │   ├── manifest.json / .csv   ← index: type, file, feature count, bbox, SHA-256
-    │   ├── verification.csv       ← integrity check (geometry, counts, CRS, in-bbox)
-    │   ├── download_locations.py  ← fetch script (re-runnable)
-    │   └── verify_locations.py    ← verification script (ogr-based)
-    ├── cbebank/                   ← Data source #3: Commercial Bank of Ethiopia ATMs
-    │   ├── README.md              ← source-specific documentation
-    │   ├── geojson/atm.geojson    ← EPSG:4326 GeoJSON of ATM points (2,884)
-    │   ├── atm_locations_raw.json ← immutable raw API records (provenance)
-    │   ├── manifest.json / .csv   ← index: layer, file, feature count, bbox, SHA-256
-    │   ├── verification.csv       ← integrity check (geometry, counts, CRS, in-bbox)
-    │   ├── download_locations.py  ← fetch script (paginated, re-runnable)
-    │   └── verify_locations.py    ← verification script (ogr-based)
-    └── edas/                      ← Data source #4: EDAS GeoServer vector harvest (curated)
-        ├── README.md              ← source-specific documentation
-        ├── shapefiles/            ← 23 zipped shapefiles (.shp/.shx/.dbf/.prj), ~420 MB
-        ├── metadata/              ← per-layer WFS-capabilities metadata (JSON)
-        ├── wfs_capabilities.xml   ← raw WFS GetCapabilities — full 49-layer inventory (provenance)
-        ├── manifest.json / .csv   ← index: name, file, feature count, CRS, SHA-256, status
-        ├── excluded_layers.json   ← the 26 layers deliberately skipped (dups/stubs/broken), with reasons
-        ├── verification.csv       ← post-download integrity check (geometry, counts, EPSG)
-        ├── download_shapefiles.py ← fetch script (re-runnable; curation encoded in EXCLUDE map)
-        └── verify_shapefiles.py   ← verification script (ogr-based)
+├── sources/                       ← every data source lives here (one folder each)
+│   ├── ethionsdi/                 ← Data source #1: Ethiopian SDI vector harvest
+│   │   ├── README.md              ← source-specific documentation
+│   │   ├── shapefiles/            ← 69 zipped shapefiles (.shp/.shx/.dbf/.prj), 26 MB
+│   │   ├── metadata/              ← per-layer GeoNode metadata (JSON)
+│   │   ├── manifest.json / .csv   ← index: layer, file, feature count, CRS, SHA-256, status
+│   │   ├── verification.csv       ← post-download integrity check (geometry, counts, EPSG)
+│   │   ├── metadata_full_catalog.json   ← full source catalog dump (vector + raster)
+│   │   ├── restricted_layers.json       ← layers that need authentication (see source README)
+│   │   ├── wfs_downloadable_layers.txt  ← authoritative list of publicly served layers
+│   │   ├── download_shapefiles.py ← fetch script (re-runnable, resumable)
+│   │   └── verify_shapefiles.py   ← verification script (ogr-based)
+│   ├── fayda/                     ← Data source #2: Fayda National ID registration centers
+│   │   ├── README.md              ← source-specific documentation
+│   │   ├── geojson/               ← one EPSG:4326 GeoJSON per location_type (2,251 POIs)
+│   │   ├── locations_raw.json     ← immutable raw API response (provenance)
+│   │   ├── manifest.json / .csv   ← index: type, file, feature count, bbox, SHA-256
+│   │   ├── verification.csv       ← integrity check (geometry, counts, CRS, in-bbox)
+│   │   ├── download_locations.py  ← fetch script (re-runnable)
+│   │   └── verify_locations.py    ← verification script (ogr-based)
+│   ├── cbebank/                   ← Data source #3: Commercial Bank of Ethiopia ATMs
+│   │   ├── README.md              ← source-specific documentation
+│   │   ├── geojson/atm.geojson    ← EPSG:4326 GeoJSON of ATM points (2,884)
+│   │   ├── atm_locations_raw.json ← immutable raw API records (provenance)
+│   │   ├── manifest.json / .csv   ← index: layer, file, feature count, bbox, SHA-256
+│   │   ├── verification.csv       ← integrity check (geometry, counts, CRS, in-bbox)
+│   │   ├── download_locations.py  ← fetch script (paginated, re-runnable)
+│   │   └── verify_locations.py    ← verification script (ogr-based)
+│   └── edas/                      ← Data source #4: EDAS GeoServer vector harvest (curated)
+│       ├── README.md              ← source-specific documentation
+│       ├── shapefiles/            ← 23 zipped shapefiles (.shp/.shx/.dbf/.prj), ~420 MB
+│       ├── metadata/              ← per-layer WFS-capabilities metadata (JSON)
+│       ├── wfs_capabilities.xml   ← raw WFS GetCapabilities — full 49-layer inventory (provenance)
+│       ├── manifest.json / .csv   ← index: name, file, feature count, CRS, SHA-256, status
+│       ├── excluded_layers.json   ← the 26 layers deliberately skipped (dups/stubs/broken), with reasons
+│       ├── verification.csv       ← post-download integrity check (geometry, counts, EPSG)
+│       ├── download_shapefiles.py ← fetch script (re-runnable; curation encoded in EXCLUDE map)
+│       └── verify_shapefiles.py   ← verification script (ogr-based)
+└── cleanup/                       ← NORMALIZE → OSM-ready: tag, translate, emit .osm.pbf
+    ├── README.md                  ← stage documentation
+    ├── lib/                       ← geojson_osm.py (pyosmium writer), names.py (EN/AM names)
+    ├── lookups/                   ← tag-mapping tables (am_vocab, road class, lulc, fun_type)
+    ├── tagging/                   ← per-source attribute → OSM tag rules (4 modules)
+    ├── normalize.py               ← reproject → normalized/<source>/*.geojson (EPSG:4326)
+    ├── to_osm.py                  ← tag + convert → osm/<source>-<group>.osm.pbf (multi-file)
+    ├── assemble.py                ← osmium cat + sort → osm/combined.osm.pbf
+    └── verify_osm.py              ← per-layer tag & name:en/name:am coverage → report.csv
+                                       (normalized/ and osm/ are derived → gitignored)
 ```
 
 Each **data source gets its own subdirectory under `sources/`** with the same internal layout
@@ -258,16 +268,17 @@ Every source moves through the same four stages:
 ```
 
 1. **Acquire** — pull from the official endpoint with a re-runnable script; capture full
-   metadata, a manifest, and SHA-256 checksums. Never hand-edit source files.
+   metadata, a manifest, and SHA-256 checksums. Never hand-edit source files. *(in `sources/`)*
 2. **Verify** — open every archive with GDAL/ogr; confirm geometry, feature counts (against
-   the source's own count), and CRS. Fail loudly on empty/corrupt/truncated layers.
-3. **Normalize** — reproject to WGS84 (`EPSG:4326`), applying proper datum shifts; clean and
-   standardize attribute schemas. *(Per-source; run during cleanup for conflation.)*
-4. **OSM-ready** — hand off normalized data to the project's conflation/tagging workflow.
-   *(Downstream of this repo.)*
+   the source's own count), and CRS. Fail loudly on empty/corrupt/truncated layers. *(in `sources/`)*
+3. **Normalize** — reproject to WGS84 (`EPSG:4326`) with proper datum shifts; clean/standardize
+   attributes; assign **OSM tags** and **multilingual `name:en`/`name:am`** labels. *(in `cleanup/`)*
+4. **OSM-ready** — emit `.osm.pbf` per logical layer (negative ids), sort + merge into a combined
+   extract, ready to union with a fresh `ethiopia.osm.pbf`. *(in `cleanup/`)*
 
-Stages 1–2 are complete and scripted for EthioSDI; stages 3–4 are performed per dataset as
-it's prepared for merge.
+Stages 1–2 are complete and scripted for all four sources; stages 3–4 are scripted in
+[`cleanup/`](cleanup/) (normalize → tag → `.osm.pbf`). **Conflation/dedup against existing OSM
+is intentionally left downstream** — `cleanup/` produces a union, not a deduplicated merge.
 
 ## Coordinate reference systems
 
@@ -365,7 +376,10 @@ file, so refreshes and diffs are straightforward.
 - [ ] **EthioSDI restricted layers** — 20 layers behind authentication (roads, land use,
       health, contours, AA street network, …) — *blocked on credentials*
 - [x] **Licensing** — BedRock database released under **ODbL v1.0** with source attribution
-- [ ] **Normalize EthioSDI to WGS84** and clean attribute schemas for conflation
+- [x] **Cleanup → OSM** — normalize + multilingual OSM tagging + `.osm.pbf` per logical layer
+      for all four sources (in [`cleanup/`](cleanup/); ~633k tagged features, union not conflation)
+- [ ] **Refine cleanup** — verified EDAS road-class table, fix swapped coords, curate Amharic
+      beyond machine translation
 - [ ] **OSM conflation** — dedupe/merge against existing OSM data *(downstream)*
 - [ ] **Additional sources** — add further authoritative datasets as sibling folders
 
