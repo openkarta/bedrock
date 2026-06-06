@@ -2,3 +2,6 @@
 # blob limit). History was migrated with `git lfs migrate import`, so these are LFS
 # pointers throughout. The other sources' archives are small and stay in regular git.
 sources/edas/shapefiles/*.zip filter=lfs diff=lfs merge=lfs -text
+
+# The cleanup/ .osm.pbf exports (per-layer + combined) are committed via Git LFS.
+cleanup/osm/*.osm.pbf filter=lfs diff=lfs merge=lfs -text

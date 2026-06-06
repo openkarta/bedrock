@@ -28,8 +28,8 @@ Thumbs.db
 # source control (matches at any depth, e.g. sources/<source>/wgs84/)
 wgs84/
 
-# cleanup/ derived outputs — reprojected GeoJSON and the .osm.pbf exports are
-# regenerated from sources via the cleanup scripts (the recipe is committed, not the output)
+# cleanup/ outputs: the .osm.pbf exports are committed via Git LFS (see .gitattributes).
+# The bulky normalized GeoJSON is a regenerable intermediate (normalize.py) — NOT committed.
 cleanup/normalized/
-cleanup/osm/
-cleanup/report.csv
+cleanup/osm/*.sorted.osm.pbf
+cleanup/osm/combined.unsorted.osm.pbf

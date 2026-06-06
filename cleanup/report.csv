@@ -1,0 +1,19 @@
+source,nodes,ways,relations,features,with_name,name:en %,name:am %
+cbebank-pois,2884,0,0,2884,2884,100%,100%
+edas-buildings,471771,64297,197,64088,0,0%,0%
+edas-landuse,9805752,151726,5258,132342,0,0%,0%
+edas-places,595049,3814,49,3835,71,1%,1%
+edas-pois,10924,0,0,7696,6955,90%,90%
+edas-roads,5753346,243928,1645,234553,16410,6%,6%
+ethionsdi-boundaries,224426,920,13,905,799,88%,88%
+ethionsdi-buildings,233,0,0,233,154,66%,66%
+ethionsdi-places,36866,2,1,35596,32265,90%,90%
+ethionsdi-pois,78891,0,0,78891,76173,96%,96%
+ethionsdi-roads,523890,68266,0,69567,5564,7%,7%
+fayda-bank,44,0,0,44,44,100%,100%
+fayda-crrsa,107,0,0,107,107,100%,100%
+fayda-dars,14,0,0,14,14,100%,100%
+fayda-mor,134,0,0,134,134,99%,100%
+fayda-palace_parking,1,0,0,1,1,100%,100%
+fayda-post_office,91,0,0,91,91,100%,100%
+fayda-tele,1860,0,0,1860,1860,100%,100%
