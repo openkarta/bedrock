@@ -8,7 +8,7 @@ many small source layers into a few logical layers and splits large sources into
 Each output file gets a disjoint NEGATIVE id block so everything merges cleanly later.
 
 Usage: python3 to_osm.py [source ...]   (default: all)."""
-import os, sys, json, glob
+import os, sys, json, glob, hashlib
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
@@ -28,7 +28,11 @@ def category(t):
     if "boundary" in t:                                                              return "boundaries"
     return "pois"
 
-_BLOCK = [0]   # global counter so every output file gets a unique negative id block
+def _block(name):
+    """Deterministic negative-id block per output file (run-order independent), so partial
+    regenerations never collide with already-committed layers and unchanged layers stay
+    byte-identical. 1e9 buckets x 2e9 ids each fits comfortably in int64."""
+    return int(hashlib.md5(name.encode()).hexdigest()[:9], 16) % 1_000_000_000
 
 def layer_files(source, module):
     d = os.path.join(NORM, source)
@@ -40,22 +44,26 @@ def layer_files(source, module):
 def convert(source, module):
     os.makedirs(OSM, exist_ok=True)
     grouper = getattr(module, "group", None)
+    accept = getattr(module, "accept", None)     # optional per-feature geometry/quality filter
     builders, feats, tagged = {}, 0, 0
     def get(g):
         if g not in builders:
-            builders[g] = OsmBuilder(os.path.join(OSM, f"{source}-{g}.osm.pbf"), source_block=_BLOCK[0])
-            _BLOCK[0] += 1
+            name = f"{source}-{g}"
+            builders[g] = OsmBuilder(os.path.join(OSM, f"{name}.osm.pbf"), source_block=_block(name))
         return builders[g]
     for layer, path in layer_files(source, module):
         fc = json.load(open(path, encoding="utf-8"))
         nlt = nt = 0
         for ft in fc.get("features", []):
             nlt += 1
-            t = module.tags(ft.get("properties") or {}, layer)
+            props, geom = ft.get("properties") or {}, ft.get("geometry")
+            t = module.tags(props, layer)
             if not t:
                 continue
+            if accept and not accept(geom, props, layer):
+                continue
             g = grouper(layer, t) if grouper else category(t)
-            add_geometry(get(g), ft.get("geometry"), t)
+            add_geometry(get(g), geom, t)
             nt += 1
         feats += nlt; tagged += nt
         print(f"  {layer:34} {nt:>7}/{nlt:<7} tagged")

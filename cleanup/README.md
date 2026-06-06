@@ -89,6 +89,10 @@ Per-source rules live in `tagging/` + `lookups/`:
 
 - **CBE ATM positions are approximate (~1 km)** — every ATM carries `fixme=...` and
   `source:position=approximate`. The source rounds coordinates and stacks many ATMs on one point.
+- **Fayda low-precision points are dropped.** `tagging/fayda.accept()` rejects any point whose
+  lon or lat has fewer than 5 decimal places (rounded source coordinates) — 171 of 2,251 removed,
+  and the `palace_parking` venue empties out entirely so no `fayda-palace_parking.osm.pbf` is
+  produced. The source `sources/fayda/` is left untouched (full provenance).
 - **EDAS road classification is provisional** — EDAS ships no data dictionary, so the numeric
   `functional` code → `highway` mapping in `edas_road_class.json` is a best-effort guess; the raw
   codes are preserved on every way as `edas:functional` / `edas:type` / `edas:structural`.
