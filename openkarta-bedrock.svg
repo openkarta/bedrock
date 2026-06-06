@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 132" width="420" height="132" role="img" aria-label="BedRock — an Open Karta layer">
+  <title>BedRock — Open Karta sub-brand lockup</title>
+
+  <g transform="translate(8,16)">
+    <circle cx="50" cy="50" r="44" fill="#3E5C80" fill-opacity=".14"></circle>
+    <circle cx="50" cy="50" r="29" fill="#3E5C80" fill-opacity=".18"></circle>
+    <circle cx="50" cy="50" r="17.5" fill="#fff"></circle>
+    <circle cx="50" cy="50" r="12" fill="#3E5C80"></circle>
+  </g>
+  <text class="lat" x="120" y="64" font-size="46" letter-spacing="-1" fill="#16202C">BedRock</text>
+  <text class="tag" x="122" y="100" font-size="13" fill="#5D6470">AN OPEN KARTA LAYER</text>
+</svg>

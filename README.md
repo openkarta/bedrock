@@ -1,6 +1,6 @@
 <div align="center">
 
-# BedRock
+<img src="openkarta-bedrock.svg" alt="BedRock — an Open Karta layer" width="420">
 
 ### Foundational geospatial data layer of the **Open Karta Project**
 
