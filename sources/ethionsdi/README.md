@@ -19,10 +19,10 @@ was collected.
 | `shapefiles/` | One zipped shapefile per layer (`<pk>_<name>.zip` → `.shp/.shx/.dbf/.prj`) |
 | `metadata/` | Per-layer GeoNode metadata JSON (title, abstract, category, keywords, bbox, CRS, dates) |
 | `manifest.csv` / `manifest.json` | Index: layer, file, feature count, CRS, SHA-256, byte size, status, abstract |
-| `metadata_full_catalog.json` | Full GeoNode catalog dump (all 129 datasets, vector + raster) for reference |
+| `metadata_full_catalog.json` | Full GeoNode catalog dump (all 129 datasets, vector + raster) — the downloader's metadata source (auto-refetched from `/api/v2/` if missing) |
 | `restricted_layers.json` | The 20 vector layers that require a login to download (see below) |
-| `wfs_downloadable_layers.txt` | Authoritative list of WFS-exposed layer names |
-| `download_shapefiles.py` | The downloader (re-runnable; skips already-downloaded files) |
+| `wfs_downloadable_layers.txt` | Authoritative list of WFS-served layer names — the download set (auto-derived from WFS GetCapabilities if missing) |
+| `download_shapefiles.py` | The downloader — self-contained (no external inputs), re-runnable, skips already-downloaded files |
 
 ## Inventory summary
 

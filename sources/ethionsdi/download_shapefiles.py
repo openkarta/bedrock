@@ -3,17 +3,22 @@
 Download all VECTOR datasets from the Ethiopian SDI GeoNode (ethionsdi.gov.et)
 as shapefiles, via GeoServer WFS SHAPE-ZIP. Rasters / imagery are skipped.
 
-Source catalog: /tmp/catalog_datasets.json (produced by fetch_catalog.py)
-Output: ./shapefiles/<pk>_<name>.zip  + ./metadata/<pk>_<name>.json + manifests
+Self-contained — no external inputs. The download set comes from WFS
+GetCapabilities and the rich metadata from the GeoNode /api/v2/ catalog;
+both are cached IN PLACE (wfs_downloadable_layers.txt, metadata_full_catalog.json)
+and reused on re-runs. Delete either file to refetch it from the server.
+
+Output: ./shapefiles/<pk>_<name>.zip + ./metadata/<pk>_<name>.json + manifests
 """
 import json, subprocess, time, os, re, sys, csv, hashlib
 
 BASE = "https://ethionsdi.gov.et"
 ROOT = os.path.dirname(os.path.abspath(__file__))
-SHP_DIR  = os.path.join(ROOT, "shapefiles")
-META_DIR = os.path.join(ROOT, "metadata")
-CATALOG  = "/tmp/catalog_datasets.json"
-DELAY    = 1.0          # politeness delay between layers (seconds)
+SHP_DIR    = os.path.join(ROOT, "shapefiles")
+META_DIR   = os.path.join(ROOT, "metadata")
+CATALOG    = os.path.join(ROOT, "metadata_full_catalog.json")   # GeoNode catalog dump
+WFS_LAYERS = os.path.join(ROOT, "wfs_downloadable_layers.txt")  # WFS-served layer names
+DELAY      = 1.0          # politeness delay between layers (seconds)
 os.makedirs(SHP_DIR, exist_ok=True)
 os.makedirs(META_DIR, exist_ok=True)
 
@@ -42,14 +47,55 @@ def wfs_hits(typename):
         re.search(r'numberOfFeatures=["\'](\d+)["\']', txt)
     return int(m.group(1)) if m else None
 
+def fetch_catalog():
+    """Pull the full GeoNode catalog from /api/v2/datasets/ into CATALOG (in place).
+    Paginated with a small page size so the one serializer-crashing record (pk 72)
+    only breaks its own page, which is skipped."""
+    print("metadata_full_catalog.json missing — fetching GeoNode catalog from /api/v2/ ...")
+    ps = 10
+    first = json.loads(curl([f"{BASE}/api/v2/datasets/?page=1&page_size={ps}"]).stdout
+                       .decode("utf-8", "ignore"))
+    total = first.get("total", 0)
+    pages = max(1, (total + ps - 1) // ps)
+    out, skipped = list(first.get("datasets") or []), 0
+    for pg in range(2, pages + 1):
+        body = curl([f"{BASE}/api/v2/datasets/?page={pg}&page_size={ps}"]).stdout.decode("utf-8", "ignore")
+        try:
+            out.extend(json.loads(body).get("datasets") or [])
+        except Exception:
+            skipped += 1
+            print(f"  page {pg}/{pages} did not parse (serializer crash) — skipped")
+        time.sleep(0.3)
+    json.dump(out, open(CATALOG, "w"), indent=2)
+    print(f"  catalog: {len(out)} datasets ({skipped} page(s) skipped) -> {os.path.basename(CATALOG)}")
+    return out
+
+def fetch_wfs_layers():
+    """Derive the WFS-served layer list from GetCapabilities into WFS_LAYERS (in place)."""
+    print("wfs_downloadable_layers.txt missing — deriving from WFS GetCapabilities ...")
+    xml = curl([f"{BASE}/geoserver/wfs?service=WFS&version=2.0.0&request=GetCapabilities"]).stdout \
+            .decode("utf-8", "ignore")
+    names = sorted({m for m in re.findall(r'<Name>([^<]+)</Name>', xml) if m.startswith("geonode:")})
+    with open(WFS_LAYERS, "w") as f:
+        f.write("\n".join(names) + "\n")
+    print(f"  WFS layers: {len(names)} -> {os.path.basename(WFS_LAYERS)}")
+    return names
+
+def load_catalog():
+    return json.load(open(CATALOG)) if os.path.exists(CATALOG) else fetch_catalog()
+
+def load_wfs_layers():
+    if os.path.exists(WFS_LAYERS):
+        return sorted(l.strip() for l in open(WFS_LAYERS) if l.strip().startswith("geonode:"))
+    return fetch_wfs_layers()
+
 def main():
-    ds = json.load(open(CATALOG))
+    ds = load_catalog()
     by_alt = {x["alternate"]: x for x in ds}
 
-    # Authoritative download set = layers GeoServer actually serves via WFS.
-    # (Anonymous-restricted vector layers are deliberately absent here.)
-    wfs_layers = sorted(l.strip() for l in open("/tmp/wfs_layers.txt")
-                        if l.strip().startswith("geonode:"))
+    # Authoritative download set = layers GeoServer actually serves via WFS
+    # GetCapabilities. (Anonymous-restricted vector layers are absent there.)
+    wfs_layers = load_wfs_layers()
     print(f"Catalog datasets: {len(ds)} | WFS-downloadable layers: {len(wfs_layers)}\n")
 
     manifest = []
