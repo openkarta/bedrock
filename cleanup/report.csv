@@ -1,4 +1,14 @@
 source,nodes,ways,relations,features,with_name,name:en %,name:am %
+edas-buildings,471771,64297,197,64088,0,0%,0%
+edas-landuse,9805752,151726,5258,132342,0,0%,0%
+edas-places,595049,3814,49,3835,71,1%,1%
+edas-pois,10894,0,0,7680,6941,90%,90%
+edas-roads,5753346,243928,1645,234553,16410,6%,6%
+ethionsdi-boundaries,224426,920,13,905,799,88%,88%
+ethionsdi-buildings,233,0,0,233,154,66%,66%
+ethionsdi-places,32108,2,1,30838,27517,89%,89%
+ethionsdi-pois,78198,0,0,78198,75488,96%,96%
+ethionsdi-roads,523887,68266,0,69564,5562,7%,7%
 fayda-bank,1,0,0,1,1,100%,100%
 fayda-crrsa,107,0,0,107,107,100%,100%
 fayda-dars,14,0,0,14,14,100%,100%

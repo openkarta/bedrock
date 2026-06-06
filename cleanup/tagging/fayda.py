@@ -12,23 +12,7 @@ LAYERS = ["tele", "bank", "crrsa", "post_office", "dars", "mor", "palace_parking
 def group(layer, tags):
     """Keep the per-venue split in the output -> fayda-<venue>.osm.pbf."""
     return layer
-
-MIN_DECIMALS = 5   # drop rounded/low-precision source points
-
-def _decimals(v):
-    s = repr(float(v))
-    if "e" in s or "E" in s:        # tiny/huge -> treat as no precision
-        return 0
-    return len(s.split(".")[1]) if "." in s else 0
-
-def accept(geom, props, layer):
-    """Reject low-precision points: keep only if BOTH lon and lat have >= MIN_DECIMALS decimal
-    places. Some Fayda source coordinates are rounded (~<=3 decimals, ~100 m+); those are
-    dropped. A venue left with no points produces no file (e.g. palace_parking)."""
-    if not geom or geom.get("type") != "Point":
-        return True
-    lon, lat = geom["coordinates"][0], geom["coordinates"][1]
-    return min(_decimals(lon), _decimals(lat)) >= MIN_DECIMALS
+# Note: the <5-decimal precision cleanup is now applied globally in to_osm.py (every source).
 
 OPERATOR_EN = "National ID Program (Fayda)"
 OPERATOR_AM = "ብሔራዊ መታወቂያ ፕሮግራም"

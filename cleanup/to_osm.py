@@ -34,6 +34,33 @@ def _block(name):
     byte-identical. 1e9 buckets x 2e9 ids each fits comfortably in int64."""
     return int(hashlib.md5(name.encode()).hexdigest()[:9], 16) % 1_000_000_000
 
+# --- precision cleanup (applies to every source, every geometry) ---
+MIN_DECIMALS = 5   # drop a feature whose coordinates are ALL coarser than this (rounded source)
+
+def _dec(v):
+    s = repr(float(v))
+    return 0 if ("e" in s or "E" in s) else (len(s.split(".")[1]) if "." in s else 0)
+
+def _pairs(c):
+    """Yield (lon, lat) pairs from any GeoJSON coordinates nesting."""
+    if c and isinstance(c[0], (int, float)):
+        yield c[0], c[1]
+    else:
+        for x in c:
+            yield from _pairs(x)
+
+def precise_enough(geom):
+    """Keep the feature iff at least one vertex has >= MIN_DECIMALS decimals on BOTH lon & lat.
+    Points: their single coordinate must qualify. Lines/polygons: kept unless every vertex is
+    coarse (uniformly low-precision)."""
+    c = (geom or {}).get("coordinates")
+    if not c:
+        return True
+    for lon, lat in _pairs(c):
+        if min(_dec(lon), _dec(lat)) >= MIN_DECIMALS:
+            return True
+    return False
+
 def layer_files(source, module):
     d = os.path.join(NORM, source)
     if getattr(module, "LAYERS", None):
@@ -44,7 +71,6 @@ def layer_files(source, module):
 def convert(source, module):
     os.makedirs(OSM, exist_ok=True)
     grouper = getattr(module, "group", None)
-    accept = getattr(module, "accept", None)     # optional per-feature geometry/quality filter
     builders, feats, tagged = {}, 0, 0
     def get(g):
         if g not in builders:
@@ -57,10 +83,10 @@ def convert(source, module):
         for ft in fc.get("features", []):
             nlt += 1
             props, geom = ft.get("properties") or {}, ft.get("geometry")
+            if not precise_enough(geom):          # global <5-decimal precision cleanup
+                continue
             t = module.tags(props, layer)
             if not t:
-                continue
-            if accept and not accept(geom, props, layer):
                 continue
             g = grouper(layer, t) if grouper else category(t)
             add_geometry(get(g), geom, t)

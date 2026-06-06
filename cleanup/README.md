@@ -87,12 +87,14 @@ Per-source rules live in `tagging/` + `lookups/`:
 
 ## Data caveats
 
-- **CBE ATM positions are approximate (~1 km)** — every ATM carries `fixme=...` and
-  `source:position=approximate`. The source rounds coordinates and stacks many ATMs on one point.
-- **Fayda low-precision points are dropped.** `tagging/fayda.accept()` rejects any point whose
-  lon or lat has fewer than 5 decimal places (rounded source coordinates) — 171 of 2,251 removed,
-  and the `palace_parking` venue empties out entirely so no `fayda-palace_parking.osm.pbf` is
-  produced. The source `sources/fayda/` is left untouched (full provenance).
+- **Low-precision features are dropped (every source).** `to_osm.precise_enough()` drops any
+  feature whose coordinates are *all* below 5 decimal places (~>100 m rounding). A point is kept
+  only if both its lon & lat have ≥5 decimals; a line/polygon is kept if any vertex qualifies, so
+  precise geometry is never lost. Impact: **all 2,884 CBE ATMs** are rounded to ~2 decimals → the
+  whole `cbebank` source is dropped (no `cbebank-pois.osm.pbf`); **171 Fayda** points removed
+  (`palace_parking` empties out); ~5,500 coarse **ethionsdi** points removed; **EDAS** lines/
+  polygons (roads/buildings/landuse) are high-precision and essentially unaffected. Sources stay
+  untouched (full provenance); the filter runs only in the cleanup stage.
 - **EDAS road classification is provisional** — EDAS ships no data dictionary, so the numeric
   `functional` code → `highway` mapping in `edas_road_class.json` is a best-effort guess; the raw
   codes are preserved on every way as `edas:functional` / `edas:type` / `edas:structural`.
