@@ -27,3 +27,9 @@ Thumbs.db
 # Normalized/derived outputs are regenerated from source via scripts; keep them out of
 # source control (matches at any depth, e.g. sources/<source>/wgs84/)
 wgs84/
+
+# cleanup/ derived outputs — reprojected GeoJSON and the .osm.pbf exports are
+# regenerated from sources via the cleanup scripts (the recipe is committed, not the output)
+cleanup/normalized/
+cleanup/osm/
+cleanup/report.csv

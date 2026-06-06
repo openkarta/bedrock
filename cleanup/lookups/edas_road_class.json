@@ -1,0 +1,12 @@
+{
+  "_note": "PROVISIONAL mapping of the EDAS numeric `functional` road-class code to OSM highway=*. EDAS ships no public data dictionary, so this is a best-effort inference from the value distribution (code 2 is ~98% of roads = local/residential; rarer codes = higher hierarchy). The raw codes are ALSO preserved on every way as edas:functional / edas:type / edas:structural for later correction. Unmapped -> highway=road (OSM 'unknown classification'). Refine when the EDAS schema is obtained.",
+  "_default": "road",
+  "functional": {
+    "1": "primary",
+    "2": "residential",
+    "3": "trunk",
+    "4": "tertiary",
+    "5": "secondary",
+    "6": "service"
+  }
+}
