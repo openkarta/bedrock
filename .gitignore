@@ -24,5 +24,6 @@ Thumbs.db
 # Tooling artifacts (browser automation snapshots/screenshots during data investigation)
 .playwright-mcp/
 
-# Normalized/derived outputs are regenerated from source via scripts; keep them out of source control
-/wgs84/
+# Normalized/derived outputs are regenerated from source via scripts; keep them out of
+# source control (matches at any depth, e.g. sources/<source>/wgs84/)
+wgs84/
