@@ -1,6 +1,6 @@
 # EthioSDI vector data harvest
 
-> **Open Karta Project › BedRock › data source #1.** Repo overview: [`../README.md`](../README.md).
+> **Open Karta Project › BedRock › data source #1.** Repo overview: [`../../README.md`](../../README.md).
 
 Vector layers scraped from the Ethiopian Spatial Data Infrastructure portal
 (**https://ethionsdi.gov.et**, a GeoNode instance), for cleanup and merging with
@@ -92,7 +92,7 @@ correctly; don't just relabel the `.prj`.
   the WFS `numberMatched` per layer so you can confirm completeness against each `.dbf`.
 - **Licensing & attribution.** Public-sector data from the Ethiopian Geospatial Information
   Institute (EGII) / EthioSDI, redistributed as part of the BedRock database under the **Open
-  Database License (ODbL) v1.0** ([`../LICENSE`](../LICENSE)) with full provenance preserved
+  Database License (ODbL) v1.0** ([`../../LICENSE`](../../LICENSE)) with full provenance preserved
   (per-layer source records remain in `metadata/`). Attribute EGII / EthioSDI on reuse. ODbL is
   OSM's own license, so the data is license-aligned for conflation — still follow the
   [OSM Import Guidelines](https://wiki.openstreetmap.org/wiki/Import/Guidelines).

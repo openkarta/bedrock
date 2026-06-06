@@ -1,6 +1,6 @@
 # EDAS GeoServer vector harvest
 
-> **Open Karta Project › BedRock › data source #4.** Repo overview: [`../README.md`](../README.md).
+> **Open Karta Project › BedRock › data source #4.** Repo overview: [`../../README.md`](../../README.md).
 
 A **curated** harvest of the vector layers published by the **EDAS** GeoServer
 (**http://edas.et:8080/geoserver**) — an Ethiopian digital-addressing / city-mapping platform
@@ -92,7 +92,7 @@ ogr2ogr -t_srs EPSG:4326 wgs84/dukem_bishoftu_lulc.shp /vsizip/shapefiles/dukem_
   backend reports an internal address of `196.189.124.150:8080`.
 - **Licensing & attribution.** Public-sector data from the **EDAS** platform (`edas.et`),
   redistributed as part of the BedRock database under the **Open Database License (ODbL) v1.0**
-  ([`../LICENSE`](../LICENSE)) with full provenance preserved. Attribute EDAS on reuse. ODbL is
+  ([`../../LICENSE`](../../LICENSE)) with full provenance preserved. Attribute EDAS on reuse. ODbL is
   OSM's own license, so the data is license-aligned for conflation — still follow the
   [OSM Import Guidelines](https://wiki.openstreetmap.org/wiki/Import/Guidelines).
 

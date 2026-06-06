@@ -73,57 +73,59 @@ dependable foundation for downstream mapping.
 
 ```
 bedrock/
-├── README.md                  ← you are here (repo overview)
-├── ethionsdi/                 ← Data source #1: Ethiopian SDI vector harvest
-│   ├── README.md              ← source-specific documentation
-│   ├── shapefiles/            ← 69 zipped shapefiles (.shp/.shx/.dbf/.prj), 26 MB
-│   ├── metadata/              ← per-layer GeoNode metadata (JSON)
-│   ├── manifest.json / .csv   ← index: layer, file, feature count, CRS, SHA-256, status
-│   ├── verification.csv       ← post-download integrity check (geometry, counts, EPSG)
-│   ├── metadata_full_catalog.json   ← full source catalog dump (vector + raster)
-│   ├── restricted_layers.json       ← layers that need authentication (see source README)
-│   ├── wfs_downloadable_layers.txt  ← authoritative list of publicly served layers
-│   ├── download_shapefiles.py ← fetch script (re-runnable, resumable)
-│   └── verify_shapefiles.py   ← verification script (ogr-based)
-├── fayda/                     ← Data source #2: Fayda National ID registration centers
-│   ├── README.md              ← source-specific documentation
-│   ├── geojson/               ← one EPSG:4326 GeoJSON per location_type (2,251 POIs)
-│   ├── locations_raw.json     ← immutable raw API response (provenance)
-│   ├── manifest.json / .csv   ← index: type, file, feature count, bbox, SHA-256
-│   ├── verification.csv       ← integrity check (geometry, counts, CRS, in-bbox)
-│   ├── download_locations.py  ← fetch script (re-runnable)
-│   └── verify_locations.py    ← verification script (ogr-based)
-├── cbebank/                   ← Data source #3: Commercial Bank of Ethiopia ATMs
-│   ├── README.md              ← source-specific documentation
-│   ├── geojson/atm.geojson    ← EPSG:4326 GeoJSON of ATM points (2,884)
-│   ├── atm_locations_raw.json ← immutable raw API records (provenance)
-│   ├── manifest.json / .csv   ← index: layer, file, feature count, bbox, SHA-256
-│   ├── verification.csv       ← integrity check (geometry, counts, CRS, in-bbox)
-│   ├── download_locations.py  ← fetch script (paginated, re-runnable)
-│   └── verify_locations.py    ← verification script (ogr-based)
-└── edas/                      ← Data source #4: EDAS GeoServer vector harvest (curated)
-    ├── README.md              ← source-specific documentation
-    ├── shapefiles/            ← 23 zipped shapefiles (.shp/.shx/.dbf/.prj), ~420 MB
-    ├── metadata/              ← per-layer WFS-capabilities metadata (JSON)
-    ├── wfs_capabilities.xml   ← raw WFS GetCapabilities — full 49-layer inventory (provenance)
-    ├── manifest.json / .csv   ← index: name, file, feature count, CRS, SHA-256, status
-    ├── excluded_layers.json   ← the 26 layers deliberately skipped (dups/stubs/broken), with reasons
-    ├── verification.csv       ← post-download integrity check (geometry, counts, EPSG)
-    ├── download_shapefiles.py ← fetch script (re-runnable; curation encoded in EXCLUDE map)
-    └── verify_shapefiles.py   ← verification script (ogr-based)
+├── README.md                      ← you are here (repo overview)
+├── LICENSE                        ← Open Database License (ODbL) v1.0
+└── sources/                       ← every data source lives here (one folder each)
+    ├── ethionsdi/                 ← Data source #1: Ethiopian SDI vector harvest
+    │   ├── README.md              ← source-specific documentation
+    │   ├── shapefiles/            ← 69 zipped shapefiles (.shp/.shx/.dbf/.prj), 26 MB
+    │   ├── metadata/              ← per-layer GeoNode metadata (JSON)
+    │   ├── manifest.json / .csv   ← index: layer, file, feature count, CRS, SHA-256, status
+    │   ├── verification.csv       ← post-download integrity check (geometry, counts, EPSG)
+    │   ├── metadata_full_catalog.json   ← full source catalog dump (vector + raster)
+    │   ├── restricted_layers.json       ← layers that need authentication (see source README)
+    │   ├── wfs_downloadable_layers.txt  ← authoritative list of publicly served layers
+    │   ├── download_shapefiles.py ← fetch script (re-runnable, resumable)
+    │   └── verify_shapefiles.py   ← verification script (ogr-based)
+    ├── fayda/                     ← Data source #2: Fayda National ID registration centers
+    │   ├── README.md              ← source-specific documentation
+    │   ├── geojson/               ← one EPSG:4326 GeoJSON per location_type (2,251 POIs)
+    │   ├── locations_raw.json     ← immutable raw API response (provenance)
+    │   ├── manifest.json / .csv   ← index: type, file, feature count, bbox, SHA-256
+    │   ├── verification.csv       ← integrity check (geometry, counts, CRS, in-bbox)
+    │   ├── download_locations.py  ← fetch script (re-runnable)
+    │   └── verify_locations.py    ← verification script (ogr-based)
+    ├── cbebank/                   ← Data source #3: Commercial Bank of Ethiopia ATMs
+    │   ├── README.md              ← source-specific documentation
+    │   ├── geojson/atm.geojson    ← EPSG:4326 GeoJSON of ATM points (2,884)
+    │   ├── atm_locations_raw.json ← immutable raw API records (provenance)
+    │   ├── manifest.json / .csv   ← index: layer, file, feature count, bbox, SHA-256
+    │   ├── verification.csv       ← integrity check (geometry, counts, CRS, in-bbox)
+    │   ├── download_locations.py  ← fetch script (paginated, re-runnable)
+    │   └── verify_locations.py    ← verification script (ogr-based)
+    └── edas/                      ← Data source #4: EDAS GeoServer vector harvest (curated)
+        ├── README.md              ← source-specific documentation
+        ├── shapefiles/            ← 23 zipped shapefiles (.shp/.shx/.dbf/.prj), ~420 MB
+        ├── metadata/              ← per-layer WFS-capabilities metadata (JSON)
+        ├── wfs_capabilities.xml   ← raw WFS GetCapabilities — full 49-layer inventory (provenance)
+        ├── manifest.json / .csv   ← index: name, file, feature count, CRS, SHA-256, status
+        ├── excluded_layers.json   ← the 26 layers deliberately skipped (dups/stubs/broken), with reasons
+        ├── verification.csv       ← post-download integrity check (geometry, counts, EPSG)
+        ├── download_shapefiles.py ← fetch script (re-runnable; curation encoded in EXCLUDE map)
+        └── verify_shapefiles.py   ← verification script (ogr-based)
 ```
 
-Each **data source gets its own top-level subdirectory** with the same internal layout
+Each **data source gets its own subdirectory under `sources/`** with the same internal layout
 (a vector-data folder, `manifest.*`, fetch + verify scripts, a source `README.md`). The exact
 output format follows the source — zipped `shapefiles/` for EthioSDI, `geojson/` for Fayda.
-Add new sources as sibling folders.
+Add new sources as sibling folders under `sources/`.
 
 ## Data sources
 
 ### 1. EthioSDI — Ethiopian Spatial Data Infrastructure
 
 > **Source:** https://ethionsdi.gov.et (GeoNode + GeoServer) · **Harvested:** 2026-06-05 ·
-> **Full docs:** [`ethionsdi/README.md`](ethionsdi/README.md)
+> **Full docs:** [`sources/ethionsdi/README.md`](sources/ethionsdi/README.md)
 
 The national SDI portal. We catalogued all **129 datasets** (85 vector + 44 raster, plus 15
 image documents), excluded everything raster, and exported every **publicly available vector
@@ -136,7 +138,7 @@ layer** as a verified shapefile.
 | Geometry mix | 61 point · 5 polygon · 2 line · 1 multipoint |
 | Integrity | 100% — every layer's feature count matches the server's WFS count; 0 empty/corrupt |
 | Excluded (raster/imagery) | 44 |
-| Access-restricted (need login) | 20 — listed in [`ethionsdi/restricted_layers.json`](ethionsdi/restricted_layers.json) |
+| Access-restricted (need login) | 20 — listed in [`sources/ethionsdi/restricted_layers.json`](sources/ethionsdi/restricted_layers.json) |
 
 **Highlights** (most useful for OSM conflation): a 67,689-feature road/street network, a
 23,105-entry 1:50k **gazetteer** (place names), 42,741 rural + 21,064 urban **schools**,
@@ -155,7 +157,7 @@ serializer-crashing record, and the 20 WFS-hidden layers).
 ### 2. Fayda — National ID registration centers
 
 > **Source:** https://id.gov.et/locations ("Fayda Near Me" locator) · **Harvested:** 2026-06-05 ·
-> **Full docs:** [`fayda/README.md`](fayda/README.md)
+> **Full docs:** [`sources/fayda/README.md`](sources/fayda/README.md)
 
 Every **Fayda Digital ID (National ID) registration/enrolment center** in Ethiopia, harvested
 from the locator's JSON API (`GET /api/proxy/get/locations`) and split into one **EPSG:4326
@@ -183,7 +185,7 @@ not a postal address (kept as `gmaps_url`); the authoritative location is the po
 ### 3. CBE — Commercial Bank of Ethiopia ATMs
 
 > **Source:** https://combanketh.et/ways-of-banking/atm-branch-locator (Strapi CMS) · **Harvested:** 2026-06-05 ·
-> **Full docs:** [`cbebank/README.md`](cbebank/README.md)
+> **Full docs:** [`sources/cbebank/README.md`](sources/cbebank/README.md)
 
 The bank's **ATM & Branch Locator**, backed by a Strapi REST API. The locator exposes two
 separate collections — **ATMs** (`/api/atm-locations`, geolocated) and **branches**
@@ -212,7 +214,7 @@ faithful to source — the 3 swapped-coordinate ATMs are flagged, not silently f
 ### 4. EDAS — GeoServer vector layers
 
 > **Source:** http://edas.et:8080/geoserver (GeoServer / WFS) · **Harvested:** 2026-06-05 ·
-> **Full docs:** [`edas/README.md`](edas/README.md)
+> **Full docs:** [`sources/edas/README.md`](sources/edas/README.md)
 
 A GeoServer for the **EDAS** digital-addressing / city-mapping platform (Addis Ababa, Adama,
 Bishoftu, Dukem). A **curated** set of vector layers was exported via WFS `SHAPE-ZIP`, mirroring
@@ -237,7 +239,7 @@ included), with the layer list and metadata read from WFS `GetCapabilities`.
 > ℹ️ **Curated, not a raw mirror.** The server publishes many byte-identical copies
 > (web/mobile/version/language variants — e.g. **7 copies** of the road network), 11 one-feature
 > pgRouting stubs, and 2 layers broken server-side. One canonical layer per dataset is kept;
-> the other 26 are listed with reasons in [`edas/excluded_layers.json`](edas/excluded_layers.json).
+> the other 26 are listed with reasons in [`sources/edas/excluded_layers.json`](sources/edas/excluded_layers.json).
 > Two kept zips (`parcel_web_v7`, `lulc_v7`) exceed **GitHub's 100 MB limit** — committed
 > directly here (a GitHub push would need Git LFS). See the source README.
 
@@ -283,7 +285,7 @@ To stage everything in WGS84 for OSM:
 
 ```bash
 mkdir -p wgs84
-for z in ethionsdi/shapefiles/*.zip; do
+for z in sources/ethionsdi/shapefiles/*.zip; do
   n=$(basename "$z" .zip)
   ogr2ogr -t_srs EPSG:4326 "wgs84/$n.shp" "/vsizip/$z"
 done
@@ -334,10 +336,10 @@ Inspect the harvested data without any extraction (GDAL reads inside the zip):
 
 ```bash
 # list layers + feature counts for one archive
-ogrinfo -so -al /vsizip/ethionsdi/shapefiles/58_road_2.zip
+ogrinfo -so -al /vsizip/sources/ethionsdi/shapefiles/58_road_2.zip
 
 # browse the inventory
-column -s, -t < ethionsdi/manifest.csv | less -S
+column -s, -t < sources/ethionsdi/manifest.csv | less -S
 ```
 
 ## Reproducing / refreshing a source
@@ -345,7 +347,7 @@ column -s, -t < ethionsdi/manifest.csv | less -S
 Each source is fully reproducible from its own folder:
 
 ```bash
-cd ethionsdi
+cd sources/ethionsdi
 python3 download_shapefiles.py   # re-fetch (skips files already present)
 python3 verify_shapefiles.py     # re-verify integrity → verification.csv
 ```
@@ -369,7 +371,7 @@ file, so refreshes and diffs are straightforward.
 
 ## Conventions
 
-- **One folder per source**, named after the authority (`ethionsdi/`), with the standard
+- **One folder per source** under `sources/`, named after the authority (`sources/ethionsdi/`), with the standard
   internal layout (`shapefiles/`, `metadata/`, `manifest.*`, `*.py`, `README.md`).
 - **Source files are immutable** — never hand-edit a downloaded shapefile; derive cleaned
   outputs into separate folders so provenance stays intact.

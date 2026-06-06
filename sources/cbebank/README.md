@@ -1,6 +1,6 @@
 # CBE ATM locations
 
-> **Open Karta Project › BedRock › data source #3.** Repo overview: [`../README.md`](../README.md).
+> **Open Karta Project › BedRock › data source #3.** Repo overview: [`../../README.md`](../../README.md).
 
 Point-of-interest data for **Commercial Bank of Ethiopia (CBE) ATMs**, harvested from the
 public **"ATM & Branch Locator"** at
@@ -83,7 +83,7 @@ These matter for any downstream **normalize/conflation** step:
 - **`city` and `telephone` are almost always null.**
 - **Licensing & attribution.** Public-sector data from the Commercial Bank of Ethiopia
   (`combanketh.et`), redistributed as part of the BedRock database under the **Open Database
-  License (ODbL) v1.0** ([`../LICENSE`](../LICENSE)) with full provenance preserved. Attribute
+  License (ODbL) v1.0** ([`../../LICENSE`](../../LICENSE)) with full provenance preserved. Attribute
   CBE on reuse. ODbL is OSM's own license, so the data is license-aligned for conflation —
   still follow the
   [OSM Import Guidelines](https://wiki.openstreetmap.org/wiki/Import/Guidelines).

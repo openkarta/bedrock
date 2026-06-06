@@ -1,6 +1,6 @@
 # Fayda registration-center POIs
 
-> **Open Karta Project › BedRock › data source #2.** Repo overview: [`../README.md`](../README.md).
+> **Open Karta Project › BedRock › data source #2.** Repo overview: [`../../README.md`](../../README.md).
 
 Point-of-interest data for every **Fayda Digital ID (National ID) registration center** in
 Ethiopia, harvested from the public **"Fayda Near Me"** locator at
@@ -78,7 +78,7 @@ is written.)
   `download_locations.py` to refresh; `src_id` enables diffing against a future pull.
 - **Licensing & attribution.** Public-sector data from the Ethiopian National ID Program
   (`id.gov.et`), redistributed as part of the BedRock database under the **Open Database
-  License (ODbL) v1.0** ([`../LICENSE`](../LICENSE)) with full provenance preserved. Attribute
+  License (ODbL) v1.0** ([`../../LICENSE`](../../LICENSE)) with full provenance preserved. Attribute
   the National ID Program on reuse. ODbL is OSM's own license, so the data is license-aligned
   for conflation — still follow the
   [OSM Import Guidelines](https://wiki.openstreetmap.org/wiki/Import/Guidelines).
