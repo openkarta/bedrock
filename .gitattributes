@@ -1,2 +1,4 @@
+# Large EDAS shapefile archives are stored in Git LFS (two exceed GitHub's 100 MB
+# blob limit). History was migrated with `git lfs migrate import`, so these are LFS
+# pointers throughout. The other sources' archives are small and stay in regular git.
 sources/edas/shapefiles/*.zip filter=lfs diff=lfs merge=lfs -text
-edas/shapefiles/*.zip filter=lfs diff=lfs merge=lfs -text
